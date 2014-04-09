@@ -1,0 +1,722 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	/***Hiding Elements***/
+	.album-desc,
+	.rd-responsive-template .orderentirealbum .express-order,
+	.commentslink,
+	.album-rightcolumn,
+	.resp-express-order-a br,
+	span[id$="createMenu"],
+	.rd-responsive-template .albumactionbar .help-icon,
+	.action-bar>div:last-child,
+	.pic-icons {
+		display: none;
+	}
+
+	/*Fix of dynamic markup*/
+	.action-bar>div:first-child {
+		display: block;
+	}
+
+	/***Fixing width***/
+	.rd-responsive-template .picturesgridview,
+	.rd-responsive-template .albumactionbar,
+	.rd-responsive-template .albumactionbar .actionbar-main-panel,
+	.rd-responsive-template .albumactionbar .actionbar-main-panel1,
+	.rd-responsive-template .albumactionbar .album-caption,
+	.rd-responsive-template .swift .add-caption .select-text input,
+	.rd-responsive-template .swift .add-caption .caption-panel {
+		width: auto;
+	}
+
+	/***The Top part***/
+	/*Hovers*/
+	.rd-responsive-template .albumactionbar .album-caption:hover {
+		background: white;
+		border: 0;
+	}
+
+	.rd-responsive-template .albumactionbar .album-date:hover {
+		border: 1px solid white;
+		background: white;
+		line-height: 20px;
+	}
+
+	/*Positioning*/
+	.rd-responsive-template .albumactionbar {
+		float: none;
+	}
+
+	.rd-responsive-template .albumactionbar .album-caption {
+		float: none;
+	}
+
+	.rd-responsive-template .albumactionbar .album-discription {
+		width: auto;
+		float: none;
+		margin-left: 83px;
+	}
+
+	.album-discription .count-date div {
+		margin-bottom: 0;
+	}
+
+	.rd-responsive-template .actionbar-main-panel div.col-8 {
+		margin-right: 0;
+		float: none;
+		width: auto;
+	}
+
+	.resp-express-order-a {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+
+	.rd-responsive-template .swift .album-caption.photos {
+		margin-bottom: 0;
+	}
+
+	.rd-responsive-template .albumactionbar .count-date {
+		padding-left: 0;
+	}
+
+	.rd-responsive-template .count-date div.clear {
+		clear: none;
+	}
+
+	div[id$="pictureArea"] {
+		padding-top: 0 !important;
+	}
+
+	div[id$="albumActionBar"],
+	.dal-assets-dir-container {
+		position: static !important;
+		top: 0 !important;
+	}
+
+	/***Dropping down meun***/
+	/*Sort*/
+	.actionbar-main-panel .action-bar>div {
+		margin-right: 0;
+		width: 42%;
+		position: relative;
+	}
+
+	.actionbar-main-panel .action-bar>div:nth-child(2) {
+		width: 58%;
+	}
+
+	.actionbar-main-panel .action-bar div:nth-child(1) select {
+		position: absolute;
+		left: 49px;
+		right: 0;
+		bottom: 0;
+		height: 30px;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-main-div {
+		position: static;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-main-div .filter-tab {
+		position: absolute;
+		left: 71px;
+		right: 0;
+	}
+
+	/*Select tags*/
+	.rd-responsive-template .resp-status-line-wrapper {
+		/*.actionbar-main-panel .action-bar>div:nth-child(2)>div:first-child {*/
+		display: none;
+	}
+
+	/*Tags popup*/
+	.rd-responsive-template .albumactionbar .filter-tab-layer {
+		width: 290px;
+		left: 50%;
+		margin-left: -145px;
+		position: fixed;
+		z-index: 13;
+		top: 10%;
+		max-height: 80%;
+		overflow-y: scroll;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .filter-panel {
+		padding-right: 15px;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div {
+		width: 100px;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div h6,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div h6 {
+		font-size: 15px;
+	}
+
+	.facetags-panel-div a, .eventags-panel-div a {
+		position: relative;
+	}
+
+	.facetags-panel-div a:after,
+	.eventags-panel-div a:after {
+		content: "";
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: transparent;
+	}
+
+	.rd-responsive-template .resp-tag-checkbox {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div ul li a,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div ul li a {
+		background: none;
+		word-wrap: break-word;
+		white-space: pre;
+
+		display: block;
+		padding-left: 30px;
+		margin-top: 10px;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div ul li a.selected,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div ul li a.selected {
+		background: none;
+	}
+
+	.albumactionbar .filter-tab-layer .facetags-panel-div ul li a span,
+	.albumactionbar .filter-tab-layer .eventags-panel-div ul li a span {
+		white-space: nowrap;
+	}
+
+	.rd-responsive-template .resp-select-tags-button {
+		position: absolute;
+		left: 99px;
+		right: 0;
+		bottom: 0;
+		height: 30px;
+
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		text-align: left;
+		padding-left: 10px;
+		color: #464646;
+	}
+
+	/*.actionbar-main-panel .action-bar>div div:first-child {*/
+	.actionbar-main-panel .action-bar>div>div:first-child {
+		margin-left: 20px;
+	}
+
+	.rd-responsive-template .resp-select-tags-button:after {
+		content: "";
+
+		display: block;
+		width: 18px;
+		height: 17px;
+
+		position: absolute;
+		right: 2px;
+		top: 10px;
+
+		background: url("../images/triangle_icon.png") no-repeat;
+	}
+
+	/***Popups***/
+	.resp-dimmer {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: .26;
+		z-index: 10;
+	}
+
+	.resp-dimmer-appended .rd-footer {
+		position: relative;
+		z-index: -1;
+	}
+
+	.rd-responsive-template .albumactionbar .relative-div {
+		position: static;
+	}
+
+	.rd-responsive-template .swift .add-caption .select-text input {
+		height: 25px;
+	}
+
+	/*Add to cart popup*/
+	.rd-responsive-template .dal-add-cart-confirm {
+		position: fixed;
+		top: 50% !important;
+		margin-top: -65px;
+		height: auto;
+		width: auto;
+		left: 10% !important;
+		right: 10% !important;
+	}
+
+	.rd-responsive-template .dal-add-cart-confirm>div[class$="shadow"] {
+		display: none;
+	}
+
+	.rd-responsive-template span[id$="dalAddCartConfirmText"] {
+		display: block;
+		margin-left: 50px;
+		height: auto;
+	}
+
+	.rd-responsive-template .dal-add-cart-confirm>div:last-child {
+		width: auto;
+		left: 0;
+		right: 0;
+	}
+
+	/***Action bar***/
+	.rd-responsive-template .albumactionbar .action-bar {
+		margin-top: 6px;
+		/*padding: 6px 11px;*/
+		padding: 15px;
+		background-size: 3px 64px;
+		display: none;
+	}
+
+	.rd-responsive-template .actionbar-main-panel1 {
+		height: 0;
+		overflow: hidden;
+	}
+
+	.rd-responsive-template .resp-action-bar {
+		border: 1px solid #E4E4E4;
+		background: #fbfbfb;
+		position: relative;
+		font-size: 0;
+		margin-top: 13px;
+	}
+
+	.rd-responsive-template .resp-action-bar:after {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 42px;
+		height: 1px;
+		width: 100%;
+		background: #E4E4E4;
+	}
+
+	.rd-responsive-template .resp-action-bar>div {
+		display: inline-block;
+		padding: 12px 9px 9px 9px;
+		border-right: 1px solid #E4E4E4;
+		height: 21px;
+		vertical-align: top;
+	}
+
+	.rd-responsive-template .resp-action-bar .resp-order-prints {
+		border-right: 0;
+	}
+
+	.rd-responsive-template .resp-action-bar .resp-edit-selected {
+		border-left: 1px solid #E4E4E4;
+		margin-left: -1px;
+		border-right: 0;
+	}
+
+	.rd-responsive-template select.resp-edit-selected-select,
+	.rd-responsive-template select.resp-order-prints-select {
+		-webkit-appearance: none;
+		border: none;
+
+		position: absolute;
+		top: 6px;
+		left: 5px;
+
+		background: none;
+		color: transparent;
+
+		width: 100px;
+		height: 30px;
+	}
+
+	.rd-responsive-template select.resp-order-prints-select {
+		width: auto;
+		right: 5px;
+	}
+
+	.rd-responsive-template .resp-action-bar div span {
+		color: #006a9d;
+	}
+
+	/*Select/Unselect*/
+	.rd-responsive-template .resp-select-section .resp-select-all,
+	.rd-responsive-template .resp-select-section .resp-unselect-all {
+		margin: 0 7px;
+		font-size: 14px;
+	}
+
+	/*Share*/
+	.resp-share {
+		background: url('../images/share-icon.png') no-repeat 17px 13px;
+	}
+
+	.rd-responsive-template .resp-share span {
+		margin-left: 37px;
+		margin-right: 6px;
+		font-size: 16px;
+	}
+
+	.resp-order-prints {
+		background: url('../images/order-prints-icon.png') no-repeat 22px 13px;
+		border-left: 0;
+	}
+
+	.resp-edit-selected {
+		background: url('../images/wrench.png') no-repeat 9px 9px;
+	}
+
+	.rd-responsive-template .resp-order-prints span {
+		font-weight: bold;
+		font-size: 15px;
+		margin-left: 44px
+	}
+
+	.rd-responsive-template .resp-action-bar .resp-edit-selected>span {
+		margin-left: 26px;
+		font-size: 15px;
+	}
+
+	.rd-responsive-template .albumactionbar .orderprintsmenu {
+		position: fixed;
+		top: 50%;
+		margin-top: -35px;
+		left: 50%;
+		margin-left: -141px;
+		z-index: 2;
+	}
+
+	/*Edit Selected*/
+	.resp-edit-selected,
+	.resp-order-prints {
+		position: relative;
+	}
+
+	.rd-responsive-template div.resp-edit-menu-wrapper {
+		position: absolute;
+		z-index: 5;
+		width: 250px;
+		top: 48px;
+		border-radius: 6px;
+		padding: 5px;
+
+		background: rgb(65, 75, 96);
+		background: linear-gradient(to bottom, rgba(65, 75, 96, 1) 0%, rgba(12, 25, 46, 1) 10%, rgba(52, 64, 86, 1) 100%);
+		background: -o-linear-gradient(top, rgba(65, 75, 96, 1) 0%, rgba(12, 25, 46, 1) 10%, rgba(52, 64, 86, 1) 100%);
+		background: -moz-linear-gradient(top, rgba(65, 75, 96, 1) 0%, rgba(12, 25, 46, 1) 10%, rgba(52, 64, 86, 1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(65, 75, 96, 1)), color-stop(10%, rgba(12, 25, 46, 1)), color-stop(100%, rgba(52, 64, 86, 1)));
+		background: -webkit-linear-gradient(top, rgba(65, 75, 96, 1) 0%, rgba(12, 25, 46, 1) 10%, rgba(52, 64, 86, 1) 100%);
+		background: -ms-linear-gradient(top, rgba(65, 75, 96, 1) 0%, rgba(12, 25, 46, 1) 10%, rgba(52, 64, 86, 1) 100%);
+
+		border: 0;
+		left: 50%;
+		margin-left: -125px;
+	}
+
+	.picture-grid-chamber {
+		position: relative;
+	}
+
+	.rd-responsive-template .picturesgridview .video-msgs {
+		position: static;
+	}
+
+	.rd-responsive-template .picturesgridview .video-msgs .checkbox {
+		top: 18px;
+		left: 14px;
+	}
+
+	.rd-responsive-template .picturesgridview .sofi-g-chamber {
+		margin: 10px 13px;
+		padding: 0;
+		border: 0;
+
+		width: 220px;
+		height: 286px;
+	}
+
+	.rd-responsive-template .picturesgridview .sofi-g-chamber,
+	.rd-responsive-template .picturesgridview .dnd-static-border {
+		border: 0;
+	}
+
+	.rd-responsive-template .picturesgridview .dnd-static-border {
+		height: 100%;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber,
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber {
+		margin: 0;
+		border: 2px solid #FFF;
+		background: white;
+	}
+
+	.rd-responsive-template .picturesgridview .picture-tiles .picture-grid-chamber {
+		width: 100%;
+		height: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 17px;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber td {
+		height: 220px;
+		width: 100%;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber .img-height {
+		height: 100%;
+		max-width: 136px;
+		margin: 0 auto;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber .img-width {
+		width: 190px;
+		max-height: 180px;
+
+		position: relative;
+		top: 40px;
+		left: -30px;
+	}
+
+	.rd-responsive-template .picturesgridview .picture-grid-chamber .image-caption {
+		padding: 0;
+		margin: 13px -32px 0 -32px;
+	}
+
+	.rd-responsive-template .picturesgridview .favo-on,
+	.rd-responsive-template .picturesgridview .sofi-off {
+		margin-top: 4px;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber .image-caption a {
+		width: 173px;
+		text-overflow: ellipsis;
+		display: block;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	html.rd-responsive-template .picturesgridview .picture-grid-chamber .image-caption a:first-child {
+		width: 16px;
+	}
+
+	.rd-responsive-template div[id$="loadingBar"] {
+		height: 54px;
+	}
+
+	.rd-responsive-template .picturesgridview .loading-bar {
+		width: 320px;
+		position: absolute;
+		left: 50%;
+		margin-left: -160px;
+	}
+}
+
+/*************************************************************** INTERMEDIATE BREAKPOINT **************************************************************/
+@media screen and (max-width:849px) {
+	/***Action Bar***/
+	.rd-responsive-template .resp-action-bar .resp-edit-selected {
+		display: block;
+		width: 120px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	/***Hiding Elements***/
+	.album-photo-thumbnail,
+	.rd-responsive-template .resp-action-bar div.resp-share {
+		display: none;
+	}
+
+	/***The top of the page***/
+	.rd-responsive-template .albumactionbar .album-discription {
+		margin-left: 0;
+	}
+
+	/***Filters***/
+	.rd-responsive-template .albumactionbar .action-bar {
+		height: auto;
+	}
+
+	.rd-responsive-template .albumactionbar .action-bar {
+		background-size: 3px 106px;
+		padding-top: 8px;
+	}
+
+	.actionbar-main-panel .action-bar>div {
+		width: 100%;
+	}
+
+	.actionbar-main-panel .action-bar div:nth-child(1) select {
+		left: 80px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.actionbar-main-panel .action-bar>div:nth-child(2) {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.rd-responsive-template .resp-select-tags-button {
+		left: 80px;
+	}
+
+	.actionbar-main-panel .action-bar>div {
+		float: none
+	}
+
+	.actionbar-main-panel .action-bar>div div:first-child {
+		margin-left: 0;
+	}
+
+	.rd-responsive-template .albumactionbar .action-bar {
+		margin-top: -1px;
+		border-top: 1px solid transparent;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div {
+		width: 260px;
+		margin-right: 0;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div:before,
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div:before {
+		display: block;
+		margin-bottom: 10px;
+
+		font-weight: bold;
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .facetags-panel-div:before {
+		content: "Face tags";
+	}
+
+	.rd-responsive-template .albumactionbar .filter-tab-layer .eventags-panel-div:before {
+		margin-top: 10px;
+		content: "Event tags";
+	}
+
+	.filter-tab-layer .filter-panel>div:first-child {
+		display: none;
+	}
+
+	/***Action Bar***/
+	.rd-responsive-template .resp-action-bar div {
+		display: block;
+		text-align: center;
+		border-right: 0;
+	}
+
+	.rd-responsive-template .resp-action-bar .resp-edit-selected {
+		display: block;
+		width: auto;
+	}
+
+	.rd-responsive-template select.resp-edit-selected-select {
+		right: 11px;
+		width: auto;
+	}
+
+	.rd-responsive-template .resp-share span,
+	.rd-responsive-template .resp-order-prints span,
+	.rd-responsive-template .resp-action-bar .resp-edit-selected>span {
+		margin-left: 0;
+	}
+
+	.resp-order-prints {
+		background: none;
+	}
+
+	.resp-edit-selected {
+		background: none;
+	}
+
+	.rd-responsive-template .resp-action-bar:before,
+	.rd-responsive-template .resp-action-bar:after {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 42px;
+		height: 1px;
+		width: auto;
+		background: #E4E4E4;
+		left: 20px;
+		right: 20px;
+	}
+
+	.rd-responsive-template .resp-action-bar:before {
+		top: 87px;
+	}
+
+	.rd-responsive-template .resp-action-bar>div {
+		height: 23px;
+	}
+
+	.rd-responsive-template .resp-select-section .resp-select-all, .rd-responsive-template .resp-select-section .resp-unselect-all {
+		font-size: 15px;
+	}
+
+	/*Adding arrows*/
+	.resp-order-prints,
+	.resp-edit-selected {
+		position: relative;
+	}
+
+	.resp-order-prints:after,
+	.resp-edit-selected:after {
+		content: "";
+		display: block;
+		background: url('../images/arrow-down@2x.png') no-repeat;
+		background-size: 13px 8px;
+		position: absolute;
+		top: 19px;
+		right: 24px;
+		width: 13px;
+		height: 8px;
+	}
+
+	/***Add to cart popup***/
+	.rd-responsive-template .dal-add-cart-confirm {
+		top: 10% !important;
+		max-height: 80%;
+		margin-top: 0;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+	.rd-responsive-template .picturesgridview .sofi-g-chamber {
+		display: block;
+		margin: 10px auto;
+	}
+}

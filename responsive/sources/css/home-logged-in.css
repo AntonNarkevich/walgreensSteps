@@ -1,0 +1,327 @@
+link#rd-home-logged-in-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	.body-back-image:not(#resp-footer-main) {
+		margin: 0 20px 40px;
+	}
+
+	.body-back-image:not(#resp-footer-main) > tbody > tr:not(:nth-child(4)),
+	.body-back-image:not(#resp-footer-main) > tbody > tr:nth-child(4) > td:not(:nth-child(3)) {
+		display: none;
+	}
+
+	.body-back-image:not(#resp-footer-main) > tbody > tr:nth-child(4) > td:nth-child(3) {
+		padding: 0 !important;
+	}
+
+	#resp-home-user-alerts td, #resp-home-user-alerts span, #resp-home-user-alerts a {
+		font-size: 16px !important;
+	}
+
+	#homeProjectsDivTab, #homeGroupsDivTab {
+		display: none;
+	}
+
+	.rd-home-main-container > tbody > tr:first-child {
+		display: none;
+	}
+
+	#resp-home-user-alerts {
+		margin-bottom: -24px;
+	}
+
+	.rd-home-main-container {
+		margin-top: 10px;
+	}
+
+	/* no albums */
+
+	html .youdontalbum-txt {
+		background: none;
+		width: auto;
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	html .youdontalbum-txt:before {
+		content: "You don\'t have any uploaded albums.";
+		color: #F87500;
+		font-size: 21px;
+	}
+
+	/* albums */
+
+	.rd-albums-container {
+		margin-bottom: 20px;
+		border: 1px solid #E4E4E4;
+	}
+
+	html a#albumsDIVLink {
+		display: block;
+		float: none;
+		height: auto;
+		font-size: 21px;
+		line-height: 21px;
+		padding: 10px 15px;
+	}
+
+	html .greybrdr-tabsec {
+		width: auto;
+		height: auto;
+		border: none;
+	}
+
+	#getHomeGroups {
+		display: block;
+	}
+
+	#albumsDIV {
+		width: auto !important;
+		float: none !important;
+		margin: 0 10px;
+		padding-bottom: 0px!important;
+	}
+
+	#albumsDIV > table > tbody >tr {
+		display: table;
+		width: 100%;
+	}
+
+	#albumsDIV > table > tbody > tr > td {
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	#albumsDIV > table > tbody > tr > td:last-child {
+		width: 270px;
+		padding: 15px;
+		background: rgb(245, 245, 245);
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html #resp-home-album-list {
+		margin: 0 !important;
+	}
+
+	#resp-home-album-list > tbody > tr:not(:nth-child(3)),
+	#resp-home-album-list > tbody > tr:nth-child(3) > td:nth-child(even),
+	#resp-home-album-list > tbody > tr:nth-child(3) > td:nth-child(3) ~ td {
+		display: none;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td {
+		display: inline-block;
+		background: none !important;
+		width: 120px !important;
+		height: auto !important;
+		padding: 0 !important;
+		vertical-align: top;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td:first-child {
+		margin-right: 50px;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td > a:first-child {
+		display: table-cell;
+		background: url('http://static.sfstg8.qa.sf-cdn.com/MD5=c6af7c820b1de112c3aed2b3a7f626e9/default/images/walgreens/album/album-walgreens-full-newbg.jpg') no-repeat;
+		width: 120px;
+		height: 120px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td > a:last-child {
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 15px;
+	}
+
+	/* buttons */
+
+	#albumsDIV > table > tbody > tr > td:last-child > table {
+		background: none;
+	}
+
+	#albumsDIV > table > tbody > tr > td:last-child > table td {
+		padding: 0 !important;
+	}
+
+	#albumsDIV .rd-button {
+		width: 100%;
+	}
+
+	.rd-buttons-container tr:nth-child(7) {
+		text-align: right;
+	}
+
+	.rd-buttons-container tr:last-child {
+		display: none;
+	}
+
+	/* Useful links */
+
+	#resp-home-usefulLinks {
+		border: 1px solid #E4E4E4;
+		margin-bottom: 25px;
+	}
+
+	#resp-home-usefulLinks > tbody > tr:first-child {
+		display: none;
+	}
+
+	html .orangehead-homesmall {
+		font-size: 17px;
+	}
+
+	#resp-home-usefulLinks > tbody > tr:nth-child(3) {
+		font-size: 0;
+		padding: 20px 10px 0;
+	}
+
+	#resp-home-usefulLinks > tbody > tr:nth-child(3) > td {
+		display: inline-block;
+		width: 32%;
+		padding: 0 !important;
+		margin-right: 2%;
+		vertical-align: top;
+		border: none !important;
+	}
+
+	#resp-home-usefulLinks > tbody > tr:nth-child(3) > td:nth-child(3) {
+		margin-right: 0;
+	}
+
+	/* Promo block */
+
+	html .rd-home-promos {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	html .rd-home-promos [id^=div_photologgedin] {
+		display: inline-block !important;
+		width: auto !important;
+		max-width: 30%;
+		margin-right: 5%;
+		vertical-align: middle;
+	}
+
+	html .rd-home-promos [id^=div_photologgedin]:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	html .rd-home-promos img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	html .rd-home-promos [id^=div_photologgedin]:nth-child(4) {
+		display: none !important;
+	}
+
+	/* Ideas block */
+
+	.rd-ideas {
+		border: 1px solid #E4E4E4;
+	}
+
+	.rd-ideas > tbody > tr:first-child {
+		display: none;
+	}
+
+	.rd-ideas > tbody > tr:nth-child(3) td {
+		border: none;
+	}
+
+	.rd-ideas > tbody > tr:nth-child(3) img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* hide bottom content */
+
+	html .rd-ideas ~ table {
+		display: none;
+	}
+
+	.body-back-image:not(#resp-footer-main) > tbody > tr:nth-child(4) > td:nth-child(3) > table > tbody >tr:nth-child(4)> td:not(:first-child),
+	#orderPrintsOpacitylayer + table + div {
+		display: none;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.body-back-image:not(#resp-footer-main) {
+		margin: 0 10px 30px;
+	}
+
+	#albumsDIV > table > tbody > tr > td {
+		display: block;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td {
+		width: 190px !important;
+		text-align: center;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td:first-child {
+		margin-right: 35px;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td > a:first-child {
+		width: 190px;
+		height: 190px;
+		background-size: 100% 100%;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td > a:first-child img {
+		width: 147px;
+	}
+
+	#albumsDIV > table > tbody > tr > td:last-child {
+		width: auto;
+		padding: 11px;
+	}
+
+	.rd-buttons-container > tbody > tr:nth-child(2), .rd-buttons-container > tbody > tr:nth-child(4) {
+		display: none;
+	}
+
+	.uploadnewphotos-btn {
+		margin-bottom: 15px;
+	}
+
+	.importfromfb-btn {
+		margin-bottom: 30px;
+	}
+
+	#resp-home-usefulLinks > tbody > tr:nth-child(3) > td {
+		display: block;
+		width: auto;
+		margin: 0;
+	}
+
+	.rd-home-promos, .rd-ideas {
+		display: none !important;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+	html a#albumsDIVLink {
+		font-size: 17px;
+		line-height: 17px;
+	}
+
+	#resp-home-album-list > tbody > tr:nth-child(3) > td {
+		display: block;
+		margin: 0 auto !important;
+	}
+}

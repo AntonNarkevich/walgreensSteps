@@ -1,0 +1,254 @@
+div, table, td, p, a {
+	font-size: 15px;
+}
+
+a {
+	color: #2774A6;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	/** CHECKOUT HEADER **/
+
+	.page-title {
+		margin-left: 0 !important;
+		line-height: 44px;
+	}
+
+	#resp-checkout-buttonsTop {
+		margin-right: 0 !important;
+	}
+
+	.body-back-image {
+		width: 100%;
+		background-image: none;
+		background-color: #FFF;
+	}
+
+	.body-back-image > tbody > tr.rd-checkout-content,
+	.body-back-image > tr.rd-checkout-content {
+		display: block;
+		width: auto;
+	}
+
+	tr.rd-checkout-content > td:nth-child(1),
+	tr.rd-checkout-content > td:nth-child(3) {
+		display: none;
+	}
+
+	/** END CHECKOUT HEADER **/
+
+	/* CHECKOUT GLOBAL FOOTER */
+	.rd-checkout-content #rightContent,
+	.rd-checkout-content #resp-confirmation-orderSummary {
+		width: 100%;
+		margin-left: 0 !important;
+		margin-top: 25px;
+		padding-top: 0 !important;
+	}
+
+	#rightContent #resp-osm-orderSummary,
+	#resp-confirmation-orderSummary #resp-osm-orderSummary,
+	#resp-review-orderSummary #resp-osm-orderSummary {
+		width: auto !important;
+	}
+
+	#resp-osm-orderSummary .rtModule-headerText,
+	#rightContent #resp-osm-needHelp .rtModule-headerText,
+	#resp-confirmation-orderSummary #resp-osm-needHelp .rtModule-headerText,
+	#resp-review-orderSummary #resp-osm-needHelp .rtModule-headerText,
+	#resp-osm-reorder .rtModule-headerText,
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) {
+		height: 34px;
+		border-bottom: 1px solid #E4E4E4;
+		padding: 0 13px;
+		line-height: 34px;
+	}
+
+	#resp-osm-orderSummary .rtCoulmnUL,
+	#resp-osm-reorder .rtCoulmnUL {
+		overflow: hidden;
+		padding: 0 19px 0 13px;
+	}
+
+	html #resp-osm-needHelp .rtCoulmnUL {
+		overflow: hidden;
+		padding: 10px 13px !important;
+	}
+
+	#resp-osm-orderSummary tr:nth-child(3) .rtCoulmnUL {
+		padding: 16px 19px 10px 13px;
+	}
+
+	.osmTotal {
+		padding-bottom: 15px;
+	}
+
+	#resp-osm-orderSummary tr:last-child .rtModule-headerText {
+		border-bottom: none;
+		border-top: 1px solid rgb(228, 228, 228);
+		height: 45px;
+		font-size: 15px !important;
+		line-height: 45px;
+	}
+
+	.osmUnderline {
+		padding: 5px;
+	}
+
+	#rightContent #resp-osm-needHelp,
+	#resp-review-orderSummary #resp-osm-needHelp,
+	#resp-confirmation-orderSummary #resp-osm-needHelp {
+		margin: 25px 0 !important;
+		width: 48% !important;
+	}
+
+	#resp-osm-needHelp {
+		border: 1px solid rgb(228, 228, 228);
+	}
+
+	#rightContent #resp-osm-needHelp img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#rightContent #resp-osm-needHelp tbody,
+	##resp-review-orderSummary #resp-osm-needHelp tbody,
+	##resp-confirmation-orderSummary #resp-osm-needHelp tbody {
+		border: 1px solid #E4E4E4;
+	}
+
+	#rightContent #resp-osm-needHelp tr:first-child,
+	##resp-review-orderSummary #resp-osm-needHelp tr:first-child,
+	##resp-confirmation-orderSummary #resp-osm-needHelp tr:first-child {
+		display: none;
+	}
+
+	#resp-osm-needHelp .rtCoulmnUL ul {
+		padding: 0;
+	}
+
+	#resp-osm-needHelp .rtCoulmnUL ul + a,
+	#resp-osm-needHelp .rtCoulmnUL ul li:first-child {
+		display: none;
+	}
+
+	#resp-osm-needHelp .rtCoulmnUL ul li:not(:first-child) {
+		background: none;
+		padding: 0;
+		font-size: 15px;
+	}
+
+	.resp-mobile-view-number {
+		display: none;
+	}
+
+	.rd-checkout-content #resp-checkout-secondaryTotal {
+		margin-right: 0 !important;
+		margin-bottom: 0;
+		width: 48% !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-top: -98px !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom tr:first-child {
+		display: none;
+	}
+
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) td:nth-child(2) {
+		float: left;
+		line-height: 32px;
+	}
+
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) td:nth-child(3) {
+		float: right;
+		line-height: 32px;
+	}
+
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) {
+		border: 1px solid #E4E4E4;
+	}
+
+	/*** CHECKOUT GLOBAL FOOTER END ***/
+
+	/* footer */
+	.rd-footer-search, .rd-footer-links-wrapper {
+		display: none !important;
+	}
+
+	.rd-footer {
+		padding-top: 0 !important;
+	}
+
+	.contentMaintd + #resp-checkout-secondaryTotal {
+		padding-right: 20px;
+		height: auto !important;
+		overflow: hidden;
+		padding-bottom: 40px;
+		margin-top: -158px !important;
+	}
+
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	/** checkout footer **/
+	#rightContent #resp-osm-needHelp,
+	#resp-review-orderSummary #resp-osm-needHelp,
+	#resp-confirmation-orderSummary #resp-osm-needHelp {
+		margin: 23px 0 !important;
+		width: 100% !important;
+		padding-right: 0;
+		border: 1px solid rgb(228, 228, 228);
+	}
+
+	.rd-checkout-content #resp-checkout-secondaryTotal {
+		float: none !important;
+		margin-top: 0 !important;
+		width: 100% !important;
+		padding-left: 0;
+	}
+
+	#resp-checkout-secondaryTotalBottom + div {
+		float: none !important;
+		padding-top: 19px !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom + div .rd-button.rd-gray-button {
+		float: left;
+		margin-left: 0 !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom + div .rd-button.rd-gray-button {
+		float: left;
+	}
+
+	#resp-checkout-secondaryTotalBottom + div a:last-child {
+		display: block;
+		float: right;
+		overflow: hidden;
+	}
+
+	/*custom checkout's footer */
+	.contentMaintd + #resp-checkout-secondaryTotal {
+		padding: 0 10px 30px;
+		margin-top: -45px !important;
+	}
+
+	.contentMaintd + #resp-checkout-secondaryTotal #resp-checkout-secondaryTotalBottom + div {
+		margin-top: 0 !important;
+		overflow: hidden;
+	}
+
+	/*Need help phones*/
+	.resp-mobile-view-number {
+		display: block;
+	}
+
+	.resp-tablet-view-number {
+		display: none;
+	}
+
+}

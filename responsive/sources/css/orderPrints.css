@@ -1,0 +1,582 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	body {
+		position: relative;
+	}
+
+	.rd-header-checkout {
+		display: none;
+	}
+
+	/*POPOUP ---------------------*/
+	#collageitupsellmugframe {
+		display: none;
+	}
+	/*END -----------------------*/
+
+	.res-icon {
+		display: none !important;
+	}
+
+	.rd-responsive-design .dest-contentcolumn {
+		overflow: hidden;
+	}
+
+	#facebook-maincontainer, #facebook-maincontainer div[align="center"] div div[align="center"], #resp-reprintPhotoSelector-upload-albums + div,
+	.border-dash-bg, prints-empty-dest-msg {
+		width: auto !important;
+	}
+
+	div {
+		box-sizing: border-box;
+	}
+
+	#facebook-maincontainer {
+		background: #FFF !important;
+	}
+
+	div[align="center"], div[align="left"] {
+		text-align: left;
+		width: auto !important;
+	}
+
+	#resp-reprintPhotoSelector-upload-albums + div {
+		float: none !important;
+		padding: 20px !important;
+	}
+
+	#resp-reprintPhotoSelector-chooseBottom {
+		padding-right: 0 !important;
+	}
+
+	#resp-reprintPhotoSelector-chooseBottom {
+
+	}
+
+	html>body .src-contentcolumn {
+		margin: 0 !important;
+		padding: 0 10px 0;
+	}
+
+	.src-content div {
+		width: auto !important;
+	}
+
+	.position-node {
+		position: static !important;
+	}
+
+	#sfImagePageCont, #sfImagePageCont .src, #sfImagePageCont .src-content {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+
+	#dijit_layout_StackContainer_0 {
+		width: auto !important;
+	}
+
+	.album_group_node_box div[attr|="widgetid"] {
+		width: auto !important;
+		margin-right: 20px !important;
+	}
+
+	.album_group_node_box > div {
+		width: 174px;
+		height: auto;
+	}
+
+	td[dojoattachpoint="albumBGNode"] {
+		width: 174px !important;
+		height: 164px !important;
+		background-size: contain;
+	}
+
+	#dijit_layout_ContentPane_0, #resp-reprintPhotoSelector-chooseTop {
+		padding: 0 !important;
+	}
+
+	#resp-reprintPhotoSelector-upload-albums {
+		/*hide left navigation*/
+		display: none;
+	}
+
+	#facebook-maincontainer div[align="center"] div div[align="center"] div:nth-child(3) {
+		text-align: left;
+	}
+
+	#dropdown-container {
+		background-color: #f8f8f8;
+		border: 1px solid #e4e4e4;
+		padding: 10px 12px;
+		text-align: left;
+	}
+
+	#dropdown-container select {
+		width: 200px;
+	}
+
+	#dropdown-container select:first-child {
+		margin-right: 15px;
+	}
+
+	#resp-reprintPhotoSelector-orderPrints {
+		font-family: Arial;
+		font-size: 26px;
+		color: #f87500;
+	}
+
+	.album_group_node_box div[attr|="widgetid"] td[attr|="dojoattachpoint"] {
+		height: auto;
+	}
+
+	/*Image Blocks*/
+	.orangediv-background {
+		width: 100% !important;
+		margin-right: -10px;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+
+	/*Left block*/
+	html>body .src-header {
+		height: 40px !important;
+	}
+
+	#dropdown-container+div+div {
+		padding-top: 5px !important;
+	}
+
+	#sfImagePageCont {
+		float: none;
+	}
+
+	#resp-reprintPhotoSelector-pictureList {
+		width: 66% !important;
+		overflow: hidden;
+	}
+
+	#srcCont_SHARED_2013 {
+		height: auto;
+	}
+
+	.orangediv-rightborder {
+		margin-left: -10px;
+	}
+
+	html>body .src-header {
+		height: auto;
+		margin: 10px 15px 0;
+	}
+
+	.src-content {
+		width: auto;
+		padding: 35px 5px 0;
+	}
+
+	/*.album_group_node_box div[attr|="id"] td[width="14"][align="left"][valign="bottom"][style="padding-bottom:15px;padding-left:2px;"] {*/
+	/*display: none;*/
+	/*}*/
+
+	td[dojoattachpoint="albumBGNode"] img {
+		margin: 30px auto 0;
+		max-width: 135px;
+		max-height: 100px;
+	}
+
+	.album_group_node_box tbody>tr:nth-child(2)>td[valign="bottom"]:last-child {
+		display: none;
+	}
+
+	.src-contentcolumn>div {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	/*Right block*/
+	html>body .dest-contentcolumn {
+		margin-left: 0 !important;
+		width: auto !important;
+	}
+
+	#destContainer {
+		float: right !important;
+		width: 33%;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.dest-contentcolumn {
+		float: none;
+		width: auto;
+	}
+
+	.orangediv-large-rightborder {
+		margin-left: -10px;
+	}
+
+	#destContainer > div:first-child {
+		color: #F87500;
+		font-family: arial;
+		font-size: 20px;
+		padding: 0 0 10px;
+	}
+
+	.dest-header {
+		padding: 10px 12px 0;
+	}
+
+	.dest-links {
+		margin-top: 25px;
+	}
+
+	div td[dojoattachpoint="ownerNameNode"], .album_group_header_box[dojoattachpoint="albumGroupContainerLineNode"],
+	#uploadDiv + div + div {
+		display: none;
+	}
+
+	#resp-reprintPhotoSelector-description {
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+
+	#resp-reprintPhotoSelector-pictureList {
+		padding-top: 31px !important;
+	}
+
+	#srcCont_OWNED_2013, .src-contentcolumn[dojoattachpoint="containerNode"], #srcCont_OWNED_2013, #destContainer, #destContainer .dest-contentcolumn,
+	#srcCont_OWNED_2012 {
+		height: auto;
+	}
+
+	.orangediv-large-rightborder {
+		background: url('http://static.sfstg8.qa.sf-cdn.com/MD5=7b710473b8111cae9842bfe63c6f016b/default/images/walgreens/photos/orangediv-right-border.gif') no-repeat right top;
+		width: 10px;
+		height: 100px;
+		float: left;
+	}
+
+	.orangediv-large-leftborder {
+		background: url('http://static.sfstg8.qa.sf-cdn.com/MD5=7b710473b8111cae9842bfe63c6f016b/default/images/walgreens/photos/orangediv-left-border.gif') no-repeat left top;
+
+		width: 10px;
+		height: 100px;
+		float: left;
+	}
+
+	#resp-reprintPhotoSelector-chooseTop a img, #resp-reprintPhotoSelector-chooseBottom a img {
+		display: none;
+	}
+
+	#resp-reprintPhotoSelector-chooseTop a span, #resp-reprintPhotoSelector-chooseBottom a span {
+		display: none;
+	}
+
+	#resp-reprintPhotoSelector-chooseTop a span.rd-button, #resp-reprintPhotoSelector-chooseBottom a span.rd-button {
+		display: block;
+	}
+
+	.dest-photo-node {
+		text-align: center !important;
+		float: none !important;
+	}
+
+	.delete-icon {
+		position: relative !important;
+	}
+
+	.dest-contentcolumn, .dest-content {
+		float: none !important;
+		padding-left: 0 !important;
+	}
+
+	.src {
+		height: auto !important;
+	}
+
+	.album_group_node_box div {
+		width: auto !important;
+	}
+
+	.album_group_node_box > div {
+		margin-right: 20px !important;
+	}
+
+	.album_group_header_box {
+		float: none !important;
+	}
+
+	#header+div+div+div {
+		display: none;
+	}
+
+	/*Global Header*/
+
+	#header table tbody tr:nth-child(2) td:nth-child(4), td[valign="bottom"] {
+		display: none;
+	}
+
+	#resp-checkoutHeader-statusBar td[height="35"] {
+		height: 27px;
+	}
+
+	.dest-contentcolumn>div {
+		display: inline-block;
+		margin-right: 13px !important;
+	}
+
+	#sfdojo_widget_PicturePageContainer_1>div {
+		display: inline-block;
+	}
+
+	.orangediv-background>.dest-content {
+		padding: 0 10px 0 !important;
+	}
+
+	.src-contentcolumn>div img[alt="View larger"], .src-contentcolumn>div img[alt="Favorite"] {
+		display: none !important;
+	}
+
+	#resp-reprintPhotoSelector-cancelTop, #resp-reprintPhotoSelector-cancelBottom {
+		margin-top: 5px !important;
+		margin-right: 10px;
+	}
+
+	#uploadDiv+div+div+br+div, .border-dash-bg {
+		margin-bottom: 10px;
+		margin-top: 20px !important;
+	}
+
+	#header td {
+		height: auto;
+	}
+
+	#wgnewLogo {
+		margin: 10px 0;
+	}
+
+	a.cancel-link {
+		font-size: 15px;
+	}
+
+	.delete-icon {
+		width: 25px;
+		margin-left: -25px !important;
+	}
+
+	.resp-footerplain-copyrightmsg td[valign="bottom"] {
+		display: block;
+	}
+
+	/*End*/
+
+	/* remove all popup */
+
+	#removeAllDialogLayer, #emptyWellLayer {
+		left: 50% !important;
+		width: 380px !important;
+		margin-left: -190px;
+	}
+
+	#LayerContainerDiv table,
+	#LayerContainerDiv tbody,
+	#LayerContainerDiv thead,
+	#LayerContainerDiv tfoot,
+	#LayerContainerDiv th,
+	#LayerContainerDiv tr,
+	#LayerContainerDiv td {
+		width: initial !important;
+	}
+
+	#LayerContainerDiv table {
+		display: table !important;
+	}
+
+	#LayerContainerDiv tbody {
+		display: table-row-group !important;
+	}
+
+	#LayerContainerDiv thead {
+		display: table-header-group !important;
+	}
+
+	#LayerContainerDiv tfoot {
+		display: table-footer-group !important;
+	}
+
+	#LayerContainerDiv th {
+		display: table-cell !important;
+	}
+
+	#LayerContainerDiv tr {
+		display: table-row !important;
+	}
+
+	#LayerContainerDiv td {
+		display: table-cell !important;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	html>body div.dest-contentcolumn {
+		margin-left: 0;
+	}
+
+	#resp-reprintPhotoSelector-leftcol {
+		background: #FFF;
+		border-top: 4px solid #f87500;
+	}
+
+	#dropdown-container select {
+		width: 100%;
+	}
+
+	#resp-reprintPhotoSelector-cancelTop, #resp-reprintPhotoSelector-cancelBottom {
+		float: right !important;
+	}
+
+	.album_group_node_box {
+		float: none !important;
+	}
+
+	#OWNED_AZ_QZ .album_group_header_box[dojoattachpoint="albumGroupContainerHeaderNode"] {
+		float: left !important;
+	}
+
+	#resp-reprintPhotoSelector-upload-albums+div>div:nth-child(6), #uploadDiv~div[align="left"]+div {
+		width: 100%;
+	}
+
+	#resp-checkoutHeader-statusBar, #resp-checkoutHeader-statusBar td {
+		padding-left: 0 !important;
+	}
+
+	.album_group_node_box>div>table>tbody>tr:nth-child(3)>td {
+		text-align: center;
+	}
+
+	#resp-reprintPhotoSelector-upload-albums + div {
+		padding: 15px 10px 30px 10px !important;
+	}
+
+	#resp-reprintPhotoSelector-cancelTop, #resp-reprintPhotoSelector-cancelBottom {
+		padding-right: 0 !important;
+	}
+
+	#destContainer > div:first-child {
+		padding-bottom: 15px !important;
+	}
+
+	.src-contentcolumn>div {
+		margin-right: 0;
+	}
+
+	.src-footer {
+		margin-top: 15px;
+	}
+
+	#dropdown-container select:first-child {
+		margin-bottom: 18px;
+	}
+
+	.album_group_node_box > div {
+		margin-right: auto !important;
+		margin: 0 auto !important;
+		width: 174px !important;
+		float: none !important;
+	}
+
+	#resp-reprintPhotoSelector-chooseTop {
+		margin-bottom: 10px;
+	}
+
+	.src-contentcolumn>div {
+		display: block;
+	}
+
+	#resp-reprintPhotoSelector-chooseTop, #resp-reprintPhotoSelector-chooseBottom {
+		float: right !important;
+		width: 100% !important;
+	}
+
+	.src-footer {
+		background: url(http://static.sfstg8.qa.sf-cdn.com/MD5=c6af7c820b1de112c3aed2b3a7f626e9/default/images/walgreens/grey-dotted-line.gif) repeat-x
+	}
+
+	#destContainer > div:first-child {
+		padding-bottom: 15px;
+	}
+
+	#resp-reprintPhotoSelector-cancelTop, #resp-reprintPhotoSelector-cancelBottom {
+		margin-bottom: 10px;
+		padding-top: 0 !important;
+	}
+
+	#resp-reprintPhotoSelector-pictureList, #destContainer {
+		width: 100% !important;
+	}
+
+	#facebook-maincontainer div[align="center"]:nth-child(3)>div>div {
+		float: none !important;
+	}
+
+	#resp-reprintPhotoSelector-leftcol {
+		margin: 0 -5px;
+	}
+
+	.orangediv-rightborder, .orangediv-leftborder, .orangediv-large-leftborder, .orangediv-large-rightborder {
+		display: none;
+	}
+
+	.dest-links {
+		top: 10px;
+		right: 15px;
+		margin: 0;
+	}
+
+	#resp-reprintPhotoSelector-pictureList {
+		padding-top: 0 !important;
+	}
+
+	.orangediv-background {
+		padding-right: 0;
+	}
+
+	.orangediv-background {
+		background: none !important;
+	}
+
+	.dest-header {
+		border-top: 3px solid #f87500;
+	}
+
+	#uploadDiv+div+div+br+div, .border-dash-bg {
+		margin-bottom: 0;
+		margin-top: 15px !important;
+	}
+
+	#destContainer {
+		margin-top: 5px;
+	}
+
+	#resp-reprintPhotoSelector-orderPrints {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#resp-reprintPhotoSelector-orderPrints {
+		font-size: 20px;
+	}
+
+	#resp-reprintPhotoSelector-description {
+		line-height: 18px;
+	}
+
+	/* remove all popup */
+
+	#removeAllDialogLayer, #emptyWellLayer {
+		width: 300px !important;
+		margin-left: -150px;
+	}
+}
+

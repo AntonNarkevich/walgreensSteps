@@ -1,0 +1,266 @@
+/* temp */
+.body-back-image:first-child > tbody > tr:first-child {
+	display: none;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	html .textSmall1 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.contentMaintd > table >tbody >tr:first-child, .body-back-image:not(#resp-footer-main) > tbody >tr:nth-child(2) > td:first-child {
+		display: none;
+	}
+
+	.rd-page-title-tr img {
+		display: none;
+	}
+
+	.rd-page-title {
+		font-size: 25px;
+		color: red;
+	}
+
+	.rd-page-title-tr + tr, .rd-page-title-tr + tr + tr br {
+		display: none;
+	}
+
+	.rd-page-title-tr + tr + tr p:first-child {
+		margin-top: 10px;
+	}
+
+	.contentMaintd .yourinfobg, .contentMaintd .actinfobg {
+		width: auto;
+		background: none;
+	}
+
+	.contentMaintd .yourinfobg > div:first-child, .contentMaintd .actinfobg > div:first-child,
+	.emailprefbg > div:first-child {
+		background: #e11c3a;
+		border-radius: 8px 8px 0 0;
+		padding: 12px 0 12px 20px;
+	}
+
+	.rd-your-info-title, .rd-acc-info-title, .rd-email-preferences-title {
+		color: #ffffff;
+	}
+
+	html>body .div-your-info, .actinfobg > div:nth-child(2) {
+		position: relative;
+		width: auto;
+		float: none;
+		margin: 0 0 35px;
+		padding: 0 3% 0;
+		overflow: hidden;
+	}
+
+	html>body .div-your-info:before, .actinfobg > div:nth-child(2):before, html .emailprefbg > div:nth-child(2):before,
+	html>body .div-your-info:after, .actinfobg > div:nth-child(2):after, html .emailprefbg > div:nth-child(2):after {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 1px;
+		background-image: linear-gradient(top, rgba(150, 150, 150, 1) 0, rgba(150, 150, 150, 0) 60%);
+		background-image: -o-linear-gradient(top, rgba(150, 150, 150, 1) 0, rgba(150, 150, 150, 0) 60%);
+		background-image: -moz-linear-gradient(top, rgba(150, 150, 150, 1) 0, rgba(150, 150, 150, 0) 60%);
+		background-image: -webkit-linear-gradient(top, rgba(150, 150, 150, 1) 0, rgba(150, 150, 150, 0) 60%);
+		background-image: -ms-linear-gradient(top, rgba(150, 150, 150, 1) 0, rgba(150, 150, 150, 0) 60%);
+	}
+
+	html>body .div-your-info:before, .actinfobg > div:nth-child(2):before, html .emailprefbg > div:nth-child(2):before {
+		left: 0;
+	}
+
+	html>body .div-your-info:after, .actinfobg > div:nth-child(2):after, html .emailprefbg > div:nth-child(2):after {
+		right: 0;
+	}
+
+	.div-your-info > div:first-child, .actinfobg > div:nth-child(2) > .security:first-child, .basic1 > label:first-child {
+		float: left;
+		width: 44%;
+		margin: 0;
+	}
+
+	.basic1 > label:first-child {
+		margin-bottom: 35px;
+	}
+
+	.div-your-info > div:nth-child(2) {
+		display: none;
+	}
+
+	label[for=lname], .actinfobg > div:nth-child(2) > div:nth-child(3), html .basic1 > .div-password {
+		float: right;
+		width: 44%;
+	}
+
+	/* labels */
+	label[for=fname]>div:first-child, label[for=lname]>div:first-child, label[for=email]>div:first-child,
+	html > body .confirmmail, html>body .password, html > body .confirm-password {
+		width: auto !important;
+		padding: 0;
+		margin-top: 20px;
+	}
+
+	/* input wrappers */
+	label[for=fname]>div:nth-child(2), label[for=lname]>div:nth-child(2), label[for=email] > div:nth-child(2),
+	html .div-password > div:nth-child(2) {
+		clear: both;
+		padding: 0 !important;
+	}
+
+	.rd-responsive-template input[name=firstname],
+	.rd-responsive-template input[name=lastname],
+	.rd-responsive-template input[name=username],
+	.rd-responsive-template input[name=emailaddress],
+	.rd-responsive-template input[name=password],
+	.rd-responsive-template input[name=password2] {
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 35px;
+	}
+
+	label[for=lname]+div {
+		display: none;
+	}
+
+	/* prompts */
+	label[for=email] > div:last-child, .div-password >  div:last-child {
+		margin: 0 !important;
+		width: auto !important;
+	}
+
+	.actinfobg > div:nth-child(2) > div:nth-child(2), .actinfobg > div:nth-child(2) > div:nth-child(4),
+	.basic1 > div:nth-child(2), .basic1 > div:nth-child(4) {
+		display: none;
+	}
+
+	.basic1 {
+		clear: both;
+		float: none;
+		width: auto;
+		margin: 0;
+	}
+
+	html .div-password {
+		width: auto;
+	}
+
+	html .emailprefbg {
+		width: auto;
+		clear: both;
+		margin: 0 -3%;
+		background: none;
+	}
+
+	html .emailprefbg > div:nth-child(2) {
+		position: relative;
+		padding-top: 20px;
+	}
+
+	html .emailprefbg > div:first-child img, html .emailprefbg > div:last-child {
+		display: none;
+	}
+
+	html> body .email-pref {
+		margin: 0 0 0 3%;
+	}
+
+	html>body .email-pref-text {
+		width: auto;
+		margin: 0 3% 0 0;
+		padding-left: 70px;
+		float: none;
+	}
+
+	.contentMaintd > table >tbody >tr:nth-child(2)>td:first-child > table > tbody > tr:nth-child(10),
+	.contentMaintd > table >tbody >tr:nth-child(2)>td:first-child > table > tbody > tr:nth-child(12) {
+		display: none;
+	}
+
+	input[type=submit].rd-blue-button {
+		margin-top: 20px;
+		width: 126px;
+	}
+
+	.contentMaintd > table >tbody >tr:nth-child(2)>td:nth-child(2), .contentMaintd > table >tbody >tr:nth-child(3) {
+		display: none;
+	}
+
+	.contentMaintd ~ td {
+		display: none;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.div-your-info > div:first-child, .actinfobg > div:nth-child(2) > .security:first-child, .basic1 > label:first-child,
+	label[for=lname], .actinfobg > div:nth-child(2) > div:nth-child(3), html .basic1 > .div-password {
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html>body .div-your-info:before, .actinfobg > div:nth-child(2):before, html .emailprefbg > div:nth-child(2):before,
+	html>body .div-your-info:after, .actinfobg > div:nth-child(2):after, html .emailprefbg > div:nth-child(2):after {
+		background-image: none;
+	}
+
+	html>body .div-your-info {
+		border: 1px solid #ddd;
+	}
+
+	.actinfobg > div:nth-child(2) > .security:first-child, .actinfobg > div:nth-child(2) > div:nth-child(3),
+	.basic1 > label:first-child, html .basic1 >.div-password {
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		padding: 0 3%;
+	}
+
+	.actinfobg > div:nth-child(2) {
+		padding: 0;
+	}
+
+	.emailprefbg > div:nth-child(2) {
+		padding: 20px 0;
+		border: 1px solid #ddd;
+		border-top: 0;
+	}
+
+	label[for=lname] {
+		margin-bottom: 20px;
+	}
+
+	html .emailprefbg {
+		padding-top: 0;
+		margin: 0;
+	}
+
+	html>body .div-your-info {
+		margin-bottom: 20px;
+	}
+
+	html .basic1 > .div-password {
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.basic1 > label:first-child {
+		margin-bottom: 0;
+	}
+
+	.contentMaintd .yourinfobg > div:first-child, .contentMaintd .actinfobg > div:first-child, .emailprefbg > div:first-child {
+		text-align: center;
+	}
+
+	input[type=submit].rd-blue-button {
+		width: 100%;
+	}
+}

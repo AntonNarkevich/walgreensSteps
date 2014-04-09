@@ -1,0 +1,15 @@
+link#rd-not-responsive-templates-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	.width-auto {
+		width: auto !important;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+}

@@ -1,0 +1,210 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	.rd-alert-background {
+		display: block;
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url("https://images1.sfstg8.qa.snapfish.com/MD5=6c7e7e6e83efe588c16c6c4c137be6bd/default/images/walgreens/shoppingcart_v2/shoppingcart_v2_sprite.png");/*ImageEmbed:skip*/
+		background-repeat:  no-repeat;
+		background-position: 0 -250px;
+	}
+
+	#wgstoreslist table,
+	#wgstoreslist tbody,
+	#wgstoreslist tr,
+	#wgstoreslist td,
+	#wgstoreslist th {
+		height: auto;
+		overflow: hidden;
+		background: none;
+	}
+
+	#wgstoreslist, form {
+		display: block;
+		overflow: hidden !important;
+	}
+
+	#wgstoreslist > table {
+		width: 100%;
+	}
+	#wgstoreslist > table {
+		text-align: left;
+	}
+	#wgstoreslist > table:nth-child(2n+1) {
+		border-bottom: 2px dotted rgb(232, 232, 232);
+		padding: 12px 0;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) {
+		position: relative;
+	}
+
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:first-child > table,
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:first-child > table > tbody > tr:first-child {
+		margin-bottom: 10px;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(2) {
+		position: absolute;
+		left: 35px;
+		top: 50px;
+	}
+	.tr-store-adress.rd-phone b {
+		margin-right: 5px;
+		float: left;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(4) {
+		position: absolute;
+		right: 10px;
+		top: 50px;
+	}
+
+	#wgstoreslist input {
+		display: none;
+	}
+	.rd-button.rd-gray-button {
+		padding: 11px 0;
+		width: 213px;
+		margin-left: 35px;
+	}
+	.tr-store-adress.rd-phone {
+		padding: 0 0 10px 35px;
+	}
+	.rd-old-store-adress + td,
+	.rd-old-store-location + td {
+		padding-left: 35px;
+	}
+	.tr-store-location.rd-phone a {
+		line-height: 24px;
+	}
+	.tr-store-adress.rd-phone,
+	.tr-store-location.rd-phone {
+		display: block !important;
+	}
+	.tr-store-adress.rd-phone {
+		float: left;
+		width: 315px;
+	}
+	.tr-store-location.rd-phone {
+		float: right;
+		width: 45px;
+	}
+	.tr-store-location.rd-phone + .rd-note {
+		float: left;
+		width: 100%;
+	}
+	#wgstoreslist .tr-store-location.rd-phone + .rd-note tr:nth-child(2) td {
+		background-color: #FEECD5;
+		padding: 12px 14px !important;
+	}
+	.rd-responsive-template .rd-old-store-adress,
+	.rd-responsive-template .rd-old-store-location,
+	.rd-responsive-template .rd-old-note {
+		display: none;
+	}
+	#wgstoreslist > table:nth-child(2n+1) > tbody > tr:nth-child(5) tr:nth-child(2) td {
+		background-color: #FEECD5;
+		padding: 12px 14px !important;
+	}
+	.sprite-h.storelocator-trianglealert {
+		background: none;
+		position: relative;
+	}
+
+	.tr-store-adress.rd-phone,
+	.tr-store-adress.rd-phone * {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.rd-note,
+	.rd-note * {
+		font-size: 13px;
+	}
+	.rd-old-note,
+	.rd-old-note * {
+		font-size: 14px;
+	}
+	.tr-store-location.rd-phone > td > table > tbody > tr:nth-child(2) {
+		margin-top: 5px;
+	}
+
+
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:248px) {
+	.storelocator-greentick {
+		padding-left: 30px;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(2) {
+		left: 30px;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:first-child > table {
+		margin-bottom: 0;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(4) {
+		position: absolute;
+		left: 30px;
+		top: 130px;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:first-child > div:last-child {
+		float: none !important;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(4) > table > tbody > tr,
+	.tr-store-location.rd-phone table > tbody > tr {
+		 float: left;
+	}
+	#wgstoreslist > table > tbody > tr:nth-child(3) > td:nth-child(4) > table > tbody > tr:last-child table,
+	.tr-store-location.rd-phone table > tbody > tr table {
+		padding: 6px 0 0 30px !important;
+	}
+	.rd-button.rd-gray-button {
+		width: 185px;
+		margin-left: 30px;
+	}
+	.tr-store-adress.rd-phone {
+		padding: 10px 0 10px 30px;
+	}
+	.tr-store-location.rd-phone {
+		padding-left: 30px;
+		padding-bottom: 5px;
+	}
+	.tr-store-location.rd-phone a {
+		line-height: 30px;
+	}
+	.rd-old-store-adress,
+	.rd-old-store-location {
+		display: none !important;
+	}
+	.tr-store-adress.rd-phone,
+	.tr-store-location.rd-phone {
+		display: block !important;
+	}
+	.tr-store-adress.rd-phone,
+	.tr-store-location.rd-phone {
+		width: auto;
+	}
+	.tr-store-adress.rd-phone {
+		float: none;
+	}
+	.tr-store-location.rd-phone {
+		float: none;
+		padding-right: 0;
+	}
+	.tr-store-location.rd-phone + .rd-note {
+		display: none;
+	}
+	.rd-responsive-template.rd-storelist .rd-old-note {
+		display: block;
+	}
+	.tr-store-adress.rd-phone {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.tr-store-location.rd-phone > td > table > tbody > tr:nth-child(2) {
+		margin-top: 0;
+	}
+
+}

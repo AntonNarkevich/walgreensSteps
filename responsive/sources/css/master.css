@@ -1,0 +1,151 @@
+link#rd-master-link {
+	visibility: hidden;
+}
+.review_rightpanel .container > #target {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    visibility: visible !important;
+}
+/*.body-back-image {
+	background: green;
+	-webkit-transform: scale(0.35);
+	-webkit-transform-origin: 0 0;
+}*/
+
+@media screen and (min-width:850px) {
+	body,
+	html.rd-checkout,
+	html.rd-htmlupload,
+	html.rd-htmlupload-confirm {
+		background: #cccccc !important;
+		height: auto !important;
+	}
+
+	.rd-body-content-wrapper,
+	body.rd-checkout,
+	body.rd-htmlupload,
+	body.rd-htmlupload-confirm {
+		max-width: 850px;
+		height: auto !important;
+		margin: 0 auto !important;
+		overflow-x: hidden;
+		background: white !important;
+		box-shadow: 0px 3px 2px 2px #e6e6e5;
+	}
+
+	.rd-header-checkout, .rd-footer {
+		max-width: 898px;
+		margin: 0 auto;
+	}
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*prevents text and image selection*/
+	-webkit-text-size-adjust: none; /*removes Android's highlighting of clickable elements*/
+	-webkit-highlight: none;
+}
+
+html body {
+	background: #ffffff;
+}
+
+body {
+	position: relative;
+}
+
+/* input text password */
+html input.rd-input.rd-text-input,
+html textarea.rd-input.rd-text-input,
+.rd-responsive-template .errorInput {
+	min-width: 120px;
+	height: 35px;
+	padding: 4px 10px;
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 2px 2px 4px 1px rgba(25, 25, 25, 0.2);
+	font-size: 1em;
+	line-height: 1.25em;
+}
+
+.rd-responsive-template .errorInput {
+	border: 5px solid #FCDCDA;
+}
+
+/* buttons */
+.rd-button {
+	font-family: ArialBold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 11px 30px;
+	background-position: 0;
+	text-align: center;
+	height: auto;
+	line-height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.rd-button.rd-blue-button {
+	color: #FFF;
+	border: solid 1px #6A737B;
+	background: linear-gradient(top, #439BD6 30%, #2774A6 70%);
+	background: -o-linear-gradient(top, #439BD6 30%, #2774A6 70%);
+	background: -moz-linear-gradient(top, #439BD6 30%, #2774A6 70%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.3, #439BD6), color-stop(0.7, #2774A6));
+	background: -webkit-linear-gradient(top, #439BD6 30%, #2774A6 70%);
+	background: -ms-linear-gradient(top, #439BD6 30%, #2774A6 70%);
+}
+
+.rd-button.rd-gray-button {
+	color: #2774A6;
+	border: 1px solid #D2D5D7;
+	background: linear-gradient(to bottom, #FFFFFF 30%, #EFEFEF 70%);
+	background: -o-linear-gradient(top, #FFFFFF 30%, #EFEFEF 70%);
+	background: -moz-linear-gradient(top, #FFFFFF 30%, #EFEFEF 70%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3, #FFFFFF), color-stop(0.7, #EFEFEF));
+	background: -webkit-linear-gradient(top, #FFFFFF 30%, #EFEFEF 70%);
+	background: -ms-linear-gradient(top, #FFFFFF 30%, #EFEFEF 70%);
+}
+
+/* Walgreens popups */
+
+#darkenScreenObject {
+	width: auto !important;
+	height: auto !important;
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+#LayerContainerDiv {
+	width: auto !important;
+}
+
+/* login popup, threshold popup */
+#LayerContainerDiv #storeWidgetLayer,
+#LayerContainerDiv #thresholdShippingLayer,
+#dynGifCardWindow,
+#LayerContainerDiv #securityCodeLayer {
+	left: 50% !important;
+	width: 480px !important;
+	margin-left: -240px;
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+
+	/* threshold popup */
+	#LayerContainerDiv #thresholdShippingLayer,
+	#dynGifCardWindow,
+	#LayerContainerDiv #securityCodeLayer {
+		width: 310px !important;
+		margin-left: -155px;
+	}
+}

@@ -1,0 +1,12 @@
+syntax: glob
+
+# build directories
+build
+
+# WS directories
+.idea
+
+# Other
+.DS_Store
+node_modules
+temp

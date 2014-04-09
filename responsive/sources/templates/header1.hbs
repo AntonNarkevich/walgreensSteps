@@ -1,0 +1,47 @@
+<div class="rd-header-mobile-wrapper">
+	<div class="rd-header-mobile">
+		<div class="rd-header-center">
+			<div class="rd-menu-button-phone rd-phone"></div>
+			<div class="rd-logo-wrapper"><a id="walgreenLink" href="{{logoLink}}"
+											class="rd-logo-link"></a><a href="{{subLogoLink}}"
+																		class="rd-logo-sublink"></a>
+			</div>
+			<div class="rd-header-links">
+				{{#if isLoggedIn}}
+					<a class="platinum-links rd-my-account" target="_top"
+					   href="{{myAccountBtn.link}}">{{myAccountBtn.text}}</a><a class="platinum-links rd-sign-out"
+																				target="_top"
+																				href="{{signOutBtn.link}}">{{signOutBtn.text}}</a>
+				{{else}}
+					<a class="platinum-links rd-register" target="_top"
+					   href="{{registerBtn.link}}">{{registerBtn.text}}</a><a class="platinum-links rd-sign-in"
+																			  target="_top"
+																			  href="{{signInBtn.link}}">{{signInBtn.text}}</a>
+				{{/if}}
+			</div>
+			<div class="rd-cart-wrapper"><span class="sprite-hdr carticon-grey rd-cart-icon"></span><span
+					class="platinum-hi rd-cart-count">{{cartCount}}</span><a target="_top"
+																			 class="platinum-links rd-cart-link"
+																			 href="{{cartBtnLink}}">Photo Checkout</a>
+			</div>
+		</div>
+		<div class="rd-menu-tablet">
+			{{#each menuItems}}
+				<div class="rd-menu-item-tablet"><a target="_top" href="{{link}}">{{text}}</a></div>
+			{{/each}}
+		</div>
+		<div class="rd-header-bottom">
+			<div class="rd-header-bottom-links">
+				<div class="rd-upload-link-wrapper"><a href="{{uploadBtn.link}}" class="rd-walgreennewupload"
+													   alt="Upload Photos"
+													   title="Upload Photos">{{uploadBtn.text}}</a>
+				</div>
+				<div class="rd-photos-link-wrapper"><a target="_top" href="{{photosBtn.link}}"
+													   class="rd-walgreennewmyphotos" alt="Your Photos"
+													   title="Your Photos">{{photosBtn.text}}</a>
+				</div>
+			</div>
+			<div class="rd-header-bottom-promo"></div>
+		</div>
+	</div>
+</div>

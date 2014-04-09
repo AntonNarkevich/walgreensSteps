@@ -1,0 +1,134 @@
+/*************************************************************** BASE CSS FOR TABLETS  **************************************************************/
+@media screen {
+	/*HIDING REDUNDANT CONTENT*/
+	html table.resp-main-header,
+	html body .rd-spacer-tr,
+	html tr.rd-25-off,
+	iframe[name="headeriframe"],
+	.nav-menu,
+	.storeleftnavborder{
+		display: none;
+	}
+
+	/*TRANSFORMS TABLES TO BLOCKS*/
+	.rd-content-wrapper,
+	.rd-content-wrapper table,
+	.rd-content-wrapper tbody,
+	.rd-content-wrapper tr,
+	.rd-content-wrapper th,
+	.rd-content-wrapper td {
+		display: block;
+		width: auto;
+		height: auto;
+	}
+
+	/*CONTENT BLOCKS*/
+	.rd-new-x-mas {
+		width: 100% !important;
+		height: auto !important;
+		min-height: 240px;
+		background-size: 100% 100% !important;
+		padding: 0 !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.rd-new-x-mas h1 {
+		width: auto !important;
+		padding: 20px !important;
+	}
+
+	.rd-50-off > img,
+	.rd-card-types > img {
+		width: 100%;
+		height: auto;
+	}
+
+	/*CARD TYPE ROWS*/
+	.rd-card-type-row > td {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+
+	.rd-card-type-row > td > a > img {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*BOTTOM PARAGRAPHS*/
+	.disclaimer {
+		clear: both;
+		font-size: 13px;
+	}
+
+	.rd-photo-card-info {
+		width: auto !important;
+	}
+
+	.rd-photo-card-info h2 {
+		font-size: 17px;
+		color: black;
+	}
+
+	.rd-photo-card-info p {
+		font-size: 15px;
+		color: black;
+	}
+
+	.rd-photo-card-info,
+	.disclaimer,
+	.rd-mobile-apps {
+		padding: 0 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	/*RESPONSIVE MENU STYLING*/
+	.cardshead1,
+	.rd-resp-menu {
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.rd-section {
+		margin-top: 10px;
+	}
+
+	.rd-heading {
+		color: #F87500;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	.rd-links {
+		margin-top: 5px;
+	}
+
+	.rd-links a,
+	.rd-links a:hover {
+		margin-right: 10px;
+		font-size: 15px;
+		display: inline-block;
+	}
+}
+
+/*************************************************************** BASE CSS FOR MOBILES  **************************************************************/
+@media screen and (max-width:669px) {
+	/*HIDING REDUNDANT CONTENT*/
+	html body .rd-new-x-mas,
+	html body .rd-50-off,
+	html body .text,
+	html body .rd-card-types {
+		display: none;
+	}
+
+	/*CARD TYPE ROWS*/
+	.rd-card-type-row > td {
+		width: 100%;
+	}
+}

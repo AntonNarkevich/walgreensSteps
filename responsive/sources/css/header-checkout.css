@@ -1,0 +1,40 @@
+link#rd-header-checkout-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	.rd-header-checkout-desktop {
+		display: none !important;
+	}
+
+	.rd-header-checkout {
+		position: relative;
+		padding: 20px 20px 0;
+		overflow: hidden;
+		background: white;
+	}
+
+	.rd-header-checkout .rd-top-logo {
+		float: left;
+	}
+
+	.rd-header-checkout .rd-bottom-logo {
+		clear: both;
+		float: left;
+	}
+
+	.rd-header-checkout img {
+		display: block;
+		float: none !important;
+		margin: -5px 0 0 152px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.rd-header-checkout {
+		padding: 15px 10px 0;
+		margin-bottom: -10px;
+	}
+}

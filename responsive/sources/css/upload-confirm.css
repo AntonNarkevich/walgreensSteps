@@ -1,0 +1,164 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	html {
+		position: relative;
+	}
+
+	body {
+		position: static !important;
+	}
+
+	body .container {
+		width: auto;
+	}
+
+	body > table >tbody > tr:first-child > td:first-child,
+	.body-back-image:first-child > tbody > tr:first-child > td:first-child,
+	.body-back-image:first-child > tbody > tr:first-child > td:last-child,
+	.body-back-image:first-child > tbody > tr:last-child {
+		display: none;
+	}
+
+	/** HEADER **/
+
+	#header {
+		padding: 20px 20px 0;
+	}
+
+	#header > table:not(#resp-checkoutHeader-statusBar) > tbody > tr > td:nth-child(2) {
+		position: relative;
+		height: 85px;
+		padding-left: 0 !important;
+		margin-bottom: 15px;
+	}
+
+	#wgnewLogo {
+		display: inline-block;
+	}
+
+	#wgnewLogo:after {
+		content: "Upload Photos";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 11px;
+		text-align: center;
+		font-size: 25px;
+		color: #F97601;
+	}
+
+	#header > table:not(#resp-checkoutHeader-statusBar) > tbody > tr > td:nth-child(3) img,
+	#header > table:not(#resp-checkoutHeader-statusBar) > tbody > tr > td:nth-child(4) {
+		display: none;
+	}
+
+	#resp-checkoutHeader-statusBar {
+		margin: 0 -20px;
+	}
+
+	/** END HEADER **/
+
+	/** MAIN CONTENT **/
+
+	.contentMaintd {
+		padding-top: 20px !important;
+	}
+
+	.body-back-image:first-child > tbody > tr:nth-child(2) > td:not(.contentMaintd),
+	.resp-confirmupload-maincontent > tbody > tr:nth-child(1),
+	.resp-confirmupload-maincontent > tbody > tr:nth-child(2),
+	.resp-confirmupload-mainarea > tbody > tr:first-child,
+	.resp-confirmupload-mainarea > tbody > tr:last-child,
+	.resp-confirmupload-information > tbody > tr:nth-child(odd),
+	.resp-confirmupload-picturelist > td:not(.resp-confirmupload-img),
+	.resp-confirmupload-moreoptions > tbody > tr:nth-child(odd),
+	.resp-confirmupload-confirm > td:nth-child(2),
+	.resp-confirmupload-confirm > td:nth-child(3),
+	.contentMaintd > img {
+		display: none;
+	}
+
+	.resp-confirmupload-dottedGrey,
+	.resp-confirmupload-dottedblue {
+		margin: 20px 0;
+	}
+
+	.resp-confirmupload-img {
+		display: inline-block !important;
+		margin: 0 20px 20px;
+	}
+
+	.resp-confirmupload-nextaction > td {
+		font-size: 0;
+	}
+
+	.resp-confirmupload-nextaction a {
+		display: inline-block;
+	}
+
+	/** END MAIN CONTENT **/
+
+	/** FOOTER **/
+
+	.resp-footerplain-spacing,
+	body > p:last-child {
+		display: none !important;
+	}
+
+	.resp-footerplain-main {
+		text-align: center;
+		padding: 15px 0;
+		background: rgb(246, 246, 246) !important;
+		-webkit-box-shadow: inset 0px 4px 10px 0px rgba(25, 25, 25, 0.2);
+	}
+
+	/** END FOOTER **/
+
+	/** UPLOADING POPUP **/
+
+	#UploadProgressLayer {
+		width: 320px !important;
+		left: 50% !important;
+		margin-left: -160px !important;
+	}
+
+	/** END UPLOADING POPUP **/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	/** HEADER **/
+
+	#header {
+		padding: 15px 10px 0;
+	}
+
+	#header > table:not(#resp-checkoutHeader-statusBar) > tbody > tr > td:nth-child(2) {
+		height: auto;
+	}
+
+	#wgnewLogo:after {
+		position: static;
+	}
+
+	#resp-checkoutHeader-statusBar {
+		margin: 0 -10px;
+	}
+
+	/** END HEADER **/
+
+	/** MAIN CONTENT **/
+
+	.resp-confirmupload-nextaction a {
+		width: 100%;
+	}
+
+	.resp-confirmupload-img {
+		display: block !important;
+		margin: 0 0 30px;
+	}
+
+	/** END MAIN CONTENT **/
+}

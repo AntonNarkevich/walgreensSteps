@@ -1,0 +1,310 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	html {
+		position: relative;
+	}
+
+	body {
+		position: static !important;
+	}
+
+	body .container {
+		width: auto;
+	}
+
+	/** HEADER **/
+
+	#header > *:not(#resp-checkoutHeader-statusBar) {
+		display: none;
+	}
+
+	.rd-header-checkout {
+		margin-bottom: 0 !important;
+	}
+
+	.rd-bottom-logo:after {
+		content: "Upload Photos";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 20px;
+		text-align: center;
+		font-size: 25px;
+		color: #F97601;
+	}
+
+	/** END HEADER **/
+
+	/** MAIN CONTENT **/
+
+	body .body-container {
+		padding: 10px 0 0;
+		margin: 0 20px 40px;
+		font-size: 15px;
+	}
+
+	.resp-htmlupload-instructions {
+		display: none;
+	}
+
+	body .subheading-blue {
+		font-size: 18px;
+	}
+
+	/** album details **/
+	.ExistingAlbum,
+	.resp-htmlupload-photocorrection,
+	.resp-htmlupload-moreinfo,
+	.body-container > br {
+		display: none;
+	}
+
+	body .line-bg {
+		width: auto;
+		height: 0px;
+		border-top: dotted 2px #E4E4E4;
+		margin-bottom: 20px;
+	}
+
+	.resp-htmlupload-albumdetails, .resp-htmlupload-albumdate {
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	.resp-htmlupload-albumdate + div.clear {
+		display: none;
+	}
+
+	#albumDetailsShowLink,
+	#albumDetailsHideLink {
+		line-height: 35px;
+		margin-left: 5px;
+	}
+
+	#albumDetailsHideText {
+		vertical-align: middle;
+	}
+
+	#albumDate {
+		border: 1px solid #CCCCCC !important;
+		height: 35px !important;
+	}
+
+	#albumDesc {
+		height: 70px;
+	}
+
+	body .resp-htmlupload-maxlimit {
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	/** end album details **/
+
+	/** photos **/
+
+	body .resp-htmlupload-maincontent {
+		margin: 15px 0 !important;
+	}
+
+	body .padding1 {
+		margin: 0;
+	}
+
+	.resp-htmlupload-upload {
+		margin-bottom: 10px;
+	}
+
+	.resp-htmlupload-addfiles > table > tbody > tr:not(.resp-htmlupload-upload),
+	.resp-htmlupload-upload > td:first-child {
+		display: none;
+	}
+
+	.resp-htmlupload-upload > td:nth-child(2),
+	.resp-htmlupload-upload > td:nth-child(3) {
+		display: inline-block;
+	}
+
+	.resp-htmlupload-upload > td:nth-child(2) {
+		width: 90px;
+	}
+
+	.resp-htmlupload-upload > td:nth-child(2) font,
+	.resp-htmlupload-upload > td:nth-child(3) input {
+		font-size: 15px;
+	}
+
+	/** end photos **/
+
+	/** input file styles **/
+
+	.rd-input-file-wrapper {
+		display: inline-block;
+		position: relative;
+		margin-right: 15px;
+	}
+
+	.rd-input-file-wrapper:after {
+		content: "Choose File";
+	}
+
+	.rd-input-file-wrapper input {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 10000;
+		opacity: 0;
+	}
+
+	/** end input file styles **/
+
+	/** bottom content **/
+
+	.resp-htmlupload-addfiles + td,
+	.resp-htmlupload-needhelp > table > tbody > tr:not(:last-child) {
+		display: none !important;
+	}
+
+	.resp-htmlupload-copyright {
+		text-align: right;
+	}
+
+	body .buttons {
+		width: auto;
+	}
+
+	.resp-htmlupload-cancel img {
+		display: none;
+	}
+
+	.resp-htmlupload-cancel:before {
+		content: "< Cancel";
+		float: left;
+		line-height: 44px;
+	}
+
+	/** end bottom content **/
+
+	/** END MAIN CONTENT **/
+
+	/** FOOTER **/
+
+	body > p:last-child {
+		display: none !important;
+	}
+
+	/** END FOOTER **/
+
+	/** UPLOADING POPUP **/
+
+	#UploadProgressLayer {
+		width: 320px !important;
+		left: 50% !important;
+		margin-left: -160px !important;
+	}
+
+	/** END UPLOADING POPUP **/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	/** HEADER **/
+
+	.rd-header-checkout .rd-bottom-logo {
+		width: auto;
+		margin-bottom: 40px;
+	}
+
+	.rd-bottom-logo:after {
+		position: static;
+		margin-top: 50px;
+		display: block;
+	}
+
+	/** END HEADER **/
+
+	/** MAIN CONTENT **/
+
+	body .body-container {
+		margin: 0 10px 30px;
+	}
+
+	#albumTitle {
+		width: 100%;
+	}
+
+	body .left-colum {
+		float: none;
+		width: auto;
+		margin: 0 0 10px;
+		text-align: left;
+	}
+
+	body .right-colum {
+		float: none;
+	}
+
+	#albumDetailsShowLink, #albumDetailsHideLink {
+		margin-left: -5px;
+	}
+
+	#albumDetailsDiv {
+		margin-top: -20px;
+	}
+
+	#datePickerImg {
+		position: relative;
+		height: 35px;
+	}
+
+	#albumDate {
+		position: absolute;
+		left: 0;
+		right: 45px;
+	}
+
+	#datePickerImg img {
+		float: right;
+		margin-top: 5px !important;
+	}
+
+	.resp-htmlupload-albumdescription br {
+		display: none;
+	}
+
+	.resp-htmlupload-albumdescription .left-colum b {
+		margin-left: 5px;
+	}
+
+	#albumDesc {
+		width: 100%;
+		margin: 0;
+	}
+
+	.resp-htmlupload-maxlimit .left-colum {
+		display: none;
+	}
+
+	.resp-htmlupload-cancel:before {
+		float: right;
+		line-height: initial;
+		margin-bottom: 20px;
+	}
+
+	body .resp-htmlupload-uploadimg {
+		display: block;
+		width: 100%;
+	}
+
+	/* date picker */
+	.yui-panel-container {
+		left: initial !important;
+		right: 50px !important;
+	}
+
+	/** END MAIN CONTENT **/
+}

@@ -1,0 +1,243 @@
+link#rd-footer1-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	#resp-footer-main, #resp-footer-Copyrights, #footer, #resp-footer-Copyrights ~ p {
+		display: none;
+	}
+
+	body.swift-old > span {
+		display: none !important;
+	}
+
+	html body .rd-footer {
+		padding: 20px 20px 0;
+		background-image: linear-gradient(top, #f6f4f5 0, #ffffff 100%);
+		background-image: -o-linear-gradient(top, #f6f4f5 0, #ffffff 100%);
+		background-image: -moz-linear-gradient(top, #f6f4f5 0, #ffffff 100%);
+		background-image: -webkit-linear-gradient(top, #f6f4f5 0, #ffffff 100%);
+		background-image: -ms-linear-gradient(top, #f6f4f5 0, #ffffff 100%);
+	}
+
+	/* search */
+
+	.swift-old .rd-footer-search {
+		display: none;
+	}
+
+	html body .rd-footer-search {
+		display: table;
+		width: 100%;
+		padding: 0 !important;
+		overflow: hidden;
+	}
+
+	.rd-search-exist .rd-footer-search {
+		margin-bottom: 15px;
+	}
+
+	html body .rd-footer-search-text-box, html body .rd-footer-search-button {
+		display: table-cell;
+		vertical-align: top;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html body .rd-footer-search-text-box {
+		background: #E7E7E7;
+	}
+
+	.rd-search-exist .rd-footer-search-text-box {
+		padding: 5px;
+	}
+
+	html body .rd-footer-search-button {
+		width: 14%;
+		min-width: 100px;
+	}
+
+	html body #googleSrhQuery {
+		width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 33px;
+	}
+
+	html body #searchNow {
+		width: auto;
+		height: 44px;
+		line-height: 44px;
+		text-align: center;
+		background: #f47e37;
+		color: #ffffff;
+		font-size: 16px;
+	}
+
+	/* footer accordion*/
+
+	html body .rd-footer-links h1 {
+		display: inline-block;
+		min-height: 38px;
+		line-height: 40px;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: arial, verdana, serif;
+		text-transform: uppercase;
+		background: none;
+		border: none;
+		padding: 0;
+		color: rgb(70, 70, 70);
+	}
+
+	html body .rd-footer-links h1 i {
+		position: static;
+		color: rgb(70, 70, 70);
+		font-size: 11px;
+		margin-left: 8px;
+	}
+
+	html body .rd-footer-links li {
+		padding: 0;
+		border-bottom: 1px solid #DDD;
+		display: inline-block;
+		margin-right: 30px;
+		text-transform: none;
+		border: none;
+	}
+
+	html body .rd-footer-links li a {
+		color: #464646;
+		font-size: 15px;
+	}
+
+	html body .rd-footer-links li a i {
+		display: none;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 br {
+		display: none;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 a {
+		color: #2774A6 !important;
+		margin-left: 8px;
+		text-transform: none;
+		text-decoration: none !important;
+		font-size: 15px !important;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 i {
+		font-size: 7px;
+		color: #006a9d;
+	}
+
+	/* copyright */
+
+	html body .rd-footer-bottom {
+		-webkit-box-shadow: inset 0px 4px 10px 0px rgba(25, 25, 25, 0.2);
+		padding: 20px 10px 30px;
+		margin: 0 -20px;
+		text-align: center;
+	}
+
+	html body .rd-footer-bottom-links {
+		margin-bottom: 10px;
+	}
+
+	html body .rd-footer-bottom-links a, html body a.footerblack:hover {
+		padding: 0 5px;
+		border-right: solid 1px #bbbbbb;
+		color: #464646;
+		text-decoration: none;
+		font-size: 14px;
+		border-radius: 0;
+	}
+
+	html body .rd-footer-bottom-links a,
+	html body .rd-footer-bottom-copyrights {
+		font-size: 13px;
+	}
+
+	html body .rd-footer-bottom-links a:last-child {
+		border: none;
+	}
+
+	.rd-full-site-link {
+		background: none !important;
+		width: auto !important;
+		height: auto !important;
+		line-height: initial !important;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	html body .rd-footer {
+		padding: 13px 10px 0;
+	}
+
+	html body .rd-footer-search-button {
+		width: 25%;
+		min-width: 75px;
+	}
+
+	html body .rd-footer-bottom {
+		margin: 0 -10px;
+	}
+
+	html body .rd-footer-links h1 {
+		display: block;
+	}
+
+	html body .rd-footer-links ul {
+		margin-bottom: 10px;
+	}
+
+	html body .rd-footer-links li {
+		display: list-item;
+	}
+
+	html body .rd-footer-links li a {
+		display: inline-block;
+	}
+
+	html body .rd-footer-links > nav {
+		border-top: solid 1px #d8d8d8;
+		margin: 0 -10px;
+		padding: 0 10px;
+	}
+
+	html body .rd-footer-links > nav h1 i {
+		position: absolute;
+		right: 0;
+		top: 9px;
+		font-size: 16px;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 {
+		padding: 10px 0;
+		line-height: initial;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 i {
+		position: static;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+	html body .rd-footer-links > nav:last-child h1 br {
+		display: inline;
+	}
+
+	html body .rd-footer-links > nav:last-child h1 a {
+		display: inline-block;
+		margin: 5px 0 0;
+	}
+}

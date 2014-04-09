@@ -1,0 +1,639 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	/*TODO: move this to master*/
+	input[type="checkbox"] {
+		-ms-transform: scale(2);
+		-moz-transform: scale(2);
+		-webkit-transform: scale(2);
+		-o-transform: scale(2);
+
+		margin: 0;
+	}
+
+	/*TODO: Make up mind about the common approach to the popups*/
+	body.resp-dimmer-appended {
+		overflow-y: hidden;
+	}
+
+	/*TODO: This should be placed in master.css*/
+	/*or somehow like .responsive-template span*/
+	.swift-old span,
+	.swift-old a {
+		font-size: 15px;
+	}
+
+	/*Hiding elements*/
+	.quickaccess,
+	.help-icon,
+	.search-box,
+	.main-links,
+	.nav-line,
+	.toggle-buttons,
+	.da-lib iframe[name="savevideo"],
+	.rd-responsive-template .libraryactionbar .help-icon,
+	.rd-responsive-template .albumsgridview .album-container .onhover .album-icon-box,
+	.rd-responsive-template .albumsgridview .album-container .onhover .disabled-icons,
+	.rd-responsive-template .albumsgridview .album-container .onactive .album-icon-box,
+	.rd-responsive-template .albumsgridview .album-container .onactive .disabled-icons {
+		display: none;
+	}
+
+	/***Content wrapper***/
+	/*Fixing widths*/
+	.rd-responsive-template .swift-old .organizer .swift .container .body-container,
+	.rd-responsive-template .swift .body-top-container,
+	.rd-responsive-template .swift-old .organizer .swift .container,
+	.rd-responsive-template .da-lib {
+		width: auto;
+	}
+
+	/*Fixing min-height*/
+	.body-container>div:first-child,
+	.da-lib {
+		min-height: inherit !important;
+	}
+
+	/*Removing margins and paddings*/
+	.rd-responsive-template .swift-old .organizer .swift .container .body-container,
+	.rd-responsive-template .swift .body-top-container,
+	.rd-responsive-template .da-lib .dal-two-col-row {
+		margin: 0;
+		padding: 0;
+	}
+
+	.rd-responsive-template .swift-old .organizer .swift .container .body-container {
+		margin: 20px 20px 40px 20px;
+	}
+
+	/***Side bar***/
+	.rd-responsive-template .dal-two-col-row .dal-col-left {
+		margin-left: -100%;
+	}
+
+	/*Fixing the problem with different height of the tabs*/
+	.assetsdirectory div.tabs {
+		margin-top: 0;
+	}
+
+	.rd-responsive-template .assetsdirectory div.tabs a span {
+		z-index: 2;
+		padding: 0;
+		line-height: 42px;
+	}
+
+	.assetsdirectory div.tabs a.active span {
+		z-index: 4;
+		border-bottom: transparent;
+	}
+
+	.rd-responsive-template .assetsdirectory .tabs a.active span,
+	.assetsdirectory div.tabs a span {
+		position: relative;
+		top: 2px;
+		font-size: 15px;
+	}
+
+	.rd-responsive-template .assetsdirectory {
+		margin-top: -2px;
+	}
+
+	.rd-responsive-template .assetsdirectory div.tabs a.friends {
+		top: 0;
+	}
+
+	/*The list of the albums*/
+	.rd-responsive-template .assetsdirectory .albums-div-scroll {
+		height: auto;
+	}
+
+	.rd-responsive-template .assetsdirectory .tab-container {
+		min-height: 383px;
+		margin-top: 0;
+		width: 158px;
+		background: white;
+		position: relative;
+		z-index: 3;
+	}
+
+	.rd-responsive-template .assetsdirectory .friends-div-node,
+	.rd-responsive-template .assetsdirectory .friends-div-node:hover {
+		min-height: inherit;
+		height: auto
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-container h5 a,
+	.rd-responsive-template .assetsdirectory .friends-albums h5 a {
+		color: #2774A6;
+		font-size: 15px;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-node ul li a {
+		color: #2774A6;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		width: 100%;
+
+		word-wrap: break-word;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-node {
+		padding-top: 18px;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-node ul li ul li {
+		margin-top: 20px;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-node ul li ul li:first-child {
+		margin-top: 0;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-scroll:hover {
+		height: auto;
+	}
+
+	.rd-responsive-template .assetsdirectory .albums-div-scroll {
+		overflow: auto;
+	}
+
+	/*Main content*/
+	.albumsgridview .albumHeader {
+		padding-top: 10px;
+		font-size: 26px;
+	}
+
+	.albumsgridview .albumHeader span[id$="oneFriendsAlbumsTitle"] {
+		font-size: 26px;
+	}
+
+	.rd-responsive-template .swift .album-caption {
+		margin: 0;
+		margin-bottom: 5px;
+	}
+
+	.rd-responsive-template .albumHeader span[id$="albsInfo"],
+	.rd-responsive-template .albumHeader span[id$="albsInfo"] span {
+		font-size: 15px;
+	}
+
+	/*Fixing width*/
+	.rd-responsive-template .dal-col-right-multi .dal-multi-assets-view-container,
+	.rd-responsive-template .libraryactionbar,
+	.rd-responsive-template .libraryactionbar .library-actionbar-main-col,
+	.rd-responsive-template .swift .col-9,
+	.rd-responsive-template .libraryactionbar .action-bar,
+	.rd-responsive-template .albums-view,
+	.rd-responsive-template .dal-two-col-row .dal-col-right-multi {
+		width: auto;
+	}
+
+	.rd-responsive-template .dal-two-col-row .dal-col-right {
+		float: left;
+		width: 100%;
+	}
+
+	.rd-responsive-template .dal-two-col-row .dal-col-right {
+		padding-left: 0;
+	}
+
+	.rd-responsive-template .dal-two-col-row .dal-col-right .dal-multi-assets-view-container {
+		margin-left: 168px;
+	}
+
+	.rd-responsive-template .libraryactionbar .library-actionbar-main-col .clear {
+		display: none;
+	}
+
+	.rd-responsive-template .swift .col-9 {
+		float: none;
+	}
+
+	/***Album images***/
+	.album-container {
+		background: #FFF;
+	}
+
+	/*Removing hover functionality*/
+	.albumsgridview .album-container .onactive {
+		/*border: 0;*/
+		background: #FFF;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .onhover {
+		border: 2px solid #FFF;
+	}
+
+	/*Alligning*/
+	.rd-responsive-template .albumsgridview .album-container {
+		padding: 0;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album {
+		margin-left: 6px;
+		margin-right: 6px;
+		width: 205px;
+		height: 184px;
+		background: white;
+	}
+
+	/*Resizing*/
+	.rd-responsive-template .albumsgridview .album-container .album .album-image-box .square-img {
+		width: 96px;
+		height: 96px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-image-box {
+		height: 120px;
+		width: 120px;
+		background: url("../images/album_120x120.png") no-repeat;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-owned,
+	.rd-responsive-template .albumsgridview .album-container .album .album-favorite,
+	.rd-responsive-template .albumsgridview .album-container .album .album-favorite-empty,
+	.rd-responsive-template .albumsgridview .album-container .album .album-shared {
+		width: 120px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .checkbox {
+		top: 13px;
+		left: 10px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-caption a,
+	.rd-responsive-template .albumsgridview .album-container .album .your-favorites-title a {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	/***Filters***/
+	.rd-responsive-template .libraryactionbar .action-bar {
+		margin-bottom: 0;
+		position: relative;
+		padding: 15px;
+		border-color: #E4E4E4;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		width: 100%;
+		height: 57px;
+
+		background-size: 3px 55px;
+
+		display: none;
+	}
+
+	.rd-responsive-template .resp-expand-filters-button {
+		width: 117px;
+		height: 44px;
+		color: #464646;
+
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		border: solid 1px #D2D5D7;
+		border-radius: 4px;
+		background: #EFEFEF;
+		background-image: linear-gradient(to bottom, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -o-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EFEFEF));
+		background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+
+		vertical-align: top;
+	}
+
+	.resp-expand-filters-button:before {
+		background-image: url("../images/arrow-down@2x.png");
+		background-size: 13px 8px;
+		width: 13px;
+		height: 8px;
+		float: right;
+		content: "";
+		margin-top: 6px;
+		margin-right: 12px;
+	}
+
+	.resp-expand-filters-button.resp-albums-view-expanded:before {
+		background-image: url("../images/arrow-up@2x.png");
+	}
+
+	.resp-expand-filters-button:active {
+		background: #EFEFEF;
+	}
+
+	/*Share button*/
+	.rd-responsive-template .resp-share-button {
+		display: inline-block;
+		width: 110px;
+		height: 35px;
+		padding-left: 7px;
+		padding-top: 7px;
+		margin-left: 25px;
+
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 16px;
+		color: #2774A6;
+		border: solid 1px #D2D5D7;
+		border-radius: 4px;
+		background-image: linear-gradient(to bottom, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -o-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EFEFEF));
+		background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	}
+
+	.rd-responsive-template span[id$="shareButton"] a span span {
+		color: #2774A6;
+		font-size: 16px;
+	}
+
+	/*Dropdown menu*/
+	.rd-responsive-template .action-bar .pushright-1 {
+		margin-right: 8px;
+	}
+
+	.action-bar select {
+		height: 30px;
+	}
+
+	.rd-responsive-template .libraryactionbar .sort-menu {
+		margin-top: 0;
+	}
+
+	.action-bar div:first-child>span>span:last-child {
+		position: absolute;
+		top: 15px;
+		left: 61%;
+		right: 0;
+	}
+
+	.action-bar div:first-child>span>span:last-child select {
+		position: absolute;
+		left: 36px;
+		right: 7px;
+	}
+
+	.action-bar div:first-child>span>span:first-child {
+		position: absolute;
+		left: 13px;
+		top: 15px;
+		right: 39%;
+	}
+
+	/*View*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(1) {
+	}
+
+	/*From select wrapper*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(2) {
+		position: absolute;
+		left: 38px;
+		right: 50%;
+	}
+
+	/*From select*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(2) select {
+		position: absolute;
+		left: 0;
+		right: 0;
+		line-height: 12px;
+	}
+
+	/*to*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(3) {
+		position: absolute;
+		left: 50%;
+	}
+
+	/*To select wrapper*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(4) {
+		position: absolute;
+		right: 0;
+		left: 50%;
+	}
+
+	/*To select*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(4) select {
+		position: absolute;
+		left: 20px;
+		right: 0;
+	}
+
+	/***Share popup window***/
+	/*Fixing width*/
+	.yui-panel-container .sfPanel {
+		width: 620px !important;
+	}
+
+	.panelIframe {
+		width: 598px;
+		height: 645px;
+		min-height: 637px;
+		display: block;
+	}
+
+	/*Centralizing*/
+	.sfPanelWrapper.panelIframe {
+		width: 100%;
+		top: 100% !important;
+	}
+
+	.rd-responsive-template .yui-panel-container {
+		left: 50% !important;
+		width: 620px;
+		margin-left: -310px;
+	}
+
+	/*.rd-responsive-template .panelIframe .yui-panel-container {*/
+		/*width: 620px;*/
+		/*margin-left: -310px;*/
+	/*}*/
+
+	.yui-skin-sam .yui-panel.wait-panel {
+		position: absolute;
+		left: 50%;
+		margin-left: -120px;
+	}
+
+	.rd-responsive-template body.yui-skin-sam .yui-panel .bt {
+		display: none;
+	}
+
+	/***Oops popup!***/
+	.sfPanelWrapper {
+		position: absolute !important;
+		right: 0;
+	}
+
+	.swift .button-01-s:hover span {
+		font-size: 12px !important;
+		padding: 3px 12px 6px 0px !important;
+		margin: 0 0 0 15px !important;
+		height: 20px !important;
+		text-transform: uppercase !important;
+	}
+
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	/***Content wrapper***/
+	.rd-responsive-template .swift-old .organizer .swift .container .body-container {
+		margin: 15px 10px 30px 10px;
+	}
+
+	/***Hiding elements***/
+	.toggle-buttons,
+	.rd-responsive-template span[id$="shareButton"] {
+		display: none;
+	}
+
+	.rd-responsive-template .dal-two-col-row .dal-col-right {
+		float: none;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .checkbox {
+		display: none;
+	}
+
+	/***Album header***/
+	.rd-responsive-template .albumsgridview .albumHeader {
+		font-size: 20px;
+	}
+
+	/***Side bar***/
+	.rd-responsive-template .dal-two-col-row .dal-col-left {
+		margin-top: 55px;
+		margin-left: 0;
+		width: auto;
+		float: none;
+	}
+
+	.rd-responsive-template .assetsdirectory,
+	.rd-responsive-template .assetsdirectory .tabs,
+	.rd-responsive-template .assetsdirectory .tab-container {
+		width: auto;
+	}
+
+	.rd-responsive-template .assetsdirectory .tabs .yours,
+	.rd-responsive-template .assetsdirectory .tabs .friends {
+		width: 48.3%;
+	}
+
+	/*The list of the albums*/
+	.rd-responsive-template .assetsdirectory .tab-container {
+		min-height: 115px;
+	}
+
+	/***Main content***/
+	.rd-responsive-template .dal-two-col-row .dal-col-right .dal-multi-assets-view-container {
+		margin-left: 0;
+	}
+
+	/***Album images***/
+	/*Resizing*/
+	.rd-responsive-template .albumsgridview .album-container .album .album-image-box .square-img {
+		width: 104px;
+		height: 104px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-image-box {
+		height: 134px;
+		width: 134px;
+		background: url("../images/album_134x134.png") no-repeat;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-image-box .square-img {
+		margin: 13px 0 0 13px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album .album-owned,
+	.rd-responsive-template .albumsgridview .album-container .album .album-favorite,
+	.rd-responsive-template .albumsgridview .album-container .album .album-favorite-empty,
+	.rd-responsive-template .albumsgridview .album-container .album .album-shared {
+		width: 134px;
+	}
+
+	.rd-responsive-template .albumsgridview .album-container .album {
+		margin-left: 0;
+		margin-right: 12px;
+		width: 220px;
+		height: 205px;
+	}
+
+	/***Filters***/
+	.rd-responsive-template .libraryactionbar .icons-button.share-icon {
+		display: none;
+	}
+
+	.rd-responsive-template .resp-expand-filters-button {
+		width: 100%;
+	}
+
+	.resp-expand-filters-button:before {
+		margin-right: 12px;
+	}
+
+	.resp-expand-filters-button.resp-albums-view-expanded {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	.rd-responsive-template .libraryactionbar .action-bar {
+		height: 120px;
+		background-size: 3px 118px;
+		border-top: 1px solid transparent;
+	}
+
+	/*Dropdown menues*/
+	.action-bar div:first-child>span>span:last-child {
+		position: absolute;
+		top: 69px;
+		left: 15px;
+	}
+
+	.action-bar div:first-child>span>span:first-child {
+		right: 0;
+	}
+
+	/*To select wrapper*/
+	.action-bar div:first-child>span>span:first-child>span:nth-child(4) {
+		margin-right: 0;
+		right: 7px;
+		left: 50%;
+	}
+
+	.albums-view.resp-albums-view-expanded {
+		margin-top: 122px;
+	}
+
+	/***Popups***/
+	.rd-responsive-template .yui-panel-container {
+		left: 50% !important;
+		width: 310px;
+		margin-left: -155px;
+	}
+
+	.yui-panel-container .sfPanel {
+		width: 310px !important;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+	.rd-responsive-template .albumsgridview .album-container .album {
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+}

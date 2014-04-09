@@ -1,0 +1,197 @@
+<script>
+	window.isBrowserAllowed = true;
+
+	if(navigator.userAgent.match(/MSIE|Trident/)) {
+		window.isBrowserAllowed = false;
+	}
+
+	if(navigator.userAgent.match(/Windows Phone/)) {
+		window.isBrowserAllowed = true;
+	}
+</script>
+
+<!--[if !IE]><!-->
+<script>
+	if(/*@cc_on!@*/false) {
+		window.isBrowserAllowed = true;
+	}
+</script>
+<!--<![endif]-->
+
+<script>
+	(function (src, clientMapSrc) {
+		if(window.capturingInlineScript) {
+			return;
+		}
+		window.capturingInlineScript = true;
+
+		var hideHtml = function () {
+			document.getElementsByTagName("html")[0].style.display = "none";
+		};
+
+		var showHtml = function () {
+			document.getElementsByTagName("html")[0].style.display = "block";
+		};
+
+		var callback = function (clientMapSrc) {
+			RD.eventManager.on("cancelStart", function () {
+				RD.eventManager.on("domReady", function () {
+					var imgs = document.querySelectorAll("img"),
+							mobileImgsSelectors = [
+								".rd-target-tablet img",
+								".rd-target-phone img",
+								"img.rd-target-tablet",
+								"img.rd-target-phone"
+							];
+
+					// walgreens specific
+					var wgMobileImagesSelectors = [
+						".resp-header-promoMobile img",
+						".resp-header-promoTablet img",
+						"[class*=resp-welcome-caraousel-] img",
+						"[class*=resp-welcome-offer] img"
+					];
+
+					mobileImgsSelectors = mobileImgsSelectors.concat(wgMobileImagesSelectors);
+
+					var mobileImgs = document.querySelectorAll(mobileImgsSelectors.join(","));
+
+					for(var i = 0; i < imgs.length; i++) {
+						var isExists = false,
+								img = imgs[i];
+
+						for(var j = 0; j < mobileImgs.length; j++) {
+							var mobileImg = mobileImgs[j];
+							if(img === mobileImg) {
+								isExists = true;
+								break;
+							}
+						}
+
+						if(!isExists) {
+							var ogImage = img.getAttribute("old-src");
+							if(ogImage) {
+								img.setAttribute("src", ogImage);
+							}
+						}
+					}
+				});
+			});
+
+			window.showHtml();
+
+			responsify.start({
+				clientMapSrc: clientMapSrc,
+				mobileOnly: true
+			});
+		};
+
+		var customChecking = function () {
+			return window.isBrowserAllowed && location.href.indexOf("walgreens/compose/") === -1 && location.href.indexOf("walgreens/sharealbum/") === -1;
+		};
+
+		var touchChecking = function () {
+			return (("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch);
+		};
+
+		var runPreprocessing = function () {
+			if(window.responsive && window.responsive.capturing || false) {
+				// Initiate capture
+				RD.initCapture();
+				RD.capture.init(function (capture) {
+					var capturedDoc = capture.capturedDoc;
+					var imgs = capturedDoc.getElementsByTagName("img");
+
+					for(var i = 0; i < imgs.length; i++) {
+						var img = imgs[i];
+						var ogImage = img.getAttribute("x-src");
+						img.setAttribute("x-src", "");
+						img.setAttribute("old-src", ogImage);
+					}
+
+					// Render source DOM to document
+					capture.renderCapturedDoc();
+				});
+			}
+		};
+
+		var createScript = function (scriptElement, elId, elClass, options) {
+			var script = document.getElementsByTagName("script")[0];
+
+			if(options.src) {
+				scriptElement.src = options.src
+			} else if(options.innerHTML) {
+				if(navigator.appName == "Microsoft Internet Explorer") {
+					scriptElement.text = options.innerHTML
+				} else {
+					scriptElement.innerHTML = options.innerHTML
+				}
+			}
+			scriptElement.id = elId;
+			scriptElement.setAttribute("class", elClass);
+			script.parentNode.insertBefore(scriptElement, script);
+		};
+
+		var doCapturing = function () {
+			document.write("<plaintext style=\'display:none\'>");
+
+			setTimeout(function () {
+				window.responsive = {};
+				window.responsive.capturing = true;
+
+				var responsiveScript = document.createElement("script");
+
+				responsiveScript.onload = function () {
+					if(callback) {
+						var mainScript = document.createElement("script");
+						var innerHtml = "var rdMain=" + runPreprocessing + "," +
+								"rdCallback=" + callback + "," +
+								"showHtml=" + showHtml + "," +
+								"capturing=window.responsive && window.responsive.capturing || false;" +
+								"rdMain();" +
+								"if(!capturing){setTimeout(function(){rdCallback(\'" + clientMapSrc + "\');}); }";
+
+						createScript(mainScript, "responsive-executable", "responsive", {innerHTML: innerHtml})
+					}
+				};
+				createScript(responsiveScript, "responsive-js", "responsive", {src: src});
+			});
+		};
+
+		var doWithoutCapturing = function () {
+			setTimeout(function () {
+				var script = document.getElementsByTagName("script")[0],
+						responsiveScript = document.createElement("script");
+
+				responsiveScript.src = src;
+				responsiveScript.id = "responsive-js";
+				responsiveScript.setAttribute("class", "responsive");
+				responsiveScript.onload = function () {
+					showHtml();
+
+					responsify.start({
+						clientMapSrc: clientMapSrc,
+						mobileOnly: true
+					});
+				};
+
+				script.parentNode.insertBefore(responsiveScript, script);
+			});
+		};
+
+		// prevent from content flickering
+		hideHtml();
+
+		if(touchChecking() && window.isBrowserAllowed) {
+			if(customChecking()) {
+				doCapturing();
+			} else {
+				doWithoutCapturing();
+			}
+		} else if(window.isBrowserAllowed) {
+			doWithoutCapturing();
+		} else {
+			showHtml();
+		}
+	})("//responsive-production.s3.amazonaws.com/v1.3/js/5thfinger.responsive.js", "//responsive-qa.s3.amazonaws.com/walgreens/sources/js/clientMap.js");
+</script>

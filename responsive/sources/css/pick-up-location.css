@@ -1,0 +1,173 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	html, body {
+		height: 100%;
+		overflow: hidden;
+	}
+	form, #wgstoreslist {
+		overflow: hidden;
+	}
+	.rd-responsive-template.rd-storelist > table,
+	.rd-responsive-template.rd-storelist > tbody,
+	.rd-responsive-template.rd-storelist > tr,
+	.rd-responsive-template.rd-storelist > td,
+	.rd-responsive-template.rd-storelist > th {
+		height: auto;
+		overflow: hidden;
+	}
+	img[src$="spacer.gif"],
+	img[src$="StoreLocator-logo.png"] {
+		display: none;
+	}
+	.rd-responsive-template.rd-storelist > iframe {
+		display: none !important;
+	}
+	.rd-responsive-template.rd-storelist > form {
+		/*height: 100%;
+		width: 100%;*/
+	}
+	.sprite-hdr.walgreennewlogo-bot {
+		display: none;
+	}
+	body > form {
+		display: none;
+	}
+	body > table,
+	body > table > tbody,
+	body > table > tbody > tr,
+	body > table > tbody > tr > td:nth-child(2),
+	body > table > tbody > tr > td:nth-child(2) > form:first-child,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody > tr:nth-child(4),
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody > tr:nth-child(4) > td,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody > tr:nth-child(4) > td > table,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody > tr:nth-child(4) > td > table > tbody,
+	body > table > tbody > tr > td:nth-child(2) > form:first-child > div > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(3) {
+		height: 100% !important;
+		/*overflow: hidden;
+		background-color: rgb(0, 128, 0);*/
+	}
+	body > form > div {
+		margin: 25px;
+	}
+	.rd-responsive-template.rd-storelist > form > div table {
+		display: table;
+		height: auto;
+	}
+	.rd-responsive-template.rd-storelist > form > div table tbody {
+		display: table-row-group;
+		height: auto;
+	}
+	.rd-responsive-template.rd-storelist > form > div table tr {
+		display: table-row;
+		height: auto;
+	}
+	.rd-responsive-template.rd-storelist > form > div table td {
+		display: table-cell;
+		height: auto;
+	}
+
+	table form > div > table tr:nth-child(2) td:nth-child(3) {
+		/*float: left;*/
+		height: 30px;
+		/*margin-top: 20px;*/
+	}
+	table form > div > table tr:nth-child(2) td:nth-child(3):after {
+		content: "Store Locator";
+		margin-left: 20px;
+		font-size: 23px;
+		color: #bebebf;
+	}
+	iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	table form > div {
+		overflow: hidden;
+	}
+	.rd-button.rd-blue-button {
+		width: 160px;
+	}
+	html table,
+	html tbody,
+	html tr,
+	html td {
+		height: auto;
+		width: auto;
+		font-size: 0px;
+		line-height: 1;
+	}
+	table form > div > table tr:nth-child(4) table tr:nth-child(3) td {
+		/*position: absolute;
+		top: 21px;
+		left: 0;
+		right: 0;
+		height: auto;*/
+		bottom: 52px;
+		z-index: 999;*
+		width: auto;
+		height: 100%;
+		padding: 0 20px 60px;
+		border: none !important;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-overflow-scrolling: touch !important;
+		overflow: scroll !important;
+	}
+	table form > div > table tr:nth-child(4) table tr:last-child {
+		height: 45px;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	table form > div > table tr:nth-child(4) table tr:last-child > td {
+		overflow: hidden;
+	}
+	#pageNext {
+		/*position: absolute;*/
+		bottom: 0;
+		right: 20px;
+		margin-right: 20px;
+		padding-right: 0 !important;
+		padding-top: 0 !important;
+	}
+	#pagePrevious {
+		/*position: absolute;*/
+		bottom: 0;
+		left: 20px;
+		margin: 0 0 0 20px !important;
+		padding: 0 !important;
+	}
+
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:272px) {
+	table form > div > table tr:nth-child(2) td:nth-child(3):after {
+		margin-left: 15px;
+	}
+	#pageNext,
+	#pagePrevious {
+		/*float: none !important;*/
+		/*margin: 0;*/
+		text-align: center;
+		padding: 0 !important;
+	}
+	#pageNext a, #pagePrevious a {
+		display: inline-block;
+	}
+	.rd-button.rd-blue-button {
+		width: auto;
+		padding: 11px 10px;
+	}
+	#pageNext .rd-button.rd-blue-button {
+		padding: 11px 26px;
+	}
+	table form > div > table tr:nth-child(4) table tr:nth-child(3) td {
+		padding-bottom: 80px;
+	}
+}

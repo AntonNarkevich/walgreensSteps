@@ -1,0 +1,23 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	.rd-responsive-template.rd-checkout .rd-checkout-header ~ tr {
+		display: block;
+		width: auto;
+		height: auto;
+	}
+	html body .rd-header-checkout-desktop + tr {
+		display: block;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.rd-checkout-header + tr > td:nth-child(3) {
+		padding-left: 10px !important;
+		padding-right: 10px;
+	}
+	.rd-checkout-header + tr > td:nth-child(3) > table {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+}

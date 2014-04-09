@@ -1,0 +1,1251 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	body {
+		background: #fff !important;
+	}
+
+	body table,
+	body tbody,
+	body tr,
+	body td,
+	body th {
+		height: auto;
+	}
+
+	body > table > tbody > tr > td:first-child,
+	body > table > tr > td:first-child {
+		display: none;
+	}
+
+	.body-back-image > tbody > tr,
+	.body-back-image > tr {
+		display: none;
+	}
+
+	/** PAGE-CONTENT **/
+	.rd-checkout-content .contentMaintd {
+		width: 100%;
+		margin: 0;
+		padding: 0 20px 40px;
+		display: block !important;
+		overflow: hidden;
+	}
+
+	.contentMaintd form,
+	.contentMaintd form #leftContent {
+		width: 100% !important;
+	}
+
+	.contentMaintd > form {
+		overflow: hidden;
+	}
+
+	.contentMaintd form #leftContent {
+		margin-left: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.rd-checkout-content > .contentMaintd > div:nth-child(1) {
+		padding-top: 0 !important;
+		overflow: hidden;
+	}
+
+	.rd-button.rd-blue-button {
+		width: 132px;
+		margin-left: 24px !important;
+	}
+
+	.rd-button.rd-gray-button {
+		width: 105px;
+		margin-left: 0;
+	}
+
+	/* Blocks outsets */
+	#leftContent > table {
+		margin-bottom: 19px;
+	}
+
+	#leftContent > #current + table {
+		margin-bottom: 0;
+	}
+
+	#leftContent > #current + table img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	/** ERRORS BLOCK **/
+	#pickupToMO {
+		width: 100%;
+	}
+
+	#leftContent #allErrorDivs {
+		margin-top: 18px;
+	}
+
+	#allErrorDivs .checkoutError {
+		position: relative;
+		padding: 12px 19px 12px 54px;
+		font-size: 13px;
+	}
+
+	#allErrorDivs .checkoutError .errorSymbol {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 50px;
+		margin: 0;
+		text-align: center;
+	}
+
+	#allErrorDivs .checkoutError .errorSymbol img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -8px;
+		margin-left: -8px;
+	}
+
+	#allErrorDivs .checkoutError b {
+		display: block;
+	}
+
+	/** ERRORS END **/
+
+	/** PICK UP ORDER **/
+	.rd-checkout-content #leftContent .orange-header {
+		background: none repeat scroll 0 0 #FFEBD3;
+		height: 43px;
+		border: 1px solid #E8E8E8;
+	}
+
+	#leftContent .orange-header td {
+		font-size: 0;
+	}
+
+	/*.rd-checkout-content*/
+	#leftContent .orange-header td {
+		padding: 0 0 0 20px;
+		border: none;
+	}
+
+	#leftContent .orange-header td > input {
+		width: 25px;
+		margin: 0;
+	}
+
+	#leftContent .orange-header td .orange-header-text {
+		margin-left: 17px;
+		line-height: 42px;
+	}
+
+	/** PICKUP ORDER END **/
+
+	/** PICKUP INFO **/
+	.rd-checkout-content #current {
+		width: 100%;
+		margin-bottom: 23px;
+	}
+
+	.rd-checkout-content #current #resp-pickupship-infoHeader .pickuppage-selection-container {
+		height: 38px;
+		padding: 0 0 0 20px;
+		border: 0;
+	}
+
+	#current #resp-pickupship-infoHeader .pickuppage-selection-container span {
+		padding-left: 44px;
+		line-height: 34px;
+		background-position-y: -323px;
+		margin-left: 0;
+	}
+
+	#current #resp-pickupship-infoHeader + table >tbody> tr:nth-child(2)> td {
+		padding: 22px 16px !important;
+	}
+
+	#current #resp-pickupship-infoHeader + table >tbody> tr:nth-child(2)> td img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#current #resp-pickupship-orderForFriend {
+		margin-bottom: 10px;
+	}
+
+	#resp-pickupship-findStoreSection #storeDiv {
+		width: 100%;
+	}
+
+	#storeDiv #resp-pickupship-findStoreText td:nth-child(2) {
+		margin-bottom: 16px;
+	}
+
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput {
+		margin-bottom: 20px;
+	}
+
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput,
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput td:nth-child(2) {
+		overflow: hidden;
+		font-size: 0px;
+	}
+
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput td:nth-child(2) > * {
+		font-size: 15px;
+	}
+
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput td:first-child,
+	#resp-pickupship-findStoreSection #resp-pickupship-storeLocationInput td:last-child, {
+		display: none;
+	}
+
+	#resp-pickupship-storeLocationInput #zip_or_fullAddress_T {
+		width: 60% !important;
+		margin: 4px 2% 5px 0;
+	}
+
+	#resp-pickupship-storeLocationInput #resp-pickup-findPickupButton {
+		width: 37%;
+		margin: 0;
+		text-align: center;
+		padding: 11px 0;
+	}
+
+	/** store for friend **/
+	#resp-pickupship-orderForFriend .pickuppage-selection-container {
+		overflow: hidden
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:first-child {
+		float: left;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		width: 40px;
+		margin-right: 15px;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:first-child input {
+		display: inline-block;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:nth-child(2) {
+		display: none;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:nth-child(3) {
+		margin-left: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container #frdOrder1 {
+		width: 100%;
+		overflow: hidden;
+		padding: 10px 13px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	#frdOrder1> table table> tbody {
+		overflow: hidden;
+	}
+
+	#frdOrder1> table table> tbody> tr input {
+		width: 100% !important;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(1),
+	#frdOrder1> table table> tbody> tr:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(3),
+	#frdOrder1> table table> tbody> tr:nth-child(7),
+	#frdOrder1> table table> tbody> tr:nth-child(8),
+	#frdOrder1> table table> tbody> tr:nth-child(9) {
+		width: 50%;
+		float: left;
+		clear: left;
+		padding-right: 15px;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(4),
+	#frdOrder1> table table> tbody> tr:nth-child(5),
+	#frdOrder1> table table> tbody> tr:nth-child(6),
+	#frdOrder1> table table> tbody> tr:nth-child(10),
+	#frdOrder1> table table> tbody> tr:nth-child(11),
+	#frdOrder1> table table> tbody> tr:nth-child(12) {
+		width: 100%;
+		padding-left: 50%;
+		clear: right;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(4) > td:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(5) > td:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(6) > td:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(10) > td:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(11) > td:nth-child(2),
+	#frdOrder1> table table> tbody> tr:nth-child(12) > td:nth-child(2) {
+		padding-left: 15px;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(3n+3) {
+		margin-bottom: 25px;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(13),
+	#frdOrder1> table table> tbody> tr:nth-child(14),
+	#frdOrder1> table table> tbody> tr:nth-child(15),
+	#frdOrder1> table table> tbody> tr:nth-child(16) {
+		width: 100%;
+		float: left;
+		clear: both;
+		margin-bottom: 0;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(3n+2) {
+		margin-bottom: 7px;
+	}
+
+	#frdOrder1> table table> tbody> tr img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(14) td,
+	#frdOrderDisplay td {
+		white-space: normal;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(14) span {
+		display: block;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(14) br {
+		display: none;
+	}
+
+	/** end store for friend **/
+
+	/** store pickup info **/
+	#resp-pickupship-infoHeader > tbody > tr:nth-child(4) {
+		margin: 22px 16px 0;
+		overflow: hidden;
+		position: relative;
+	}
+
+	#resp-pickupship-infoHeader img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#resp-pickupship-time {
+		padding-right: 35px;
+		float: left;
+	}
+
+	#resp-pickupship-location {
+		float: left;
+		overflow: hidden;
+	}
+
+	#resp-pickupship-location + td {
+		float: left;
+		clear: both;
+	}
+
+	#resp-pickupship-location > table tr:nth-child(4) td:nth-child(2) {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	#resp-pickupship-infoHeader .largeText {
+		font-size: 19px;
+		line-height: 24px;
+	}
+
+	#pickuptimediv > table table,
+	#resp-pickupship-location > table > tbody > tr:last-child {
+		margin-top: 20px;
+	}
+
+	#pickuptimediv > table table ~ br {
+		line-height: 40px;
+	}
+
+	#resp-pickupship-location tr:last-child table tr td:first-child {
+		float: left;
+	}
+
+	#resp-pickupship-location tr:last-child table tr td:nth-child(2) {
+		padding-left: 70px;
+	}
+
+	/** end store info **/
+
+	/** friend's contact data **/
+	#frdOrderDisplay {
+		width: 100%;
+	}
+
+	#frdOrderDisplay> table {
+		padding: 10px 12px 13px 12px;
+	}
+
+	#frdOrderDisplay> table > tbody > tr:first-child {
+		margin-bottom: 10px;
+	}
+
+	#frdOrderDisplay br {
+		display: none;
+	}
+
+	#frdOrderDisplay table table tr:first-child {
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+
+	#frdOrderDisplay table table tr:first-child td {
+		float: left !important;
+		width: auto !important;
+	}
+
+	#frdOrderDisplay table table tr:first-child td:last-child {
+		margin-left: 85px;
+	}
+
+	#frdOrderDisplay table table tr:first-child td:last-child {
+		font-size: 0px;
+	}
+
+	#frdOrderDisplay table table tr:first-child td:last-child a:not(:last-child):after {
+		content: "|";
+		margin: 0 3px;
+	}
+
+	/** friend's contact data end **/
+
+	/** PICK UP INFO END **/
+
+	/** Shipping order, mixed **/
+	#mixedOrderShipping {
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#mixedOrderShipping img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#shippingContainer {
+		width: 100%;
+		padding-top: 23px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container,
+	#mixedOrderShipping .pickuppage-selection-container > table> tbody> tr> .pickuppage-selection-container {
+		height: 40px;
+		padding: 0 0 0 20px;
+		border: 0;
+		border-bottom: 1px solid #e4e4e4;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container span,
+	#mixedOrderShipping .pickuppage-selection-container .pickuppage-selection-container span.ship-icon {
+		padding-left: 44px;
+		line-height: 38px;
+		background-position-y: -408px;
+		margin-left: 0;
+	}
+
+	#differentUserAddressCont_ship,
+	#resp-shipping-fields-mixed {
+		padding: 22px 16px 0;
+	}
+
+	#resp-shipping-fields-ship > tbody,
+	#resp-shipping-fields-mixed > tbody {
+		overflow: hidden;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(1),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(2),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(5),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(6) {
+		float: left;
+		width: 50%;
+		padding-right: 15px;
+		clear: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(1),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(3),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(5),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(7),
+	.rd-adress-titles {
+		margin-bottom: 7px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(3),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(4),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(7),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(8) {
+		width: 100%;
+		padding-left: 50%;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8) > td,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(3) > td,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(4) > td,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(7) > td,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(8) > td {
+		padding-left: 15px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(2),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(4),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(6),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(8) {
+		margin-bottom: 25px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(9),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(2n),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(9),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(2n) {
+		display: none;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td {
+		margin-bottom: 25px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:last-child {
+		margin-bottom: 0;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:first-child,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:first-child,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:last-child {
+		width: 50%;
+		padding-right: 15px;
+		float: left;
+		clear: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(3) {
+		width: 100%;
+		padding-left: 50%;
+	}
+
+	.rd-adress-titles {
+		text-align: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) div,
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(3) div {
+		padding-left: 15px !important;
+		height: auto !important;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) select,
+	#resp-shipping-fields-mixed select {
+		width: 100%;
+	}
+
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(1) .shippingLabelText,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1) .shippingLabelText {
+		float: left;
+	}
+
+	#resp-shipping-fields-mixed .shippingLabelText + td,
+	#resp-shipping-fields-ship .shippingLabelText + td {
+		float: right;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child,
+	#resp-shipping-fields-mixed > tbody > tr:last-child {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td,
+	#resp-shipping-fields-mixed > tbody > tr:last-child td {
+		height: 40px;
+		line-height: 20px;
+		padding: 10px 0 10px 0;
+		margin: 5px 0;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td input,
+	#resp-shipping-fields-mixed > tbody > tr:last-child td input {
+		margin-left: 4px !important;
+		margin-right: 10px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr input[type="text"],
+	#resp-shipping-fields-mixed > tbody > tr input[type="text"] {
+		width: 100% !important;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child {
+		padding: 0 16px 22px;
+	}
+
+	#shippingContainer img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child .pickuppage-selection-container,
+	#mixedOrderShipping .pickuppage-selection-container #differentUserAddressCont_mixed ~ table .pickuppage-selection-container {
+		padding: 0 10px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr span,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr span {
+		padding: 10px 0;
+		display: inline-block;
+		float: left;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr select,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr select {
+		width: 100% !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr i,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr i {
+		height: 44px;
+		display: block;
+		line-height: 20px;
+		padding: 15px 0 0;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr i a,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr i a {
+		display: block;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr i a + i,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr i a + i {
+		display: inline;
+		padding: 0;
+	}
+
+	#mixedOrderShipping #storedUserAddressCont_mixed,
+	#shippingContainer #storedUserAddressCont_ship {
+		padding: 16px;
+		overflow: hidden;
+	}
+
+	#mixedOrderShipping #storedUserAddressCont_mixed tr,
+	#shippingContainer #storedUserAddressCont_ship tr {
+		overflow: hidden;
+	}
+
+	#mixedOrderShipping #storedUserAddressCont_mixed .largeText,
+	#shippingContainer #storedUserAddressCont_ship .largeText {
+		font-size: 19px;
+		line-height: 24px;
+		float: left;
+	}
+
+	#mixedOrderShipping #resp-shipping-edit-mixed,
+	#shippingContainer #resp-shipping-edit-ship {
+		width: auto !important;
+		clear: right;
+	}
+	#rightContent {
+		width: auto !important;
+		float: none !important;
+		display: block !important;
+	}
+
+	#shippingContainer > form >table > tbody> tr:last-child > td ~ td {
+		display: none;
+	}
+	/** Shipping information end **/
+
+	/**** PAGE-CONTENT END ****/
+	/** STORE LOCATION POP UP **/
+	html .opacitylayer {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
+	#storeWindowDiv {
+		position: fixed !important;
+		top: 10% !important;
+		height: 80%;
+		bottom: 25%;
+		left: 50% !important;
+		margin-left: -240px;
+		overflow: hidden;
+		width: 480px !important;
+	}
+
+	#storeWindowDiv table {
+		width: 100%;
+		height: 100%;
+	}
+
+	#storeWindowDiv table .w-shadow-topleft,
+	#storeWindowDiv table .w-shadow-topright,
+	#storeWindowDiv table .w-shadow-bottomleft,
+	#storeWindowDiv table .w-shadow-bottomright {
+		width: 35px;
+		height: 35px;
+	}
+
+	#storeWindowDiv table .w-shadow-topright,
+	#storeWindowDiv table .w-shadow-bottomright {
+		right: 0;
+		position: absolute;
+	}
+
+	#storeWindowDiv table .w-shadow-topright {
+		top: 0;
+	}
+
+	#storeWindowDiv table .w-shadow-bottomright {
+		bottom: 0;
+	}
+
+	#storeWindowDiv table .w-shadow-right,
+	#storeWindowDiv table .w-shadow-left {
+		width: 35px;
+		position: absolute;
+		top: 35px;
+		bottom: 35px;
+	}
+
+	#storeWindowDiv table .w-shadow-top-popup,
+	#storeWindowDiv table .w-shadow-bottom {
+		left: 35px;
+		right: 35px;
+		position: absolute;
+	}
+
+	#storeWindowDiv table .w-shadow-top-popup {
+		top: 0;
+		height: 100%;
+		background-position-y: 0px;
+	}
+
+	#storeWindowDiv table .w-shadow-bottom {
+		bottom: 0;
+		height: 100%;
+	}
+
+	#storeWindowDiv tbody {
+		height: 100%;
+		position: relative;
+	}
+
+	#storeWindowDiv tbody> tr:first-child {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	#storeWindowDiv tbody> tr:last-child {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	#storeWindowDiv tbody> tr:nth-child(2) {
+		height: 100%;
+		padding: 35px 0;
+	}
+
+	#storeWindowDiv tr {
+		overflow: hidden;
+	}
+
+	#storeWindowDiv> table tr:nth-child(2) td:first-child {
+		left: 0;
+	}
+
+	#storeWindowDiv> table tr:nth-child(2) td:last-child {
+		right: 0;
+	}
+
+	#storeWindowDiv> table tr:nth-child(2) td:nth-child(2) {
+		height: 100%;
+		margin: 0 19px;
+	}
+
+	/*** STORE LOCATION POP UP ***/
+	#OpacityLayer[style="display: block;"] ~ table {
+		overflow: hidden;
+		/*position: fixed;*/
+	}
+	#OpacityLayer[style="display: block;"] ~ table * {
+		overflow: hidden;
+	}
+
+	/* iframe */
+	#storewindow {
+		height: 100%;
+		width: 100%;
+	}
+
+	/*** STORE LOCATION POP UP END ***/
+
+	#warning {
+		margin: 0 !important;
+	}
+
+	#warning .error {
+		padding-top: 15px;
+		font-size: 15px;
+		display: block;
+	}
+
+	#warning .error b {
+		padding-right: 5px;
+	}
+
+	#warning br {
+		display: none;
+	}
+
+	.resp-footerplain-main {
+		background: rgb(246, 246, 246) !important;
+		padding: 15px 0;
+	}
+
+	/** footer **/
+	.body-back-image .rd-checkout-footer {
+		display: block;
+	}
+
+	.body-back-image .resp-footerplain-main {
+		-webkit-box-shadow: inset 0px 4px 10px 0px rgba(25, 25, 25, 0.2);
+		text-align: center;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.rd-checkout-content .contentMaintd {
+		padding: 0 10px 30px;
+		margin: 0;
+	}
+	.page-title {
+		float: none !important;
+		text-align: center;
+		font-size: 20px;
+	}
+	.rd-button.rd-blue-button {
+		width: 137px;
+	}
+	.rd-button.rd-gray-button {
+		width: 99px;
+	}
+	#allErrorDivs .checkoutError .errorSymbol {
+		width: 38px;
+	}
+	#allErrorDivs .checkoutError {
+		padding: 8px 5px 12px 38px;
+	}
+
+	#resp-checkout-buttonsTop {
+		float: none !important;
+		overflow: hidden;
+	}
+
+	#resp-checkout-buttonsTop a:first-child {
+		float: left;
+		margin: 0;
+	}
+
+	#resp-checkout-buttonsTop a:last-child {
+		float: right;
+		overflow: hidden;
+		display: block;
+	}
+
+	/** errors **/
+	#allErrorDivs > div {
+		margin-bottom: 18px;
+	}
+
+	/** errors end **/
+	/* pick up */
+	#storeDiv #resp-pickupship-findStoreText td:nth-child(2) {
+		margin-bottom: 8px;
+	}
+
+	#resp-pickupship-storeLocationInput #zip_or_fullAddress_T {
+		width: 100% !important;
+		margin: 4px 0 12px;
+	}
+
+	#resp-pickupship-storeLocationInput #resp-pickup-findPickupButton {
+		width: 100%;
+		text-align: center;
+		padding: 11px 0;
+	}
+
+	#leftContent > table {
+		margin-bottom: 0;
+	}
+
+	td .orange-header-text {
+		font-size: 19px;
+	}
+
+	#warning {
+		margin-top: 0 !important;
+	}
+
+	#current > table > tbody > tr > .pickuppage-selection-container {
+		border-top: none;
+	}
+
+	.rd-checkout-content #current #resp-pickupship-infoHeader .pickuppage-selection-container {
+		height: 40px;
+		font-size: 19px;
+		padding-left: 10px;
+	}
+
+	.pickup-icon {
+		background-image: none;
+		padding-left: 0 !important;
+	}
+
+	#current #resp-pickupship-infoHeader .pickuppage-selection-container span {
+		line-height: 40px;
+		font-size: 19px;
+	}
+
+	.rd-checkout-content #leftContent .orange-header td {
+		padding: 9px 0 9px 10px;
+	}
+
+	.rd-checkout-content #leftContent .orange-header td input {
+		/*width: 40px;*/
+	}
+
+	#leftContent .orange-header td .orange-header-text {
+		margin-left: 0;
+		line-height: 1.2;
+	}
+
+	/** pick up information **/
+
+	#resp-pickupship-infoHeader > tbody > tr:nth-child(4) {
+		margin: 22px 10px 0;
+	}
+
+	#resp-pickupship-time {
+		padding-right: 0;
+		float: none;
+		margin-bottom: 15px;
+	}
+
+	#resp-pickupship-time #pickuptimediv {
+		width: 100% !important;
+	}
+
+	#resp-pickupship-infoHeader .largeText br {
+		display: none;
+	}
+
+	#pickuptimediv > table table,
+	#resp-pickupship-location > table > tbody > tr:last-child {
+		margin-top: 0;
+	}
+
+	#pickuptimediv > table table ~ br {
+		line-height: 30px;
+	}
+
+	#resp-pickupship-location {
+		float: none;
+	}
+
+	.rd-clone-store.rd-phone {
+		margin: 10px 0;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr {
+		padding: 15px 0 16px;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:nth-child(3) b {
+		line-height: 20px;
+		white-space: normal;
+		display: block;
+	}
+
+	/** friend's address info **/
+	/** friend's register form **/
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:first-child {
+		width: 25px;
+		position: relative;
+		margin-right: 20px;
+	}
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:first-child input {
+		position: absolute;
+		top: 3px;
+		right: 0;
+		margin: 0;
+	}
+	#resp-pickupship-orderForFriend .pickuppage-selection-container > table tr td:nth-child(3) {
+		margin-right: 12px;
+		display: table-cell;
+		vertical-align: middle;
+		height: auto;
+	}
+
+	#resp-pickupship-orderForFriend .pickuppage-selection-container #frdOrder1 {
+		padding: 10px 12px;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(1), #frdOrder1> table table> tbody> tr:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(3), #frdOrder1> table table> tbody> tr:nth-child(7), #frdOrder1> table table> tbody> tr:nth-child(8), #frdOrder1> table table> tbody> tr:nth-child(9) {
+		width: 100%;
+		float: none;
+		clear: none;
+		padding-right: 0;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(4), #frdOrder1> table table> tbody> tr:nth-child(5), #frdOrder1> table table> tbody> tr:nth-child(6), #frdOrder1> table table> tbody> tr:nth-child(10), #frdOrder1> table table> tbody> tr:nth-child(11), #frdOrder1> table table> tbody> tr:nth-child(12) {
+		padding-left: 0;
+		clear: none;
+	}
+
+	#frdOrder1> table table> tbody> tr:nth-child(4) > td:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(5) > td:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(6) > td:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(10) > td:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(11) > td:nth-child(2), #frdOrder1> table table> tbody> tr:nth-child(12) > td:nth-child(2) {
+		padding-left: 0;
+	}
+
+	/** friend's register form end **/
+
+	#current #resp-pickupship-infoHeader + table >tbody> tr:nth-child(2)> td {
+		padding: 12px 10px !important;
+	}
+
+	#frdOrderDisplay> table {
+		padding-top: 0;
+	}
+
+	#frdOrderDisplay table table tr:first-child {
+		margin-bottom: 10px;
+	}
+
+	#frdOrderDisplay table table tr:first-child td {
+		float: none !important;
+	}
+
+	#frdOrderDisplay table table tr:first-child td:last-child {
+		margin-left: 0;
+		text-align: left !important;
+	}
+
+	/** friend's address info End **/
+
+	/** shipping information **/
+	#shippingContainer {
+		padding-top: 0;
+		margin-top: -1px;
+	}
+	#shippingContainer .pickuppage-selection-container > table:last-child,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child {
+		padding: 0 8px 22px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container,
+	#mixedOrderShipping .pickuppage-selection-container > table> tbody> tr> .pickuppage-selection-container {
+		padding-left: 10px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container span,
+	#mixedOrderShipping .pickuppage-selection-container .pickuppage-selection-container span.ship-icon {
+		font-size: 19px;
+		background-image: none;
+		padding-left: 0;
+	}
+
+	#mixedOrderShipping #storedUserAddressCont_mixed,
+	#shippingContainer #storedUserAddressCont_ship {
+		padding: 10px;
+	}
+
+	#storedUserAddressCont_mixed .rd-clone-store.rd-phone,
+	#storedUserAddressCont_ship .rd-clone-store.rd-phone {
+		margin: 0;
+	}
+
+	#storedUserAddressCont_mixed .rd-clone-store.rd-phone td,
+	#storedUserAddressCont_ship .rd-clone-store.rd-phone td {
+		float: none !important;
+		text-align: left !important;
+		width: auto !important;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr i a,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr i a {
+		display: inline;
+	}
+
+	.rd-checkout-content #current {
+		margin-bottom: 0;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr, #mixedOrderShipping .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr {
+		padding: 0 4px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child .pickuppage-selection-container,
+	#mixedOrderShipping .pickuppage-selection-container #differentUserAddressCont_mixed ~ table .pickuppage-selection-container {
+		font-size: 0;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child .pickuppage-selection-container span,
+	#mixedOrderShipping .pickuppage-selection-container #differentUserAddressCont_mixed ~ table .pickuppage-selection-container span {
+		line-height: 40px;
+		padding-left: 3px;
+		font-size: 15px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr span,
+	#mixedOrderShipping .pickuppage-selection-container > table:last-child table tr:nth-child(2) ~ tr span {
+		padding: 10px 5px;
+		font-size: 15px;
+	}
+
+	/** input data form **/
+	#differentUserAddressCont_ship,
+	#resp-shipping-fields-mixed {
+		padding: 12px 8px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(1),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(2),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(5),
+	#resp-shipping-fields-mixed > tbody > tr:nth-child(6),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:first-child, #resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child, #resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:first-child, #resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:last-child {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+		clear: none;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3), #resp-shipping-fields-ship > tbody > tr:nth-child(4), #resp-shipping-fields-ship > tbody > tr:nth-child(7), #resp-shipping-fields-ship > tbody > tr:nth-child(8), #resp-shipping-fields-mixed > tbody > tr:nth-child(3), #resp-shipping-fields-mixed > tbody > tr:nth-child(4), #resp-shipping-fields-mixed > tbody > tr:nth-child(7), #resp-shipping-fields-mixed > tbody > tr:nth-child(8),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3) > td, #resp-shipping-fields-ship > tbody > tr:nth-child(4) > td, #resp-shipping-fields-ship > tbody > tr:nth-child(7) > td, #resp-shipping-fields-ship > tbody > tr:nth-child(8) > td, #resp-shipping-fields-mixed > tbody > tr:nth-child(3) > td, #resp-shipping-fields-mixed > tbody > tr:nth-child(4) > td, #resp-shipping-fields-mixed > tbody > tr:nth-child(7) > td, #resp-shipping-fields-mixed > tbody > tr:nth-child(8) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3), #resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) div, #resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(3) div {
+		padding-left: 0 !important;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2), #resp-shipping-fields-ship > tbody > tr:nth-child(4), #resp-shipping-fields-ship > tbody > tr:nth-child(6), #resp-shipping-fields-ship > tbody > tr:nth-child(8), #resp-shipping-fields-mixed > tbody > tr:nth-child(2), #resp-shipping-fields-mixed > tbody > tr:nth-child(4), #resp-shipping-fields-mixed > tbody > tr:nth-child(6), #resp-shipping-fields-mixed > tbody > tr:nth-child(8),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3), #resp-shipping-fields-mixed > tbody > tr:nth-child(10) td:nth-child(3),
+	#frdOrder1> table table> tbody> tr:nth-child(3n+3) {
+		margin-bottom: 17px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td, #resp-shipping-fields-mixed > tbody > tr:last-child td {
+		padding: 5px 0 10px 25px;
+		margin: 5px 0 0;
+		height: 35px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td input, #resp-shipping-fields-mixed > tbody > tr:last-child td input {
+		margin-left: -25px !important;
+		margin-right: 10px;
+		vertical-align: 3px;
+	}
+
+	/** input data form end **/
+	/** shipping information end **/
+	/** ship my entire order instead **/
+	.rd-checkout-content #current + table {
+		margin-top: 23px;
+	}
+
+	.rd-checkout-content #current + table .orange-header {
+		height: auto;
+	}
+
+	.rd-checkout-content #current + table .orange-header td {
+		padding: 9px 10px;
+	}
+
+	.rd-checkout-content #current + table .orange-header td input {
+		float: left;
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	.rd-checkout-content #current + table .orange-header-text {
+		line-height: 22px;
+		display: block;
+		white-space: normal;
+		margin: 0 40px 0 25px;
+	}
+
+	#shippingContainer .pickuppage-selection-container ~ td {
+		font-size: 0px;
+		line-height: 0;
+	}
+
+	/** pop-up window **/
+	#storeWindowDiv {
+		height: auto;
+		width: 310px !important;
+		top: -4px !important;
+		bottom: -2px;
+		margin-left: -155px;
+	}
+
+	.resp-footerplain-main {
+		padding: 15px 39px;
+	}
+
+}

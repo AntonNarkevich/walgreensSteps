@@ -1,0 +1,1087 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	#resp-review-main {
+		margin: 0 20px 40px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	#resp-review-main a {
+		color: #2774A6;
+		width: auto !important;
+	}
+
+	tr, td, span {
+		height: auto;
+		display: inline-block;
+	}
+
+	td>input {
+		display: inline-block !important;
+	}
+
+	input[type="checkbox"] {
+		margin-right: 10px;
+	}
+
+	/*Header ---------------------*/
+
+	.rd-checkout-header+tr>td:first-child {
+		display: none;
+	}
+
+	.rd-checkout-header td[valign="bottom"] {
+		display: none;
+	}
+
+	/*END -----------------------*/
+
+	/*HEADING ------------------*/
+
+	.rd-header-checkout-desktop+tr>td:first-child {
+		display: none;
+	}
+
+	#resp-review-buttonsTop {
+		padding: 20px 0;
+		display: inline-block;
+		float: right;
+	}
+
+	#resp-review-buttonsTop>a {
+		float: left;
+		margin: 0;
+	}
+
+	a[id*="cancelButton"] {
+		margin-right: 24px !important;
+	}
+
+	#resp-review-pageTitle {
+		background: #FFF;
+	}
+
+	#buynowButton,
+	#buynowButtonError,
+	#buynowButton1,
+	#buynowButtonError1 {
+		width: auto !important;
+	}
+
+	span.page-title {
+		font-size: 26px;
+	}
+
+	#resp-review-bottomButtons {
+		float: right;
+	}
+
+	.rd-button.rd-orange-button {
+		padding: 11px 20px;
+	}
+
+	span.orange-subtitle {
+		font-size: 18px;
+	}
+
+	#pleasewaitText>br {
+		display: none;
+	}
+
+	span[id*="pleasewaitText"] {
+		clear: both;
+		display: block;
+	}
+
+	/*#resp-review-buttonsTop {*/
+		/*min-width: 304px;*/
+	/*}*/
+
+	/*END ---------------------*/
+
+	/*Orange Button -----------*/
+
+	.rd-button.rd-orange-button {
+		color: #FFF;
+		border: 1px solid #D2D5D7;
+		background: linear-gradient(to bottom, #f8952f 30%, #f46a22 70%);
+		background: -o-linear-gradient(top, #f8952f 30%, #f46a22 70%);
+		background: -moz-linear-gradient(top, #f8952f 30%, #f46a22 70%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0.3, #f8952f), color-stop(0.7, #f46a22));
+		background: -webkit-linear-gradient(top, #f8952f 30%, #f46a22 70%);
+		background: -ms-linear-gradient(top, #f8952f 30%, #f46a22 70%);
+	}
+
+	/*END ----------------------*/
+
+	/*Checkout information blocks ---------------------*/
+
+	.rd-checkout-information-item, .rd-information-header {
+		margin: 30px 0 0;
+	}
+
+	.right-table-cover, tr[class*="-total"] {
+		display: inline-block;
+		float: right;
+	}
+
+	.rd-content-description-item {
+		margin: 20px 0;
+	}
+
+	.rd-content-description-item>td {
+		display: inline-block !important;
+	}
+
+
+	.rd-content-description-item>td:first-child {
+		max-width: 232px;
+	}
+
+	.rd-hidden-block {
+		display: none !important;
+	}
+
+	tr[class*="-tax"]:first-child,
+	tr[class*="-shipping"]:first-child {
+		margin-top: 20px;
+	}
+
+	#resp-review-phone td {
+		display: block !important;
+		float: none !important;
+	}
+
+	/*END ----------------------------------------------*/
+
+	/*Pickup information ------*/
+
+	#resp-review-pickupOverview>tbody>tr,
+	#resp-pickup-payment tr:nth-child(2)>td {
+		display: inline-block;
+	}
+
+	#resp-review-orderInfo>table:first-of-type {
+		margin-bottom: 30px;
+	}
+
+	#resp-review-orderInfo>table {
+		border: 1px solid #E4E4E4;
+	}
+
+	.pickup-day-block {
+		margin-right: 35px;
+	}
+
+	#resp-pickup-time {
+		margin-top: 20px;
+	}
+
+	#resp-pickup-store>span:last-of-type {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.pickup-payment-block {
+		position: absolute;
+		right: 16px;
+		top: 22px;
+	}
+
+	#resp-review-pickupInfo>td:first-child,
+	#resp-pickup-store>br,
+	#resp-review-pickupInfo>td:last-child,
+	#resp-review-pickupProductsList .resp-review-po2pl2-shipitem>td:first-child,
+	#resp-review-pickupProductsList .resp-review-po2pl2-shipitem>td:last-child,
+	#resp-pickup-payment tr:nth-child(2)>td:first-child,
+	#resp-pickup-payment tr:nth-child(2)>td:last-child {
+		display: none;
+	}
+
+	#resp-review-pickupHeader>tbody>tr:first-child>td {
+		padding: 10px 0;
+	}
+
+	#resp-review-pickupHeader {
+		border-bottom: 1px solid #E4E4E4;
+	}
+
+	#resp-review-pickupOverview {
+		padding: 22px 16px 0;
+		position: relative;
+	}
+
+	#resp-pickup-store {
+		margin-bottom: 10px;
+	}
+
+	#resp-pickup-payment,
+	#resp-pickup-payment tr:nth-child(2)>td:nth-child(3) {
+		float: right;
+	}
+
+	#resp-pickup-payment>table {
+		box-sizing: border-box;
+		padding: 7px 13px;
+	}
+
+	#resp-pickup-payment>table>tbody>tr:nth-child(4)>td {
+		display: inline-block;
+	}
+
+	#resp-pickup-payment>table>tbody>tr:nth-child(4)>td:first-child {
+		display: none;
+	}
+
+	#resp-pickup-payment>table>tbody>tr:nth-child(4)>td:nth-child(2) {
+		margin-right: 25px;
+	}
+
+	#resp-pickup-payment td,
+	#resp-review-paymentInfo .largeText {
+		font-size: 15px;
+	}
+
+	#resp-pickup-time .transfer-block {
+		margin-bottom: 10px;
+	}
+
+	#resp-review-phone,
+	#resp-review-pickupInfo>td>table:nth-of-type(3) {
+		padding: 14px 16px 0;
+	}
+
+	#resp-review-phoneNumber,
+	#resp-review-phoneEdit {
+		display: inline-block;
+		float: left;
+	}
+
+	#resp-review-phoneEdit,
+	#resp-review-pickupInfo>td>table:nth-of-type(3) td:nth-child(3) {
+		float: right;
+	}
+
+	.mobile-poster-cover {
+		display: none;
+	}
+
+	.rd-input.rd-text-input {
+		min-width: 60px !important;
+		width: 60px;
+	}
+
+	.rd-input.rd-text-input:nth-of-type(3) {
+		width: 73px;
+	}
+
+	.rd-input.rd-text-input:first-of-type {
+		margin-top: 10px;
+	}
+
+	/*.rd-input.rd-text-input:nth-of-type(3) {*/
+	/*width: 80px !important;*/
+	/*}*/
+
+	/*END -----------------*/
+
+	/*Product/Price/Quantity/Total ------------*/
+
+	#resp-review-pickupProductsList {
+		padding: 14px 16px 22px;
+	}
+
+	.resp-review-rep-shipitem>td:first-child,
+	.resp-review-rep-shipitem>td:last-child,
+	.resp-review-orderinfoheader>tbody>tr:nth-child(2)>td:first-child,
+	.resp-review-pos-shipitem>td:first-child,
+	.resp-review-pos-shipitem>td:last-child
+	 #resp-review-pickupProductsList+tr {
+		display: none;
+	}
+
+	#resp-review-pickupProductsList>td>table>tbody>tr:first-child>td>table>tbody>tr:first-child>td:first-child,
+	#resp-review-pickupProductsList>td>table>tbody>tr:first-child>td>table>tbody>tr:first-child>td:last-child {
+		display: none;
+	}
+
+	.rd-information-header {
+		border-bottom: 1px solid #E4E4E4;
+		padding-bottom: 5px;
+	}
+
+	td[class*="-productcell"] {
+		display: inline-block !important;
+	}
+
+	.resp-review-po2pl2-productcell,
+	.resp-review-po2pl2-itemdescription>td:first-child,
+	.resp-review-customcd-cdphotos>td {
+		display: inline-block !important;
+	}
+
+	.resp-review-rep-itemdescription,
+	.resp-review-pos-itemdescription {
+		position: relative;
+	}
+
+	.resp-review-rep-itemdescription>.right-table-cover,
+	.resp-review-pos-itemdescription>.right-table-cover {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.price-cell,
+	.total-cell,
+	.qty-cell,
+	.total-cover>td:last-child,
+	tr[class*="-tax"]>td:last-child,
+	tr[class*="-shipping"]>td:last-child,
+	.resp-review-pos-credits>td:last-child,
+	tr[class*="-total"] tr>td:last-child {
+		width: 88px !important;
+		display: inline-block !important;
+	}
+
+	td[class*="-img"] {
+		width: 130px !important;
+		display: inline-block;
+		float: left;
+	}
+
+	.resp-review-rep-productdetails>td:last-child,
+	.resp-review-rep-total,
+	.resp-review-pos-productdetails>td:last-child,
+	.resp-review-pos-total,
+	td[class*="-img"]+td {
+		margin-left: 130px;
+	}
+
+	tr[class*="-tax"],
+	tr[class*="-shipping"],
+	.resp-review-pos-credits,
+	.resp-review-customcd-cdphotos>td:last-child {
+		float: right;
+	}
+
+	tr[class*="-tax"]>td,
+	tr[class*="-shipping"]>td,
+	.resp-review-pos-credits>td,
+	.total-cover>td,
+	tr[class*="-total"] td {
+		display: inline-block !important;
+	}
+
+	.total-cover {
+		float: right;
+		clear: both;
+	}
+
+	.mobile-productdetail-cover {
+		display: none;
+	}
+
+	.mobile-productdetail-cover+tr,
+	.resp-review-po2pl2-itemdescription .pricenext-cell {
+		display: none !important;
+	}
+
+	#resp-review-pickupProductsList+tr,
+	#resp-review-phone>tbody>tr:first-child,
+	#resp-review-phone>tbody>tr:last-child {
+		display: none;
+	}
+
+	/*END ---------------*/
+
+	/*Shipping information ------*/
+
+	#resp-review-shipInfoHeader {
+		border-bottom: 1px solid #E4E4E4;
+	}
+
+	#resp-review-shippingDetails>td:first-child,
+	#resp-review-shippingDetails>td:last-child,
+	.resp-review-gft-shipitem>td:first-child,
+	.resp-review-gft-shipitem>td:last-child {
+		display: none;
+	}
+
+	#resp-review-shipInfoHeader>tbody>tr:first-child>td {
+		padding: 10px 0;
+	}
+
+	#resp-review-shipOverview, #resp-review-shipProductsList {
+		padding: 22px 16px;
+	}
+
+	#resp-review-shipOverview {
+		position: relative;
+	}
+
+	#resp-review-paymentInfo {
+		position: absolute;
+		top: 22px;
+		right: 16px;
+		/*float: right;*/
+	}
+
+	#resp-review-paymentInfo>table {
+		box-sizing: border-box;
+		padding: 17px 13px;
+		position: relative;
+	}
+
+	.resp-review-gft-shipdetails>.resp-review-orderinfoheader {
+		margin-top: 30px;
+	}
+
+	#resp-review-paymentInfo a {
+		position: absolute;
+		top: 17px;
+		right: 13px;
+	}
+
+	.largeText {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#resp-review-shipOverview>tbody>tr:first-child>td,
+	.resp-review-gft-itemdescription>td:first-child {
+		display: inline-block;
+	}
+
+	#resp-review-shipUserInfo {
+		margin-right: 35px;
+	}
+
+	.resp-review-gft-productdetails>.resp-review-gft-img {
+		width: 130px;
+		display: inline-block;
+		float: left;
+	}
+
+	.resp-review-gft-productdetails>td:last-child {
+		margin-left: 130px;
+	}
+
+	.resp-review-gft-itemdescription>.pricenext-cell {
+		display: none;
+	}
+
+	.resp-review-gft-product {
+		margin: 22px 0;
+	}
+
+	.resp-review-gft-shipping {
+		margin-top: 20px;
+	}
+
+	.resp-review-gft-shipping,
+	.resp-review-gft-tax,
+	.resp-review-gft-total,
+	.resp-review-po2pl2-tax {
+		float: right;
+		clear: both;
+	}
+
+	.resp-review-gft-shipping>td,
+	.resp-review-gft-tax>td,
+	.resp-review-gft-total>td>table>tbody>tr>td[align="right"],
+	.resp-review-po2pl2-tax>td {
+		display: inline-block !important;
+	}
+
+	.resp-review-gft-shipping>td:last-child,
+	.resp-review-gft-tax>td:last-child,
+	.resp-review-gft-total>td>table>tbody>tr>td:last-child,
+	.resp-review-po2pl2-tax>td:last-child {
+		width: 88px;
+	}
+
+	.mobile-shipping-cover {
+		display: none;
+	}
+
+	.smallItalicText {
+		border: 1px solid #E4E4E4;
+		border-top: 0;
+		padding: 5px 10px;
+		font-size: 13px;
+	}
+
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) {
+		padding: 0;
+	}
+
+	/*ENDD -------------------*/
+
+	/*Overnight shipping information ------*/
+
+
+	/*ENDD -------------------*/
+
+	/*Order Summary ---------------------*/
+
+	#resp-review-osm {
+		margin-top: 30px;
+	}
+
+	#resp-osm-orderSummary {
+		width: 100% !important;
+	}
+
+	.rtCoulmnUL>.osmTax {
+		padding-top: 10px;
+	}
+
+	.osmCoupon {
+		font-size: 15px !important;
+	}
+
+	.resp-have-coupon-block {
+		display: block !important;
+	}
+
+	/*END ------------------------------*/
+
+	/*Total Footer --------------------*/
+
+	#resp-osm-needHelp {
+		border: 1px solid #E4E4E4;
+		margin-top: 30px !important;
+	}
+
+	.rtModule-headerText {
+		border-bottom: 1px solid #E4E4E4;
+		padding: 0 10px;
+		line-height: 32px;
+	}
+
+	#resp-osm-needHelp {
+		width: 48% !important;
+		margin-bottom: 0 !important;
+	}
+
+	/*#resp-review-secondaryTotal {*/
+		/*margin-bottom: 40px;*/
+		/*display: inline-block;*/
+		/*float: right;*/
+		/*clear: both;*/
+		/*width: 48%;*/
+	/*}*/
+
+	#resp-review-bottom {
+		width: 48% !important;
+		display: inline-block;
+		clear: none !important;
+		margin-top: -10px !important;
+		padding-right: 20px;
+		float: right;
+	}
+
+	#resp-osm-needHelp {
+		float: left;
+	}
+
+	#resp-review-bottomButtons {
+		margin-top: 25px !important;
+	}
+
+	#resp-osm-needHelp>tbody>tr:first-child,
+	#resp-review-footerTabs,
+	#resp-review-bottomButtons span>br {
+		display: none;
+	}
+
+	#resp-payment-osm-subtotal {
+		margin: 0 !important;
+		height: auto !important;
+	}
+
+	#resp-review-bottomButtons>a {
+		display: inline-block;
+	}
+
+	#resp-review-bottomButtons span {
+		display: block;
+	}
+
+	#resp-review-bottomButtons>a,
+	#resp-review-bottomButtons span {
+		width: auto;
+	}
+
+	#resp-review-bottomButtons>a {
+		margin-left: 0;
+	}
+
+	.contentMaintd div {
+		width: auto !important;
+	}
+
+	#resp-review-orderMsg {
+		padding: 16px 10px;
+		margin-bottom: 30px;
+		border: 1px solid #E4E4E4;
+	}
+
+	td[bgcolor="#E4E4E4"] {
+		display: none !important;
+	}
+
+	/*END ----------------------------*/
+}
+
+@media screen and (max-width:780px) {
+
+	#resp-pickup-store .largeText {
+		max-width: 167px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	#resp-review-main {
+		margin: 15px 10px 30px;
+	}
+
+	/*HEADER ---------------------------*/
+
+	.rd-checkout-header {
+		margin-bottom: 0 !important;
+	}
+
+	#resp-pickup-store .largeText {
+		max-width: none;
+	}
+
+	/*END -----------------------------*/
+
+	/*Page title ----------------------*/
+
+	span.page-title {
+		font-size: 21px;
+	}
+
+	span.orange-subtitle {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	#resp-review-buttonsTop,
+	#resp-review-phoneNumber,
+	#resp-review-phoneEdit,
+	#resp-review-pickupInfo>td>table:nth-of-type(3) td {
+		display: block;
+		float: none;
+	}
+
+	#resp-review-buttonsTop>a:last-of-type {
+		float: right;
+	}
+
+	a.rd-button.rd-gray-button {
+		margin-right: 0 !important;
+	}
+
+	#resp-review-buttonsTop {
+		min-width: 0;
+	}
+
+	.rd-button.rd-orange-button {
+		padding: 11px 26px;
+	}
+
+	/*END -----------------------------*/
+
+
+	/*Pickup information --------------*/
+
+	#resp-review-pickupHeader {
+		border-bottom: 1px solid #E4E4E4;
+	}
+
+	#resp-review-pickupOverview {
+		padding: 22px 10px 0;
+	}
+
+	#resp-review-phone,
+	#resp-review-pickupInfo>td>table:nth-of-type(3) {
+		padding: 14px 10px 0;
+	}
+
+	#resp-review-pickupOverview>tbody>tr,
+	#resp-pickup-store>br:last-of-type,
+	tr[class*="-total"]>td:not([align="right"]) {
+		display: block !important;
+	}
+
+	.pickup-day-block {
+		margin-right: 0;
+	}
+
+	.pickup-payment-block, #resp-pickup-store {
+		margin-top: 30px;
+		position: static;
+	}
+
+	#resp-pickup-payment,
+	tr[class*="-total"],
+	tr[class*="-tax"] {
+		float: none;
+	}
+
+	#resp-pickup-payment tbody>tr:nth-child(4)>td:nth-child(3) {
+		float: right;
+	}
+
+	.largeText>br,
+	td[class*="-img"] {
+		display: none !important;
+	}
+
+	.sprite-CAC.pickup-icon {
+		margin-left: 10px;
+		font-size: 19px;
+		padding-left: 0;
+		background: none;
+	}
+
+	#resp-pickup-store>span:last-of-type {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+
+	#resp-pickup-payment>table {
+		padding: 15px 11px;
+	}
+
+	#resp-review-phoneEdit {
+		float: none;
+		display: block;
+	}
+
+	tr[class*="-productdetails"]>td:last-child,
+	tr[class*="-total"] {
+		margin-left: 0;
+	}
+
+	.resp-friends-phone-link-cover {
+		display: block !important;
+		float: none !important;
+	}
+
+	#resp-review-pickupInfo>td>table:nth-of-type(3) td:first-of-type {
+		display: none;
+	}
+
+	/*END -----------------------------*/
+
+	/*Product/Price/Quantity/Total ------------*/
+
+	#resp-review-shipProductsList {
+		margin-top: -10px;
+	}
+
+	.rd-information-header {
+		display: none !important;
+	}
+
+	.resp-review-rep-itemdescription>.right-table-cover,
+	.resp-review-pos-itemdescription>.right-table-cover {
+		position: static;
+	}
+
+	.blueBoldText,
+	.blueBoldText>a {
+		font-size: 17px;
+		line-height: 15px;
+	}
+
+	#resp-review-pickupProductsList {
+		padding: 0 10px 15px;
+	}
+
+	.blueBoldText {
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.right-table-cover>td,
+	.resp-review-gft-total {
+		margin-top: 10px;
+	}
+
+	.resp-review-po2pl2-tax,
+	.resp-review-gft-shipping {
+		margin: 20px 0 10px;
+	}
+
+	.mobile-productdetail-cover {
+		display: block;
+		padding: 0 15px 17px;
+	}
+
+	.product-title>a {
+		font-size: 17px;
+		line-height: 15px;
+	}
+
+	.mobile-product-item>div {
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 15px;
+		color: #464646;
+		font-weight: bold;
+	}
+
+	#resp-review-phone {
+		padding-bottom: 10px;
+	}
+
+	.mobile-product-item {
+		margin-top: 20px;
+	}
+
+	.mobile-product-item>div,
+	.mobile-product-item>a,
+	.product-title,
+	.mobile-productdetail-cover>tr,
+	.mobile-productdetail-cover>.product-title,
+	.mobile-productdetail-cover>.total-cover {
+		margin-top: 10px;
+		display: block;
+		float: none;
+	}
+
+	.total-cover>td {
+		display: inline-block !important;
+	}
+
+	tr[class*="-total"]>td>table>tbody>tr:first-child>td[align="left"],
+	#resp-review-phoneEdit+td {
+		display: none !important;
+	}
+
+	tr[class*="-total"] td[align="right"]:last-child {
+		float: right;
+	}
+
+	tr[class*="-tax"]>td:last-child,
+	tr[class*="-shipping"]>td:last-child,
+	.total-cover>td:last-child,
+	tr[class*="-total"]>td>table>tbody>tr:first-child>td:last-child,
+	.resp-review-rep-shipping>td:last-child {
+		float: right;
+		clear: both;
+	}
+
+	.mobile-product-item>div>span {
+		font-weight: normal;
+		float: right;
+	}
+
+	.resp-review-po2pl2-orderinfoheader,
+	.resp-review-po2pl2-img {
+		display: none !important;
+	}
+
+	.resp-review-po2pl2-img+td {
+		margin-left: 0;
+	}
+
+	#resp-osm-orderSummary tr>.rtCoulmnUL {
+		padding: 0 10px !important;
+	}
+
+	#resp-osm-orderSummary .rtCoulmnUL {
+		margin: 10px 0;
+	}
+
+	.resp-review-gft-itemdescription,
+	tr[class*="-tax"],
+	tr[class*="-shipping"],
+	.total-cover {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.resp-review-gft-itemdescription>td:first-child {
+		margin: 20px 0;
+	}
+
+	.right-table-cover {
+		display: block;
+		float: none;
+	}
+
+	tr[class*="-total"]>td>table>tbody>tr:first-child>td[width="130"] {
+		display: none !important;
+	}
+
+	tr[class*="-tax"]>td,
+	tr[class*="-total"]>td>table>tbody>tr:first-child>td,
+	.resp-review-rep-shipping>td {
+		display: inline-block !important;
+	}
+
+	.resp-review-customcd-cdphotos>td:first-child {
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.price-cell,
+	.total-cell,
+	.qty-cell,
+	.total-cover>td:last-child,
+	.resp-review-rep-tax>td:last-child,
+	.resp-review-pos-credits>td:last-child,
+	.resp-review-po2pl2-productcell,
+	.resp-review-po2pl2-itemdescription>td:first-child {
+		width: auto !important;
+		display: block !important;
+	}
+
+	.rd-responsive-template .qty-cell:before,
+	.rd-responsive-template .price-cell:before,
+	.rd-responsive-template .total-cell:before {
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		float: left;
+	}
+
+	.rd-responsive-template .qty-cell:before {
+		content: "Quantity"
+	}
+
+	.rd-responsive-template .price-cell:before {
+		content: "Price"
+	}
+
+	.rd-responsive-template .total-cell:before {
+		content: "Total"
+	}
+
+	.resp-review-customcd-cdphotos>.total-cell:before {
+		content: "";
+	}
+
+	.right-table-cover>td,
+	tr[class*="-tax"]>td:last-child,
+	tr[class*="-shipping"]>td:last-child,
+	tr[class*="-total"] tr>td:last-child {
+		width: auto !important;
+	}
+
+	/*END ------------------------------*/
+
+	/*Shipping information --------------*/
+
+	.sprite-CAC.ship-icon {
+		margin-left: 10px;
+		font-size: 19px;
+		padding-left: 0;
+		background: none;
+	}
+
+	#resp-review-shipOverview>tbody>tr:first-child>td,
+	.resp-review-gft-itemdescription>td:first-child {
+		display: block;
+	}
+
+	#resp-review-shipUserInfo>br {
+		display: block !important;
+	}
+
+	#resp-review-paymentInfo {
+		margin-top: 20px;
+		float: none;
+		position: static;
+	}
+
+	.resp-review-orderinfoheader,
+	.resp-review-gft-img {
+		display: none !important;
+	}
+
+	.resp-review-gft-shipping,
+	.resp-review-gft-tax,
+	.resp-review-gft-total,
+	.resp-review-po2pl2-tax,
+	.total-cover {
+		float: none;
+	}
+
+	.resp-review-gft-shipping>td:last-child,
+	.resp-review-gft-tax>td:last-child,
+	.resp-review-gft-total>td>table>tbody>tr>td:last-child,
+	.resp-review-po2pl2-tax>td:last-child {
+		width: auto;
+		float: right;
+	}
+
+	.resp-review-gft-productdetails>td:last-child {
+		margin-left: 0;
+	}
+
+	.mobile-shipping-cover {
+		display: block;
+		padding: 0 15px 17px;
+	}
+
+	.mobile-shipping-cover>tr {
+		float: none;
+	}
+
+	.mobile-shipping-cover .resp-review-gft-shipping>td:last-child,
+	.mobile-shipping-cover .resp-review-gft-tax>td:last-child,
+	.mobile-shipping-cover .resp-review-gft-total>td>table>tbody>tr>td:last-child {
+		float: right;
+	}
+
+	.mobile-shipping-cover .resp-review-gft-tax,
+	.mobile-shipping-cover .resp-review-gft-total {
+		margin-top: 10px;
+	}
+
+	#resp-review-shipOverview, #resp-review-shipProductsList {
+		padding: 15px 10px;
+	}
+
+	/*END ------------------------------*/
+
+	/*Total Footer --------------------*/
+
+	#resp-review-bottom {
+		margin-top: 0 !important;
+		padding: 0 10px;
+		width: auto !important;
+		float: none;
+		display: block;
+	}
+
+	#resp-review-secondaryTotal {
+		margin-bottom: 30px;
+	}
+
+	#resp-review-bottomButtons {
+		margin-top: 0 !important;
+	}
+
+	#resp-review-secondaryTotal,
+	#resp-osm-needHelp {
+		width: 100% !important;
+		float: none;
+	}
+
+
+	/*END ----------------------------*/
+
+}

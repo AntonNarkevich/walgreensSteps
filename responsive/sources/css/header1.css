@@ -1,0 +1,407 @@
+link#rd-header1-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	html body #resp-login-header, html body .rd-header-top, html body .rd-header, html body #mainnew > iframe,
+	html body .header {
+		display: none;
+	}
+
+	html body .rd-header-mobile .platinum-links, html body .rd-header-mobile .platinum-hi {
+		font-weight: normal;
+		font-size: 15px;
+		color: #F06106;
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		text-decoration: none;
+	}
+
+	.rd-header-links a.platinum-links:first-child {
+		position: relative;
+	}
+
+	.rd-header-links a.platinum-links:first-child:after {
+		content: "";
+		display: block;
+		width: 1px;
+		height: 17px;
+		background: #E0E0E0;
+		position: absolute;
+		right: 0;
+		top: 2px;
+	}
+
+	html body .sprite-hdr {
+		display: block;
+		background-image: url('//static.sfstg8.qa.sf-cdn.com/MD5=cf45de0645afe92e7cf11d9f721582c3/default/images/walgreens/home/header-sprite.png'); /*ImageEmbed:skip*/
+	}
+
+	html body .rd-header-mobile {
+		margin: 0 20px;
+	}
+
+	html body .rd-header-center {
+		overflow: hidden;
+	}
+
+	html body .rd-logo-wrapper {
+		float: left;
+		margin-top: 20px;
+	}
+
+	html body .rd-logo-link {
+		display: block;
+		background-image: url('//static.sfstg8.qa.sf-cdn.com/MD5=cf45de0645afe92e7cf11d9f721582c3/default/images/walgreens/home/header-sprite.png'); /*ImageEmbed:skip*/
+		background-repeat: no-repeat;
+		background-position: 0 -417px;
+		width: 101px;
+		height: 42px;
+	}
+
+	html body .rd-logo-sublink {
+		display: block;
+		background-image: url('//static.sfstg8.qa.sf-cdn.com/MD5=cf45de0645afe92e7cf11d9f721582c3/default/images/walgreens/home/header-sprite.png'); /*ImageEmbed:skip*/
+		background-repeat: no-repeat;
+		background-position: 0 -458px;
+		width: 142px;
+		height: 51px;
+	}
+
+	html body .rd-header-links {
+		float: right;
+		background-color: #F3F3F3;
+		padding: 20px 13px 20px 13px;
+		margin-bottom: 15px;
+	}
+
+	html body .rd-header-links a {
+		display: inline-block;
+		padding: 0 13px;
+	}
+
+	/*html body .rd-header-links a:first-child {*/
+	/*border-right: solid 1px #e0e0e0;*/
+	/*}*/
+
+	html body .rd-cart-wrapper {
+		float: right;
+		clear: right;
+		margin-right: 8px;
+	}
+
+	html body .rd-cart-icon {
+		width: 30px;
+		height: 23px;
+		display: inline-block;
+		vertical-align: middle;
+		background-position: 0 -114px;
+	}
+
+	html body .rd-cart-link {
+		vertical-align: middle;
+		margin-left: 7px;
+	}
+
+	html body .rd-cart-count {
+		margin-left: 5px;
+	}
+
+	/* menu tablet */
+
+	html body .rd-menu-tablet {
+		display: table;
+		width: 100%;
+		height: 44px;
+		clear: both;
+		margin-bottom: 15px;
+	}
+
+	html body .rd-menu-item-tablet {
+		display: table-cell;
+		padding: 0 10px;
+		text-align: center;
+		vertical-align: middle;
+		border-right: 4px solid #ffffff;
+		background-image: linear-gradient(top, #fac08e 0, #fedbbd 100%);
+		background-image: -o-linear-gradient(top, #fac08e 0, #fedbbd 100%);
+		background-image: -moz-linear-gradient(top, #fac08e 0, #fedbbd 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fac08e), color-stop(1, #fedbbd));
+		background-image: -webkit-linear-gradient(top, #fac08e 0, #fedbbd 100%);
+		background-image: -ms-linear-gradient(top, #fac08e 0, #fedbbd 100%);
+	}
+
+	html body .rd-menu-item-tablet:last-child {
+		border-right: none;
+		background: #f87500;
+	}
+
+	html body .rd-menu-item-tablet a {
+		font-size: 17px;
+		font-weight: bold;
+		color: #495158;
+		text-decoration: none;
+	}
+
+	html body .rd-menu-item-tablet:last-child a {
+		color: #ffffff;
+	}
+
+	/* bottom header */
+
+	html body .rd-header-bottom {
+		padding: 15px 20px 10px;
+		margin: 0 -20px;
+		overflow: hidden;
+		background-image: linear-gradient(top, #bbbbbb 0, #ffffff 6px);
+		background-image: -o-linear-gradient(top, #bbbbbb 0, #ffffff 6px);
+		background-image: -moz-linear-gradient(top, #bbbbbb 0, #ffffff 6px);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #bbbbbb), color-stop(1, #ffffff));
+		background-image: -webkit-linear-gradient(top, #bbbbbb 0, #ffffff 6px);
+		background-image: -ms-linear-gradient(top, #bbbbbb 0, #ffffff 6px);
+
+		background-size: 100% 6px;
+		background-repeat: no-repeat;
+	}
+
+	html body .rd-header-bottom-links {
+		width: 50%;
+		float: left;
+	}
+
+	html body .rd-header-bottom-promo {
+		width: 50%;
+		float: right;
+	}
+
+	html body .rd-upload-link-wrapper, html body .rd-photos-link-wrapper {
+		width: 42%;
+		float: left;
+		text-align: center;
+		border-right: solid 1px #bbbbbb;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html body .rd-photos-link-wrapper {
+		width: 54%;
+	}
+
+	html body .rd-header-bottom-links .rd-walgreennewupload, html body .rd-header-bottom-links .rd-walgreennewmyphotos {
+		display: inline-block;
+		float: none;
+		height: 30px;
+		width: auto;
+		line-height: 30px;
+		margin: 0;
+		padding-left: 28px;
+		font-size: 17px;
+		font-weight: bold;
+		text-decoration: none;
+		color: #2274a6;
+		background: url('../images/header-sprites.png') no-repeat 0px 5px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html body .rd-header-bottom-links .rd-walgreennewmyphotos {
+		padding-left: 38px;
+		background: url('../images/header-sprites.png') no-repeat 0px -47px;
+	}
+
+	html body .rd-header-bottom-promo img {
+		max-width: 300px;
+		height: auto;
+	}
+
+	/* menu phone */
+
+	html body .rd-body-content {
+		box-shadow: -4px 0 20px 0 rgba(161, 161, 161, .4);
+	}
+
+	html body .rd-body-content-wrapper.rd-sidebar-show {
+		transform: translate(183px);
+		-moz-transform: translate(183px);
+		-o-transform: translate(183px);
+		-ms-transform: translate(183px);
+		-webkit-transform: translate3d(183px, 0, 0);
+	}
+
+	html body .rd-sidebar-wrapper {
+		width: 183px;
+		margin-left: -183px;
+		float: left;
+		height: 100%;
+		background: rgb(255, 235, 211);
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+
+	.rd-ios .rd-responsive-template .rd-sidebar-wrapper,
+	.rd-ios .rd-responsive-template .rd-sidebar-wrapper li,
+	.rd-ios .rd-responsive-template .rd-sidebar-wrapper div {
+		-webkit-transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+	}
+
+	html body .rd-sidebar .rd-sidebar-close {
+		display: none;
+	}
+
+	html body .rd-sidebar-wrapper, html body .rd-sidebar .rd-menu-block li {
+		background: rgb(255, 235, 211);
+	}
+
+	html body .rd-sidebar .rd-menu-block li {
+		border-top: solid 1px white;
+		border-bottom: solid 1px #d8d8d8;
+	}
+
+	html body .rd-sidebar .rd-menu-block li a {
+		font-size: 16px;
+	}
+
+	html body .rd-sidebar i, html body .rd-sidebar .rd-menu-block li a i {
+		background: none;
+		color: rgb(250, 134, 64);
+		margin: 7px 0;
+	}
+
+	html body .rd-sidebar .rd-menu-block li:last-child {
+		background: rgb(250, 134, 64);
+	}
+
+	html body .rd-sidebar .rd-menu-block li:last-child a, html body .rd-sidebar .rd-menu-block li:last-child .rd-icon {
+		color: white;
+	}
+
+	html .rd-sidebar .rd-menu-block li a, .rd-sidebar .rd-sidebar-close {
+		padding: 0 10px;
+		line-height: 38px;
+	}
+
+	html body .rd-header-bottom-promo img {
+		margin: 0 auto;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	html body .rd-header-mobile {
+		margin: 0 10px;
+	}
+
+	.rd-ios .rd-header-mobile-wrapper,
+	.rd-ios .rd-body-content>table {
+		-webkit-backface-visibility: hidden;
+		background: white;
+	}
+
+	html body .rd-header-center {
+		margin-bottom: 10px;
+	}
+
+	html body .rd-menu-button-phone {
+		width: 30px;
+		height: 60px;
+		float: left;
+		margin: 10px 13px 0 0;
+		border-right: 2px solid #e8e8e8;
+		background: url('../images/header-sprites.png') no-repeat 0 -65px;
+		background-size: 215px 232px;
+	}
+
+	html body a.rd-logo-link, html body .rd-logo-sublink {
+		width: 88px;
+		height: 30px;
+		background-size: 91px 617px;
+	}
+
+	html body a.rd-logo-link {
+		background-position: 0 0;
+	}
+
+	html body .rd-logo-sublink {
+		background-position: 0 -30px;
+	}
+
+	html body .rd-header-mobile .platinum-links, html body .rd-header-mobile .platinum-hi {
+		font-size: 13px;
+	}
+
+	html body .rd-cart-icon {
+		width: 17px;
+		height: 15px;
+		background-size: 85px 571px;
+		background-position: 0 -68px;
+	}
+
+	html body .rd-menu-tablet {
+		display: none;
+	}
+
+	html body .rd-header-bottom {
+		margin: 0 -10px;
+		padding: 0;
+		background-image: none;
+		border-top: 1px solid #bbbbbb;
+	}
+
+	html body .rd-header-links {
+		padding: 10px;
+		margin-bottom: 8px;
+	}
+
+	html body .rd-logo-wrapper {
+		margin-top: 15px;
+	}
+
+	html body .rd-header-links a {
+		padding: 0 10px;
+	}
+
+	html body .rd-header-bottom-links, html body .rd-header-bottom-promo {
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html body .rd-header-bottom-links {
+		padding: 10px 0;
+		background-image: linear-gradient(top, #ffffff 0, #edeeee 100%);
+		background-image: -o-linear-gradient(top, #ffffff 0, #edeeee 100%);
+		background-image: -moz-linear-gradient(top, #ffffff 0, #edeeee 100%);
+		background-image: -webkit-linear-gradient(top, #ffffff 0, #edeeee 100%);
+		background-image: -ms-linear-gradient(top, #ffffff 0, #edeeee 100%);
+	}
+
+	html body .rd-photos-link-wrapper {
+		width: 58%;
+		border-right: none;
+	}
+
+	html body .rd-header-bottom-promo {
+		padding: 10px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES PORTRAIT  **************************************************************/
+@media screen and (max-width:479px) {
+	html body .rd-header-links a {
+		padding: 0 5px;
+	}
+
+	html body .rd-cart-link {
+		margin-left: 5px;
+	}
+
+	html body .rd-header-bottom-promo img {
+		max-width: 100%;
+	}
+}

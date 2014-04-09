@@ -1,0 +1,302 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	form[name="shareInvitation"] {
+		margin-bottom: 0;
+	}
+
+	form[name="shareInvitation"] table,
+	form[name="shareInvitation"] table tbody,
+	form[name="shareInvitation"] table tr,
+	form[name="shareInvitation"] table td,
+	form[name="shareInvitation"] table {
+		display: block;
+	}
+
+	form[name="shareInvitation"] table {
+		width: 100%;
+	}
+
+	form[name="shareInvitation"] {
+		padding: 15px 0;
+	}
+
+	form[name="shareInvitation"] table>tr>td {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	form[name="shareInvitation"] table>tr>td>table:first-child {
+
+	}
+
+	/*Popup fix ------------------------------------*/
+	div.sfPanel.yui-module.yui-overlay.yui-panel[id="wc5:panelEl"] {
+		width: 620px;
+		overflow: hidden;
+		margin: 10px;
+		min-height: 620px;
+	}
+
+	td[height="12"] {
+		display: none !important;
+	}
+
+	form[name="shareInvitation"] table tbody tr td table tbody tr:nth-child(3) {
+		margin-bottom: 5px;
+	}
+
+	tr.main-cont {
+		position: relative;
+		margin-top: 35px;
+	}
+
+	tr.main-cont.multiple {
+		margin-top: 0;
+	}
+
+	/*Share conteiner*/
+	tr.share-cont {
+		position: absolute;
+		top: 90px;
+		z-index: 100;
+	}
+
+	td.share-btn-cont {
+		height: 26px;
+		float: left;
+		border-bottom: 1px solid #999;
+	}
+
+	a#emailDiv, a#linkDiv, a#shareGigyadiv {
+		position: relative;
+		top: 1px;
+		background: #FFF;
+		color: #000;
+		border-radius: 5px 5px 0 0;
+		border-left: 1px solid #999;
+		border-top: 1px solid #999;
+		border-right: 1px solid #999;
+		border-bottom: 1px solid #FFF;
+		text-align: center;
+		margin-right: 13px;
+
+		font-size: 13px !important;
+	}
+
+	a#shareGigyadiv {
+		margin-right: 0;
+		padding-left: 13px;
+	}
+
+	/*Untab share*/
+	.share-with-email-untab, .share-with-link-untab, .share-with-gigya-untab {
+		border-bottom: 0 !important;
+	}
+
+	/*Hide td block between share buttons*/
+	.share-btn-cont+td {
+		display: inline-block !important;
+		width: 0;
+		height: 0;
+		float: left;
+	}
+
+	.share-btn-cont+td:last-child {
+		float: none;
+	}
+
+	textarea {
+		width: 100% !important;
+		margin-top: 5px;
+		min-height: 4em;
+		box-sizing: border-box;
+	}
+
+	#shareemails {
+		margin: -30px 0 5px;
+	}
+
+	#shareWithEmail>table table[width="430"], #shareWithLink, div#shareGigyadiv {
+		padding-left: 10px;
+		padding-top: 20px;
+		border-left: 1px solid #999;
+		box-sizing: border-box;
+	}
+
+	/*MULTIPLE POPUP*/
+	.multiple #shareWithEmail>table table[width="430"], .multiple #shareWithLink, .multiple div#shareGigyadiv {
+		border: 0;
+		padding-left: 0;
+	}
+	.multiple table[width="105"] td {
+		display: inline-block;
+	}
+
+	.multiple table[width="105"] tr:nth-child(2) {
+		border: 1px solid #e89e5f;
+		margin-top: 10px;
+		padding: 5px 10px;
+		border-radius: 10px;
+	}
+
+	.multiple table[width="105"] tr:nth-child(1),
+	.multiple table[width="105"] tr:nth-child(2) img,
+	.multiple table[width="105"] tr:nth-child(3){
+		display: none;
+	}
+
+	.multiple table[width="105"] tr:nth-child(2) tr {
+		display: block;
+	}
+	/*END --------------*/
+
+	input[name="sendacopyofthemail"] {
+		margin-right: 5px;
+		float: left;
+	}
+
+	#errMsgTr+tr+tr td[align="right"] {
+		text-align: left;
+		padding-bottom: 5px;
+	}
+
+	#errMsgTr+tr+tr td[align="right"] a {
+		font-size: 13px !important;
+	}
+
+	/*Share END -----------------------*/
+
+	/*Left block ---------------------*/
+	#shareWithEmail table tbody {
+		width: 390px;
+	}
+	#errorEmailBodySize+tbody tr:nth-child(2),  #errorEmailBodySize+tbody tr:nth-child(4), img[height="10"] {
+		display: none;
+	}
+
+	td[width="17"] {
+		line-height: 0;
+	}
+
+	#changebutton a, #changebuttontodim {
+		display: inline-block;
+		padding: 15px 30px;
+		font-size: 16px;
+		color: #FFF;
+		border-radius: 5px;
+		box-sizing: border-box;
+		text-align: center;
+		border: 1px solid #6A737B;
+
+		background-image: linear-gradient(top, rgb(67,155,214) 10%, rgb(39,115,166) 85%);
+		background-image: -o-linear-gradient(top, rgb(67,155,214) 10%, rgb(39,115,166) 85%);
+		background-image: -moz-linear-gradient(top, rgb(67,155,214) 10%, rgb(39,115,166) 85%);
+		background-image: -webkit-linear-gradient(top, rgb(67,155,214) 10%, rgb(39,115,166) 85%);
+		background-image: -ms-linear-gradient(top, rgb(67,155,214) 10%, rgb(39,115,166) 85%);
+		background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, rgb(67,155,214)), color-stop(0.85, rgb(39,115,166)) );
+	}
+
+	#errorEmailBodySize+tbody tr:nth-child(1) td,  #errorEmailBodySize+tbody tr:nth-child(3) td {
+		line-height: 0.8;
+	}
+
+	#shareWithEmail>table>tbody>tr:nth-child(2) {
+		padding-left: 20px;
+	}
+
+	#errMsgTr {
+		margin: -10px 0 10px;
+
+	}
+	#errMsgTr br, #changebutton img {
+		display: none;
+	}
+
+	#errorEmailBodySize+tbody {
+		margin-top: 20px;
+	}
+
+	#errorEmailBodySize+tbody tr:nth-child(5) {
+		margin-top: 10px;
+	}
+
+	/*Share with a link*/
+	#shareWithLink {
+		width: 390px;
+		padding-left: 10px;
+		padding-top: 5px;
+	}
+
+	/*Share to...---------------*/
+	#shareGigyadiv table tbody tr:first-child td[valign="top"][width="16"]:first-child {
+		display: none;
+	}
+	div#shareGigyadiv {
+		width: 440px;
+		text-align: left;
+		padding-top: 25px;
+	}
+	table[width="340"] tr td {
+		display: inline-block;
+		width: 40%;
+	}
+
+	div#shareGigyadiv a img {
+		margin-left: 0;
+	}
+	/*End ----------------------*/
+
+	/*End----------------------------*/
+
+	/*Right block --------------------*/
+	.main-cont>td:nth-child(2) {
+		position: absolute;
+		top: 20px;
+		right: 25px;
+	}
+
+	.multiple>td:nth-child(2) {
+		right: 0px;
+	}
+
+	.main-cont>td:nth-child(2) td {
+		background-repeat: no-repeat;
+	}
+
+	.main-cont>td:nth-child(2) td[height="128"] img{
+		margin: 25px 10px 0;
+	}
+
+	td[height="15"], .main-cont>td:nth-child(2) td img[height="5"]  {
+		display: none !important;
+	}
+
+	span.FacebookText {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	/*End ---------------------------*/
+
+	/*Remove border orange image*/
+	td[valign="top"][width="17"] img {
+		display: none;
+	}
+
+	/*Add gray border*/
+	td[valign="top"][width="17"] {
+		border-left: 1px solid #999;
+	}
+
+	/*END --------------------------------------*/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:479px) {
+
+}

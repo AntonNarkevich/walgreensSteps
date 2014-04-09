@@ -1,0 +1,647 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	body table,
+	body tbody,
+	body tr,
+	body td,
+	body th {
+		height: auto;
+	}
+
+	/*.contentMaintd {
+		margin: 0 20px 0px;
+	}*/
+	#cancelButtonTop,
+	#cancelButton {
+		float: left;
+		margin-left: 0;
+	}
+
+	/** title block **/
+	.contentMaintd > table tr:first-child {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.contentMaintd > table > tbody > tr:first-child td:first-child {
+		overflow: hidden;
+		float: left;
+	}
+
+	.page-title {
+		padding-top: 0 !important;
+		margin-left: 0 !important;
+		clear: both;
+	}
+
+	.page-title + div:not(#resp-checkout-buttonsTop) {
+		display: none;
+		padding-top: 0 !important;
+		clear: left;
+		margin-left: 0 !important;
+		font-size: 17px !important;
+	}
+
+	.contentMaintd > table > tr:first-child > td:nth-child(2) {
+		overflow: hidden;
+		float: right;
+	}
+
+	.contentMaintd > table tr:first-child > td:nth-child(2) > div {
+		padding-top: 0 !important;
+	}
+
+	.contentMaintd #resp-checkout-buttonsTop {
+		padding-right: 0 !important;
+	}
+
+	.pickuppage-selection-container {
+		margin-left: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.rd-button.rd-blue-button {
+		width: 132px;
+		margin-left: 24px !important;
+	}
+
+	.rd-button.rd-gray-button {
+		width: 105px;
+	}
+
+	/** title block End **/
+
+	/** Shipping info block **/
+	/* header */
+	div.pickuppage-selection-container {
+		margin-top: 19px;
+	}
+
+	div.pickuppage-selection-container > table:first-child {
+		padding: 0;
+	}
+
+	.pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container {
+		height: 40px;
+		padding: 0 0 0 20px;
+		border: 0;
+		border-bottom: 1px solid rgb(228, 228, 228);
+		margin: 0;
+	}
+
+	.pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container span {
+		padding-left: 44px;
+		line-height: 38px;
+		background-position-y: -408px;
+		margin-left: 0;
+	}
+
+	/* header end*/
+	/** Shipping Form **/
+	#differentUserAddressCont_ship {
+		padding: 22px 16px 0;
+	}
+
+	#resp-shipping-fields-ship > tbody {
+		overflow: hidden;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6) {
+		float: left;
+		width: 50%;
+		padding-right: 15px;
+		clear: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7),
+	.rd-adress-titles {
+		margin-bottom: 7px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8) {
+		width: 100%;
+		padding-left: 50%;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8) > td {
+		padding-left: 15px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8) {
+		margin-bottom: 25px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) {
+		overflow: hidden;
+		clear: both;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(9),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(2n) {
+		display: none;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td {
+		margin-bottom: 25px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child {
+		margin-bottom: 0;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:first-child,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child {
+		width: 50%;
+		padding-right: 15px;
+		float: left;
+		clear: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) {
+		width: 100%;
+		padding-left: 50%;
+	}
+
+	.rd-adress-titles {
+		text-align: left;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) div {
+		padding-left: 15px !important;
+		height: auto !important;
+	}
+
+	#resp-shipping-fields-ship select {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1) .shippingLabelText {
+		float: left;
+	}
+
+	#resp-shipping-fields-ship .shippingLabelText + td {
+		float: right;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td {
+		height: 40px;
+		line-height: 20px;
+		padding: 10px 0 10px 0;
+		margin: 5px 0;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td input {
+		margin-left: 4px !important;
+		margin-right: 10px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr input[type="text"] {
+		width: 100% !important;
+	}
+
+	/** Shipping Form End **/
+	/** saved data **/
+	#storedUserAddressCont_ship {
+		padding: 16px;
+		overflow: hidden;
+	}
+
+	#storedUserAddressCont_ship tr {
+		overflow: hidden;
+	}
+
+	#storedUserAddressCont_ship .largeText {
+		font-size: 19px;
+		line-height: 24px;
+		float: left;
+	}
+
+	#resp-shipping-edit-ship {
+		width: auto !important;
+		clear: right;
+	}
+
+	/** saved data end **/
+
+	/** shipping method **/
+	/** selectors don't match without function editshipping.js > setClassOnTable  **/
+	div.pickuppage-selection-container .rd-shipping-method {
+		padding: 0 16px 22px;
+	}
+
+	img[src$="spacer.gif"] {
+		display: none;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method .pickuppage-selection-container {
+		padding: 0 10px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr:nth-child(2) ~ tr span {
+		padding: 10px 0;
+		display: inline-block;
+		float: left;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr select {
+		width: 100% !important;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr i {
+		height: 44px;
+		display: block;
+		line-height: 20px;
+		padding: 15px 0 0;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr i a {
+		display: block;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr i a + i {
+		display: inline;
+		padding: 0;
+	}
+
+	/** selectors don't match without function editshipping.js > setClassOnTable   End **/
+	/** shipping method End **/
+
+	/** Shipping info block End **/
+
+	/** global checkout footer **/
+	#rightContent {
+		width: auto !important;
+		float: none !important;
+	}
+
+	#resp-osm-shipInfo,
+	#resp-osm-pickupInfo {
+		margin: 25px 0 !important;
+		width: 100% !important;
+		border: 1px solid rgb(228, 228, 228);
+	}
+
+	#resp-osm-shipInfo tr:first-child,
+	#resp-osm-pickupInfo tr:nth-child(2) {
+		background-color: #f5f5f5;
+		overflow: hidden;
+	}
+
+	#resp-osm-shipInfo tr:first-child td:nth-child(2),
+	#resp-osm-pickupInfo tr:nth-child(2) td:nth-child(2) {
+		height: 34px;
+		border-bottom: 1px solid rgb(228, 228, 228);
+		padding: 0 13px;
+		line-height: 34px;
+	}
+
+	#resp-osm-shipInfo .rtModule-headerText,
+	#resp-osm-shipInfo .rtModule-headerText + div,
+	#resp-osm-pickupInfo .rtModule-headerText,
+	#resp-osm-pickupInfo .rtModule-headerText + div {
+		height: 34px;
+		line-height: 34px;
+		padding-top: 0 !important;
+	}
+
+	#resp-osm-shipInfo tr:nth-child(3),
+	#resp-osm-pickupInfo tr:nth-child(3) {
+		padding: 16px 19px 0 13px;
+	}
+
+	#resp-osm-shipInfo tr:nth-child(3) .rtCoulmnUL,
+	#resp-osm-pickupInfo tr:nth-child(3) .rtCoulmnUL {
+		padding-top: 0 !important;
+	}
+
+	#resp-osm-shipInfo tr:nth-child(n+4),
+	#resp-osm-pickupInfo tr:nth-child(n+4) {
+		padding: 0 19px 0 13px;
+	}
+
+	/** global checkout footer End **/
+	.body-back-image {
+		overflow: hidden;
+	}
+
+	/* some hiden field  */
+	#convertSDPtoMO {
+		position: relative;
+		overflow: hidden;
+		padding: 0 20px 40px 20px;
+	}
+
+	#convertSDPtoMO img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#convertSDPtoMO > div div:last-child {
+		position: absolute;
+		bottom: 30px;
+		right: 0;
+	}
+
+	/** global footer **/
+	.resp-footerplain-main {
+		-webkit-box-shadow: inset 0px 4px 10px 0px rgba(25, 25, 25, 0.2);
+		text-align: center;
+		background: rgb(246, 246, 246) !important;
+		padding: 15px 0;
+	}
+
+	/** global footer end **/
+
+	/*** Threshold Popup ***/
+
+	#thresholdShippingLayer > table {
+		padding: 25px;
+		background: white;
+	}
+
+	#mainDiv_thresholdShippingLayer table,
+	#mainDiv_thresholdShippingLayer tbody,
+	#mainDiv_thresholdShippingLayer thead,
+	#mainDiv_thresholdShippingLayer tfoot,
+	#mainDiv_thresholdShippingLayer th,
+	#mainDiv_thresholdShippingLayer tr,
+	#mainDiv_thresholdShippingLayer td {
+		width: initial !important;
+	}
+
+	#mainDiv_thresholdShippingLayer table {
+		display: table !important;
+	}
+
+	#mainDiv_thresholdShippingLayer tbody {
+		display: table-row-group !important;
+	}
+
+	#mainDiv_thresholdShippingLayer thead {
+		display: table-header-group !important;
+	}
+
+	#mainDiv_thresholdShippingLayer tfoot {
+		display: table-footer-group !important;
+	}
+
+	#mainDiv_thresholdShippingLayer th {
+		display: table-cell !important;
+	}
+
+	#mainDiv_thresholdShippingLayer tr {
+		display: table-row !important;
+	}
+
+	#mainDiv_thresholdShippingLayer td {
+		display: table-cell !important;
+	}
+
+	/*** Threshold Popup end ***/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	/*.contentMaintd {
+		margin: 0 10px 0;
+	}*/
+	/** title block **/
+	.contentMaintd > table > tbody > tr:first-child td:first-child {
+		overflow: hidden;
+		float: none !important;
+	}
+
+	.page-title {
+		float: none !important;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.page-title + div {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	#resp-checkout-buttonsTop {
+		float: none !important;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.rd-button.rd-blue-button {
+		width: 137px;
+	}
+
+	.rd-button.rd-gray-button {
+		width: 99px;
+	}
+
+	#cancelButtonTop + a,
+	#cancelButton + a {
+		float: right;
+	}
+
+	#pleasewaitText {
+		float: right;
+	}
+
+	/** title block End **/
+
+	/** Shipping info block **/
+	/* header */
+	div.pickuppage-selection-container {
+		margin-top: 0;
+	}
+
+	/* header end*/
+	/** Shipping Form **/
+	div.pickuppage-selection-container .rd-shipping-method {
+		padding: 0 8px 22px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container {
+		padding-left: 10px;
+	}
+
+	#shippingContainer .pickuppage-selection-container > table:nth-child(1) .pickuppage-selection-container span,
+	#mixedOrderShipping .pickuppage-selection-container .pickuppage-selection-container span.ship-icon {
+		font-size: 19px;
+		background-image: none;
+		padding-left: 0;
+	}
+
+	#shippingContainer #storedUserAddressCont_ship {
+		padding: 10px;
+	}
+
+	#storedUserAddressCont_ship .rd-clone-store.rd-phone {
+		margin: 0;
+	}
+
+	#storedUserAddressCont_ship .rd-clone-store.rd-phone td {
+		float: none !important;
+		text-align: left !important;
+		width: auto !important;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr i a {
+		display: inline;
+	}
+
+	.rd-checkout-content #current {
+		margin-bottom: 0;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr:nth-child(2) ~ tr {
+		padding: 0 4px;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method .pickuppage-selection-container {
+		font-size: 0;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method .pickuppage-selection-container span {
+		line-height: 40px;
+		padding-left: 3px;
+	}
+
+	div.pickuppage-selection-container .rd-shipping-method table tr:nth-child(2) ~ tr span {
+		padding: 10px 5px;
+	}
+
+	/** input data form **/
+	#differentUserAddressCont_ship {
+		padding: 12px 8px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(1),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(5),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:first-child,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:last-child {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+		clear: none;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(3) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(7) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8) > td,
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3) div {
+		padding-left: 0 !important;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(2),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(4),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(6),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(8),
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td:nth-child(3),
+	#frdOrder1> table table> tbody> tr:nth-child(3n+3) {
+		margin-bottom: 17px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:nth-child(10) td {
+		margin-bottom: 17px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td {
+		padding: 5px 0 10px 25px;
+		margin: 5px 0 0;
+		height: 35px;
+	}
+
+	#resp-shipping-fields-ship > tbody > tr:last-child td input {
+		margin-left: -25px !important;
+		margin-right: 10px;
+		vertical-align: 3px;
+	}
+
+	#storedUserAddressCont_ship .rd-clone-store.rd-phone {
+		margin: 0;
+	}
+
+	/** Shipping Form End **/
+	/** saved data **/
+	#storedUserAddressCont_ship {
+		padding: 10px;
+	}
+
+	/** saved data end **/
+	/** shipping method **/
+
+	/** shipping method End **/
+	/** Shipping info block End **/
+
+	/** global checkout footer **/
+	#resp-osm-shipInfo tr:first-child td:nth-child(2) {
+		padding: 0 19px 0 13px;
+	}
+
+	/*	.rd-checkout-content #resp-checkout-secondaryTotal {
+			margin-top: -15px !important;
+		}*/
+	/** global checkout footer End **/
+	/* some hidden field  */
+	#convertSDPtoMO {
+		padding: 0 10px 20px 10px;
+	}
+
+	#convertSDPtoMO > div div:last-child {
+		float: right;
+		width: 100%;
+	}
+
+	#convertSDPtoMO .sprite-CAC.btn-yes.rd-button.rd-gray-button {
+		width: 290px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	/* some hidden field End */
+
+	/** global footer **/
+	.resp-footerplain-main {
+		padding: 15px 39px;
+	}
+
+	/** global footer end **/
+
+}

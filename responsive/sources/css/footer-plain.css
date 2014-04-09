@@ -1,0 +1,56 @@
+link#rd-footer-plain-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	.resp-footerplain-main,
+	.resp-footerplain-spacing {
+		display: none !important;
+	}
+
+	.rd-footer-plain {
+		padding: 20px 10px 30px;
+		-webkit-box-shadow: inset 0px 4px 10px 0px rgba(25, 25, 25, 0.2);
+		text-align: center;
+		background: rgb(246, 246, 246) !important;
+		max-width: 918px;
+		margin: 0 auto;
+	}
+
+	.rd-footer-bottom-links {
+		margin-bottom: 10px;
+	}
+
+	html .rd-footer-bottom-links a,
+	html .rd-footer-bottom-links a:hover {
+		padding: 0 5px;
+		border-right: solid 1px #464646;
+		color: #464646;
+		text-decoration: none;
+		font-size: 13px;
+		border-radius: 0;
+	}
+
+	html .rd-footer-bottom-links a:last-child {
+		border-right: none;
+	}
+
+	html .rd-full-site-link {
+		background: none !important;
+		width: auto !important;
+		height: auto !important;
+		line-height: initial !important;
+		color: #464646;
+	}
+
+	html .rd-footer-bottom-copyrights {
+		font-size: 13px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+}

@@ -1,0 +1,695 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	/*Account navigation-*/
+	form[name="frmDedicatedprintspage"] table.body-back-image:nth-child(1)>tbody>tr:nth-child(1) {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		height: 50px;
+		overflow: hidden;
+	}
+
+	/*END --------------*/
+
+	/*Content-----------*/
+	.rd-print-name span.cart_price {
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	table.dedicatedprintspage-content {
+		position: relative;
+		padding: 20px 20px 40px 20px;
+	}
+
+	table.dedicatedprintspage-content>tbody>tr:nth-child(3), table.dedicatedprintspage-content>tbody>tr:nth-child(5) {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-description {
+		margin-bottom: 20px;
+	}
+
+	div#resp-dedicatedPrints-printsSelected {
+		float: none !important;
+	}
+
+	tr#resp-dedicatedPrints-mainContent {
+		/*position: relative;*/
+		display: table;
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	td#resp-dedicatedPrints-printDetails+td {
+		display: inline-block;
+		width: 1%;
+	}
+
+	table.dedicatedprintspage-content .hide, .dedicatedprintspage-content+.hide, #divDisplayPictureInfo .hide {
+		display: none !important;
+	}
+
+	/*Left block*/
+	td#resp-dedicatedPrints-printDetails {
+		display: table-cell;
+		overflow: hidden;
+		width: 55%;
+	}
+
+	#resp-dedicatedPrints-printDetails>div {
+		width: auto !important;
+		padding: 0 !important;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+	#resp-dedicatedPrints-note>table {
+		padding: 12px 17px;
+	}
+
+	#resp-dedicatedPrints-printDetails div table {
+		height: auto;
+	}
+
+	#resp-dedicatedPrints-printDetails div table td[align="right"] {
+		text-align: left;
+		margin: -5px 0 10px 9px;
+	}
+
+	#resp-dedicatedPrints-printType input[type="radio"] {
+		margin-left: 10px;
+		margin-right: 5px;
+	}
+
+	#resp-dedicatedPrints-printDetails div table td[align="right"] input[name="paperfinish"]:nth-child(3) {
+		margin-left: 20px;
+	}
+
+	#resp-dedicatedPrints-printDetails br {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-printSizes {
+		border-top: 0 !important;
+	}
+
+	#resp-dedicatedPrints-printSizes span.transfer {
+		display: block;
+	}
+
+	#resp-dedicatedPrints-entireOrder {
+		margin-top: 15px;
+	}
+
+	#resp-dedicatedPrints-printSizes>table>tbody>tr:nth-child(1) {
+		margin-bottom: 15px;
+	}
+
+	#resp-dedicatedPrints-printSizes input {
+		margin-bottom: 20px;
+		text-align: center !important;
+		margin-left: -68px;
+	}
+
+	#resp-dedicatedPrints-mainContent input[type="text"] {
+		width: 74px;
+		height: 35px;
+		margin-right: 5px;
+	}
+
+	#resp-dedicatedPrints-printSizes input:first-child {
+		margin-left: 0;
+	}
+
+	#individualPrintsDiv {
+		margin-top: 15px !important;
+	}
+
+	/*#divDisplayPictureInfo td[height="30"][valign="middle"] {*/
+	/*float: right;*/
+	/*}*/
+
+	#divDisplayPictureInfo td[height="30"][valign="middle"]>a:first-child {
+		display: none;
+	}
+
+	.prd-table-cover {
+		text-align: center;
+	}
+
+	.prd-table-cover td {
+		margin: 0 !important;
+		float: none !important;
+	}
+
+	.prd-table-cover td.a-cover {
+		text-align: right;
+		padding-right: 25px;
+	}
+
+	.prd-table-cover span {
+		display: block;
+	}
+
+	.prd-table-cover img {
+		margin-right: 0 !important;
+	}
+
+	#divDisplayPictureInfo td[height="100"] {
+		height: auto !important;
+	}
+
+	/*#divDisplayPictureInfo td tr td {*/
+	/*display: inline-block;*/
+	/*}*/
+
+	#divDisplayPictureInfo td img {
+		margin-right: -19px;
+	}
+
+	#divDisplayPictureInfo td.cart_price {
+		margin-bottom: 15px;
+		height: auto;
+        margin-left: 30px;
+	}
+
+	#divDisplayPictureInfo tbody>tr:nth-child(1)>td.cart_price {
+		margin-top: 20px;
+	}
+
+	#divDisplayPictureInfo>table>tbody>tr:first-child>td[valign="top"]>table>tbody>tr:first-child>td:nth-child(2) {
+		padding-bottom: 5px;
+		border-bottom: 1px solid #CCC;
+	}
+
+	.more-size-container+div {
+		text-align: center;
+		padding-bottom: 10px !important;
+		padding-top: 0 !important;
+	}
+
+	td>div+div>a {
+		float: none !important;
+		margin: 0 !important;
+	}
+
+	td>div+div>img[height="1"], td>div+div>a+img {
+		display: none;
+	}
+
+	.rd-print-sizes {
+		border-top: 1px solid #CCC;
+		padding-top: 15px;
+		margin-top: 15px;
+	}
+
+	.rd-print-sizes > tbody > tr:first-child, .rd-poster-sizes, .rd-poster-label {
+		display: none !important;
+	}
+
+	/*END------*/
+
+	/*Right block*/
+	td#resp-dedicatedPrints-printSummary {
+		position: relative;
+		top: 175px;
+		right: 0;
+		min-height: 100%;
+		width: 43%;
+		display: table-cell;
+		box-sizing: border-box;
+	}
+
+	#floatdiv {
+		padding-bottom: 400px;
+	}
+
+	#resp-dedicatedPrints-printSummary div#floatdiv, #resp-dedicatedPrints-printSummary div#floatdiv div {
+		width: auto !important;
+		height: auto !important;
+	}
+
+	div#resp-dedicatedPrints-cancelTop {
+		float: none;
+		position: absolute;
+		right: 20px;
+		top: 85px;
+		z-index: 1;
+	}
+
+	td#resp-dedicatedPrints-topButtons {
+		position: absolute;
+		width: 43%;
+		top: 120px;
+		right: 0;
+		padding: 0 20px 0 0;
+		box-sizing: border-box;
+		z-index: 1;
+	}
+
+	#resp-dedicatedPrints-topButtons a, .bottom-btn-cover>table #resp-dedicatedPrints-bottomButtons>a {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#resp-dedicatedPrints-topButtons a:last-child, .bottom-btn-cover>table #resp-dedicatedPrints-bottomButtons>a:last-child {
+		margin-bottom: 0;
+	}
+
+	#resp-dedicatedPrints-printSummary td.cart_price {
+		display: inline-block;
+		width: 24%;
+		box-sizing: border-box;
+		padding-left: 10px;
+		text-align: left;
+	}
+
+	#resp-dedicatedPrints-printSummary td.cart_price:nth-child(1) {
+		width: 48%;
+	}
+
+	#resp-dedicatedPrints-printSummary td.cart_pick {
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	#resp-dedicatedPrints-printSummary td.cart_price[align="right"]:last-child,
+	script+.cart_pick {
+		width: auto;
+		padding-left: 0;
+		padding-right: 10px;
+		float: right;
+		text-align: right;
+	}
+
+	#resp-dedicatedPrints-pricingModule tr td.cart_price+td {
+		display: inline-block;
+		width: 49%;
+		box-sizing: border-box;
+	}
+
+	#resp-dedicatedPrints-pricingModule tr {
+		vertical-align: top;
+	}
+
+	#resp-dedicatedPrints-pricingModule tr td.cart_price+td.cart_price,
+	#resp-dedicatedPrints-pricingModule tr td.cart_price+td.cart_price[valign="top"] {
+		width: 24%;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule td[height="1"] {
+		text-align: center;
+	}
+
+	td#resp-dedicatedPrints-printSummary .dedicated_prints_total, table.dedicatedt_prints_cancel_buttons_cont {
+		position: relative;
+		left: 0;
+		right: 0;
+		box-sizing: border-box;
+		width: auto !important;
+		height: auto !important;
+	}
+
+	#resp-dedicatedPrints-mainContent+tr+tr {
+		clear: both;
+	}
+
+	#new_resp-dedicatedPrints-cancelBottom {
+		margin-bottom: 15px;
+		padding-right: 2px;
+	}
+
+	#resp-dedicatedPrints-pricingModule .cart_price+td td.cart_price[align="right"]:last-child, script+.cart_pick {
+		padding-right: 0 !important;
+	}
+
+	.cart_price>span {
+		font-size: inherit;
+	}
+
+	script+.cart_pick {
+		margin-right: 10px;
+	}
+
+	.height-fix {
+		height: auto;
+	}
+
+	span.toggle-btn, .hide+div+p, #resp-dedicatedPrints-mainContent+tr+tr>td:last-child,
+	form[name="frmDedicatedprintspage"]+p {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-topButtons, #resp-dedicatedPrints-cancelTop {
+		display: block;
+	}
+
+	.more-size-container td {
+		display: block !important;
+	}
+
+	.more-size-container td.cart_price {
+		margin-bottom: 20px;
+	}
+
+	td.a-cover {
+		float: left;
+		margin-left: 0;
+		line-height: 44px;
+	}
+
+	.more-size-container td.a-cover[valign="middle"] {
+		display: none !important;
+	}
+
+	.more-size-container+div>a {
+		background-color: #FFF;
+		padding: 0 10px 0;
+	}
+
+	.more-size-border-bottom-line {
+		display: block;
+		border-bottom: 1px solid #CCC;
+		margin-top: -10px;
+	}
+
+	.cart_price[valign="middle"] {
+		margin-bottom: 0 !important;
+		margin-right: 25px !important;
+	}
+
+	#resp-dedicatedPrints-mainContent input {
+		text-align: center !important;
+	}
+
+	.cart_price b, #resp-dedicatedPrints-printSizes>table>tbody>tr:first-child>td>span {
+		font-size: 16px !important;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule {
+		padding-bottom: 10px !important;
+		margin-bottom: 15px !important;
+	}
+
+	#divDisplayPictureInfo>table, #resp-dedicatedPrints-printSizes>table {
+		padding: 20px 18px 12px;
+	}
+
+	.toggle-btn-cover {
+		position: relative;
+		padding: 14px 19px 15px !important;
+		box-sizing: border-box;
+	}
+
+	tr.individual-prints-div-desc-cover {
+		display: table !important;
+		margin-top: -15px;
+		margin-bottom: 10px;
+		padding-left: 16px;
+	}
+
+	table.body-back-image>tbody>tr:nth-child(3) {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-printType span+input[type="radio"] {
+		margin-left: 30px;
+	}
+
+	#resp-dedicatedPrints-description span {
+		font-weight: bold;
+	}
+
+	#divDisplayPictureInfo td>img[width="19"] {
+		display: none;
+	}
+
+	.a-cover a {
+		text-decoration: none;
+	}
+
+	#divDisplayPictureInfo>table {
+		border-bottom: 1px solid #CCC;
+		margin: 0 0 20px;
+	}
+
+	#resp-dedicatedPrints-printSizes input[type="text"]:last-of-type {
+		margin-bottom: 0;
+	}
+
+	#divDisplayPictureInfo>table:last-child {
+		margin: 0;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule>.toggle-btn-cover, #resp-dedicatedPrints-pricingModule>.toggle-btn-cover {
+		padding: 10px !important;
+	}
+
+	#resp-dedicatedPrints-printInfo {
+		border: 0 !important;
+	}
+
+	#divDisplayPictureInfo {
+		border: 1px solid #CCC;
+	}
+
+	#divDisplayPictureInfo>table:last-child {
+		border-bottom: 0;
+	}
+
+	#divDisplayPictureInfo td>img[width="20"] {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-printsSelected, #resp-dedicatedPrints-printsSelected>span {
+		font-size: 15px !important;
+	}
+
+	#floatdiv td {
+		font-size: 15px;
+	}
+
+	.bottom-btn-cover {
+		position: absolute;
+		right: 0;
+		width: 43%;
+		box-sizing: border-box;
+		bottom: 40px;
+		padding-right: 20px;
+		background: #FFF;
+	}
+
+	#resp-dedicatedPrints-printsTotal {
+		margin: 0 0 20px !important;
+		width: auto !important;
+		height: auto !important;
+	}
+
+	#resp-dedicatedPrints-printsTotal>div {
+		height: 44px !important;
+		padding: 8px 0;
+		box-sizing: border-box;
+	}
+
+	.bottom-btn-cover>table .cancel_link {
+		margin-bottom: 10px;
+		display: block;
+	}
+
+	/*END-------*/
+
+	/*END -------------*/
+	.rd-ios .body-back-image>* {
+		-webkit-backface-visibility: hidden;
+		/*background: white;*/
+	}
+
+	#resp-dedicatedPrints-printDetails input {
+		min-width: initial;
+	}
+
+	#resp-dedicatedPrints-note span {
+		font-size: 14px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	#floatdiv, #resp-dedicatedPrints-printSummary {
+		top: 0 !important;
+		padding-bottom: 0;
+	}
+
+	table.dedicatedprintspage-content {
+		padding: 15px 10px 10px 10px;
+	}
+
+	#resp-dedicatedPrints-description, #resp-dedicatedPrints-printsSelected {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	#updateAllImg+form+p {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-topButtons, #resp-dedicatedPrints-cancelTop {
+		display: none;
+	}
+
+	#resp-dedicatedPrints-printType tbody>tr:first-child>td:nth-child(2) .transfer {
+		display: block;
+	}
+
+	.toggle-btn {
+		font-family: Elusive-Icons;
+		speak: none;
+		font-style: normal;
+		font-weight: 400;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	#resp-dedicatedPrints-printDetails .toggle-btn {
+		position: absolute;
+		top: 0;
+		padding: 16px 15px 15px 11px;
+		left: 0;
+		right: 0;
+		display: block;
+		text-align: right;
+		font-size: 16px;
+		color: #F47D32;
+	}
+
+	#resp-dedicatedPrints-pricingModule .toggle-btn:before, #resp-dedicatedPrints-printSummaryModule .toggle-btn:before {
+		font-size: 20px;
+		font-weight: bold;
+		content: "+";
+	}
+
+	#resp-dedicatedPrints-pricingModule .toggle-btn.active:before, #resp-dedicatedPrints-printSummaryModule .toggle-btn.active:before {
+		content: "-";
+	}
+
+	#resp-dedicatedPrints-printSummary .toggle-btn {
+		line-height: 40px;
+	}
+
+	#resp-dedicatedPrints-printDetails .toggle-btn {
+		padding-top: 12px;
+		padding-right: 12px;
+	}
+
+	span.toggle-btn {
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		height: 100%;
+		left: 0;
+		text-align: right;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule span.toggle-btn, #resp-dedicatedPrints-pricingModule span.toggle-btn {
+		margin-right: 15px;
+	}
+
+	td#resp-dedicatedPrints-printDetails, #resp-dedicatedPrints-printSummary, td#resp-dedicatedPrints-mainContent {
+		padding-top: 0 !important;
+		display: block !important;
+		width: 100% !important;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule, #resp-dedicatedPrints-pricingModule {
+		padding-bottom: 0 !important;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule>div, #resp-dedicatedPrints-pricingModule>div {
+		margin-bottom: 0 !important;
+		border-bottom: 0 !important;
+	}
+
+	#resp-dedicatedPrints-printSummaryModule>table, #resp-dedicatedPrints-pricingModule>table {
+		display: none;
+		margin-top: 5px;
+	}
+
+	#resp-dedicatedPrints-printType span+input[type="radio"] {
+		margin-left: -2px;
+		margin-top: 20px;
+	}
+
+	#resp-dedicatedPrints-printDetails div table td[align="right"] {
+		margin: 0 2px 12px;
+	}
+
+	/*.toggled,*/
+	#resp-dedicatedPrints-printType tbody>tr>td:last-child,
+	#resp-dedicatedPrints-printSizes,
+	#resp-dedicatedPrints-note, #resp-dedicatedPrints-printInfo {
+		overflow: hidden;
+		display: none;
+	}
+
+	#divDisplayPictureInfo>table {
+		border: 1px solid #E4E4E4;
+	}
+
+	#resp-dedicatedPrints-printsTotal>div>div {
+		font-size: 22px;
+	}
+
+	#resp-dedicatedPrints-printsTotal>div {
+		padding: 15px 0 0;
+		height: 55px !important;
+		box-sizing: border-box;
+	}
+
+	#resp-dedicatedPrints-printsTotal {
+		bottom: 165px;
+	}
+
+	#divDisplayPictureInfo {
+		border: 0;
+	}
+
+	#divDisplayPictureInfo>table:last-child {
+		border-bottom: 1px solid #CCC;
+	}
+
+	.bottom-btn-cover {
+		width: 100%;
+		padding: 0;
+		margin-top: 15px;
+		position: relative;
+		bottom: 0;
+	}
+
+	.toggle-btn-cover {
+		padding: 16px 15px 15px 11px !important;
+	}
+
+	tr.individual-prints-div-desc-cover {
+		padding-left: 9px;
+	}
+
+	#divDisplayPictureInfo>table, #resp-dedicatedPrints-printSizes>table {
+		padding: 20px 11px 12px;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:479px) {
+	#resp-dedicatedPrints-description span {
+		font-size: 20px !important;
+	}
+}

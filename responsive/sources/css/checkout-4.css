@@ -1,0 +1,818 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	body table, body tbody, body tr, body td, body th {
+		height: auto;
+	}
+
+	.rd-checkout-content {
+		overflow: hidden;
+	}
+
+	.rd-main-content {
+		margin-bottom: 25px;
+	}
+
+	.rd-main-content > tbody > tr:nth-child(1),
+	.rd-main-content > tbody > tr:nth-child(3),
+	#resp-confirmation-orderDate,
+	#resp-review-orderDate,
+	#resp-confirmation-print,
+	#resp-review-print,
+	td[width="1"],
+	.rd-checkout-content + tr {
+		display: none !important;
+	}
+
+	#resp-confirmation-topSection,
+	#resp-review-topSection {
+		margin-bottom: 10px;
+	}
+
+	#resp-confirmation-outerContainer,
+	#resp-review-outerContainer {
+		overflow: hidden;
+	}
+
+	.rd-checkout-content .orange-subtitle {
+		font-size: 18px;
+	}
+
+	/** PICKUP ORDER **/
+
+	#resp-confirmation-pickupInfoTable,
+	#resp-review-pickupInfoTable,
+	#resp-confirmation-shippingInfoTable,
+	#resp-review-shippingInfoTable {
+		padding: 0 16px;
+		margin-bottom: 30px;
+		border: solid 1px #E4E4E4;
+	}
+
+	#resp-confirmation-pickupInfoTable > tbody >tr:nth-child(1),
+	#resp-review-pickupInfoTable > tbody >tr:nth-child(1),
+	#resp-confirmation-pickupInfoTable > tbody >tr:nth-child(2),
+	#resp-review-pickupInfoTable > tbody >tr:nth-child(2),
+	#resp-receipt-pickup-header > tbody > tr:nth-child(2),
+	#resp-receipt-pickup-header > tbody > tr:nth-child(3),
+	#resp-confirmation-shippingInfoTable > tbody >tr:nth-child(1),
+	#resp-review-shippingInfoTable > tbody >tr:nth-child(1),
+	#resp-receipt-ship-header > tbody > tr:nth-child(2),
+	#resp-receipt-ship-header > tbody > tr:nth-child(3) {
+		display: none;
+	}
+
+	#resp-confirmation-pickupInfoTable,
+	#resp-review-pickupInfoTable {
+		position: relative;
+		padding-top: 40px;
+	}
+
+	#resp-confirmation-pickupInfoTable #resp-receipt-pickup-header,
+	#resp-review-pickupInfoTable #resp-receipt-pickup-header {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	#resp-receipt-pickup-header > tbody > tr:nth-child(1) td,
+	#resp-receipt-ship-header > tbody > tr:nth-child(1) td {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#resp-receipt-pickup-header .pickup-icon,
+	#resp-receipt-ship-header .ship-icon {
+		display: inline;
+		margin-left: 16px;
+	}
+
+	#resp-receipt-pickup-header span,
+	#resp-receipt-ship-header span {
+		display: inline;
+	}
+
+	table#resp-receipt-pickup-details,
+	#resp-review-shipOverview {
+		margin-bottom: 10px;
+		padding: 22px 0;
+		border-bottom: solid 1px #E4E4E4;
+	}
+
+	table#resp-receipt-pickup-details > tbody >tr:not(:first-child) {
+		display: none;
+	}
+
+	table#resp-receipt-pickup-details > tbody >tr:first-child,
+	#resp-review-shipOverview > tbody >tr:first-child {
+		overflow: hidden;
+	}
+
+	table#resp-receipt-pickup-details .largeText,
+	#resp-review-shipOverview .largeText {
+		font-size: 19px;
+		line-height: 24px;
+		max-width: 350px;
+	}
+
+	#resp-receipt-pickup-date,
+	#resp-receipt-pickup-store,
+	#resp-review-shipUserInfo,
+	#resp-review-editShip {
+		float: left;
+	}
+
+	#resp-receipt-pickup-date,
+	#resp-review-shipUserInfo {
+		margin-right: 55px;
+	}
+
+	#resp-receipt-pickup-payment,
+	#resp-review-paymentInfo {
+		float: right;
+		width: 166px;
+	}
+
+	#resp-receipt-pickup-time {
+		margin-top: 10px;
+	}
+
+	#resp-receipt-pickup-store > a {
+		display: inline-block;
+		margin: 10px 0 20px;
+	}
+
+	#resp-receipt-pickup-payment > table,
+	#resp-review-paymentInfo > table {
+		padding: 17px 13px;
+	}
+
+	#resp-receipt-pickup-payment > table > tbody > tr:nth-child(odd),
+	#resp-review-paymentInfo > table > tbody > tr:nth-child(1),
+	#resp-review-paymentInfo > table > tbody > tr:nth-child(3),
+	#resp-review-paymentInfo > table > tbody > tr:nth-child(6) {
+		display: none;
+	}
+
+	#resp-receipt-pickup-payment > table > tbody > tr:nth-child(4) {
+		overflow: hidden;
+	}
+
+	#resp-receipt-pickup-payment > table > tbody > tr:nth-child(4) > td:nth-child(2) {
+		float: left;
+	}
+
+	#resp-receipt-pickup-payment > table > tbody > tr:nth-child(4) > td:nth-child(3) {
+		float: right;
+	}
+
+	#resp-receipt-pickup-payment .largeText,
+	#resp-review-paymentInfo .largeText {
+		font-size: 15px !important;
+	}
+
+	#resp-receipt-pickup-number b {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	/** END PICKUP ORDER **/
+
+	/** PRODUCT TABLES COMMON STYLES FOR 3 TABLES **/
+
+	#resp-receipt-ship-header,
+	#resp-receipt-pickup-header {
+		border-bottom: 1px solid #E4E4E4;
+	}
+
+	/*Aligning borders for pickup section*/
+	#resp-confirmation-pickupInfoTable .resp-review-rep-product,
+	#resp-review-pickupInfoTable .resp-review-rep-product,
+	#resp-confirmation-pickupInfoTable .resp-review-pos-product,
+	#resp-review-pickupInfoTable .resp-review-pos-product,
+	#resp-confirmation-pickupInfoTable .resp-review-gft-product,
+	#resp-review-pickupInfoTable .resp-review-gft-product,
+	#resp-confirmation-pickupInfoTable .resp-review-pol-product,
+	#resp-review-pickupInfoTable .resp-review-pol-product {
+		margin-bottom: 22px;
+	}
+
+	/*Aligning borders for shipping section*/
+	#resp-confirmation-shippingInfoTable .resp-review-rep-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-rep-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-pol-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-pol-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-pos-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-pos-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-gft-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-gft-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-pol-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-pol-shipinfoheader {
+		margin: 0 -16px 30px;
+		padding: 10px 16px 22px;
+		border: solid 1px #E4E4E4;
+	}
+
+	#resp-confirmation-shippingInfoTable .resp-review-rep-shipinfoheader:first-child,
+	#resp-review-shippingInfoTable .resp-review-rep-shipinfoheader:first-child,
+	#resp-confirmation-shippingInfoTable .resp-review-pos-shipinfoheader:first-child,
+	#resp-review-shippingInfoTable .resp-review-pos-shipinfoheader:first-child,
+	#resp-confirmation-shippingInfoTable .resp-review-pol-shipinfoheader:first-child,
+	#resp-review-shippingInfoTable .resp-review-pol-shipinfoheader:first-child,
+	#resp-confirmation-shippingInfoTable .resp-review-gft-shipinfoheader:first-child,
+	#resp-review-shippingInfoTable .resp-review-gft-shipinfoheader:first-child,
+	#resp-confirmation-shippingInfoTable .resp-review-pol-shipinfoheader:first-child,
+	#resp-review-shippingInfoTable .resp-review-pol-shipinfoheader:first-child {
+		border-top: 0;
+	}
+
+
+	/***Product Price Quantity Total header***/
+	.resp-review-orderinfoheader>tbody>tr {
+		border-bottom: 1px solid #E4E4E4;
+		text-align: right;
+	}
+
+	/*Hiding empty trs*/
+	.resp-review-orderinfoheader>tbody>tr:first-child,
+	.resp-review-orderinfoheader>tbody>tr:last-child {
+		display: none;
+	}
+
+	.resp-review-pos-itemdescription>td:first-child,
+	.resp-review-gft-itemdescription>td:first-child,
+	.resp-review-pol-itemdescription>td:first-child,
+	.resp-review-productcell {
+		float: left;
+		width: 135px;
+	}
+
+	.resp-review-orderinfoheader .resp-review-productcell,
+	.resp-review-orderinfoheader .price-cell,
+	.resp-review-orderinfoheader .qty-cell,
+	.resp-review-orderinfoheader .total-cell,
+	.resp-review-orderinfoheader .pricenext-cell {
+		margin-top: 22px;
+		margin-bottom: 10px;
+	}
+
+	/*Hiding empty elements*/
+	/*Be very careful if you're bug fixing*/
+	/*If the markup change it can bake the layout*/
+	/*Please see detectSpacers() function as well*/
+	.resp-review-orderinfoheader>tbody>tr>td:first-child:empty,
+	.resp-review-orderinfoheader>tbody>tr>td:last-child:empty,
+	.rd-responsive-template .resp-spacer,
+	.resp-review-rep-productdetails>td:last-child>table>tbody>tr:last-child,
+	#resp-confirmation-pickupInfoTable>tbody>tr>td:only-child:empty,
+	#resp-review-pickupInfoTable>tbody>tr>td:only-child:empty,
+	#resp-confirmation-pickupInfoTable>tbody>tr:last-child,
+	#resp-review-pickupInfoTable>tbody>tr:last-child,
+	.resp-review-rep-shipinfoheader>tbody>tr:last-child,
+	.resp-review-rep-product>tbody>tr:first-child {
+		display: none;
+	}
+
+	/***Review product table***/
+	.resp-review-pos-productdetails,
+	.resp-review-gft-productdetails,
+	.resp-review-pol-productdetails,
+	.resp-review-rep-productdetails {
+		margin-top: 10px;
+	}
+
+	.resp-review-pos-img,
+	.resp-review-gft-img,
+	.resp-review-pol-img,
+	.resp-review-rep-img {
+		float: left;
+	}
+
+	.resp-review-pos-img+td,
+	.resp-review-pol-img+td,
+	.resp-review-gft-img+td,
+	.resp-review-rep-img+td {
+		margin-left: 130px;
+	}
+
+	.resp-review-pos-edit>td,
+	.resp-review-rep-edit>td,
+	.resp-review-pol-edit>td,
+	.resp-review-gft-edit>td {
+		font-size: 17px;
+		line-height: 20px;
+		color: #2774A6;
+	}
+
+	.resp-review-gft-shipping,
+	.resp-review-gft-tax,
+	.resp-review-pol-shipping,
+	.resp-review-pol-tax,
+	.resp-review-pos-shipping,
+	.resp-review-pos-tax,
+	.resp-review-pos-itemdescription,
+	.resp-review-gft-itemdescription,
+	.resp-review-pol-itemdescription,
+	.resp-review-rep-reprint-picturecd,
+	.resp-review-rep-itemdescription {
+		text-align: right;
+		overflow: hidden;
+	}
+
+	.resp-review-rep-reprint-picturecd>td:first-child,
+	.resp-review-rep-itemdescription>td:first-child {
+		float: left;
+	}
+
+	.rd-responsive-template .resp-review-pos-shipping td,
+	.rd-responsive-template .resp-review-pos-tax td,
+	.rd-responsive-template .resp-review-gft-shipping td,
+	.rd-responsive-template .resp-review-gft-tax td,
+	.rd-responsive-template .resp-review-pol-shipping td,
+	.rd-responsive-template .resp-review-pol-tax td,
+	.rd-responsive-template .price-cell,
+	.rd-responsive-template .pricenext-cell,
+	.rd-responsive-template .qty-cell,
+	.rd-responsive-template .total-cell {
+		display: inline-block;
+		margin-left: 20px;
+
+		font-size: 15px;
+		line-height: 20px;
+		text-align: right;
+	}
+
+	.rd-responsive-template .price-cell {
+		margin-left: 0;
+	}
+
+	.rd-responsive-template .qty-cell {
+		width: 61px;
+	}
+
+	.resp-review-pos-shipping>td:last-child,
+	.resp-review-pos-tax>td:last-child,
+	.resp-review-gft-shipping>td:last-child,
+	.resp-review-gft-tax>td:last-child,
+	.resp-review-pol-shipping>td:last-child,
+	.resp-review-pol-tax>td:last-child,
+	.rd-responsive-template .price-cell,
+	.rd-responsive-template .total-cell,
+	.resp-review-rep-tax>td:last-child,
+	.rd-responsive-template .resp-total-value {
+		width: 88px;
+	}
+
+	/*Total/Tax*/
+	.resp-review-rep-tax,
+	.resp-total-tr {
+		text-align: right;
+	}
+
+	.rd-responsive-template .resp-review-rep-tax>td,
+	.rd-responsive-template .resp-total-tr>td {
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	.rd-responsive-template td.resp-total-order-number {
+		float: left;
+		margin-left: 0;
+	}
+
+	.resp-tax {
+		margin-top: 10px;
+	}
+
+	.resp-total-heading b {
+		height: 20px;
+		display: inline-block;
+	}
+
+	/** END PRODUCT TABLE **/
+
+	/** SHIPPING ORDER **/
+
+	#resp-confirmation-shippingInfoTable,
+	#resp-review-shippingInfoTable {
+		border: none;
+	}
+
+	#resp-receipt-ship-details {
+		margin: 0 -16px;
+		border-top: solid 1px #E4E4E4;
+		border-left: solid 1px #E4E4E4;
+		border-right: solid 1px #E4E4E4;
+	}
+
+	#resp-review-shipOverview {
+		border-bottom: none;
+		padding-bottom: 10px;
+		margin: 0 16px;
+	}
+
+	#resp-review-paymentInfo {
+		width: 186px;
+	}
+
+	#resp-review-shipUserInfo > br:last-child {
+		display: none;
+	}
+
+	.resp-review-gft-shipmethod > tbody > tr:first-child,
+	.resp-review-gft-shipmethod > tbody > tr:last-child {
+		display: none;
+	}
+
+	/** END SHIPPING ORDER **/
+
+	/** CHECKOUT 4 FOOTER **/
+
+	.rd-checkout-content #resp-confirmation-orderSummary,
+	.rd-checkout-content #resp-review-orderSummary {
+		margin-top: 0 !important;
+	}
+
+	#resp-confirmation-orderSummary #resp-osm-orderSummary,
+	#resp-review-orderSummary #resp-osm-orderSummary {
+		margin-bottom: 25px;
+	}
+
+	#resp-osm-orderSummary .rtCoulmnUL .osmTax {
+		margin-bottom: 10px;
+		font-size: 15px;
+		font-style: italic;
+	}
+
+	#resp-confirmation-orderSummary #resp-osm-needHelp,
+	#resp-review-orderSummary #resp-osm-needHelp {
+		float: left;
+		margin: 0 !important;
+		border: 1px solid #e4e4e4;
+	}
+
+	#resp-osm-reorder {
+		width: 48% !important;
+		float: left;
+		margin: 0 0 0 4% !important;
+		border: 1px solid #e4e4e4;
+	}
+
+	#resp-osm-reorder .rtCoulmnUL ul {
+		padding: 10px 0;
+	}
+
+	#resp-osm-reorder .rtCoulmnUL ul li {
+		height: auto !important;
+		padding: 0;
+		margin-bottom: 10px;
+		background: none;
+	}
+
+	#resp-osm-reorder .rtCoulmnUL ul li:last-child {
+		margin-bottom: 0;
+	}
+
+	#resp-osm-reorder .rtCoulmnUL ul li a:before {
+		content: "";
+		display: inline-block;
+		width: 5px;
+		height: 5px;
+		line-height: 5px;
+		border-radius: 50% 50%;
+		background: #464646;
+		vertical-align: top;
+		margin: 8px 5px 0 0;
+	}
+
+	#resp-confirmation-bottomContent,
+	#resp-review-bottomContent {
+		width: 48%;
+		float: right;
+		margin: 0 !important;
+		border: 1px solid #e4e4e4;
+	}
+
+	#resp-confirmation-bottomContent .smallItalicText,
+	#resp-review-bottomContent .smallItalicText {
+		font-size: 15px;
+		padding: 10px 13px;
+	}
+
+	#resp-confirmation-printBottom,
+	#resp-review-printBottom {
+		display: none;
+	}
+
+	/*Total border fix*/
+	#resp-checkout-secondaryTotalBottom tr:nth-child(2) {
+		border: 0;
+		border-bottom: 1px solid #e4e4e4;
+	}
+
+	/** END CHECKOUT 4 FOOTER **/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	/*Common styles*/
+	.resp-review-gft-shipinfoheader,
+	#resp-confirmation-pickupInfoTable,
+	#resp-review-pickupInfoTable,
+	#resp-confirmation-shippingInfoTable,
+	#resp-review-shippingInfoTable {
+		margin-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/*Aligning borders for shipping section*/
+	#resp-confirmation-shippingInfoTable .resp-review-rep-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-rep-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-pol-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-pol-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-pos-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-pos-shipinfoheader,
+	#resp-confirmation-shippingInfoTable .resp-review-gft-shipinfoheader,
+	#resp-review-shippingInfoTable .resp-review-gft-shipinfoheader {
+		margin: 0 -10px 20px;
+		padding: 10px 10px 22px;
+	}
+
+	.rd-responsive-template .pickup-icon,
+	.rd-responsive-template .ship-icon {
+		font-size: 19px;
+	}
+
+	.resp-review-pos-productdetails,
+	.resp-review-pol-productdetails,
+	.resp-review-gft-productdetails,
+	.resp-review-rep-productdetails {
+		margin-top: 25px;
+	}
+
+	.resp-review-pos-edit>td,
+	.resp-review-rep-edit>td,
+	.resp-review-pol-edit>td,
+	.resp-review-gft-edit>td {
+		font-size: 17px;
+		line-height: 15px;
+	}
+
+	table#resp-receipt-pickup-details .largeText,
+	#resp-review-shipOverview .largeText {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	#resp-receipt-pickup-header .pickup-icon, #resp-receipt-ship-header .ship-icon {
+		margin-left: 10px;
+	}
+
+	/*	HEADER	*/
+	#resp-confirmation-topSection,
+	#resp-review-topSection {
+		margin: 10px 0 20px 0;
+	}
+
+	.page-title {
+		font-size: 21px;
+		line-height: 21px;
+	}
+
+	.rd-checkout-content .orange-subtitle {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	/*	END HEADER	*/
+
+	/*Pickup bar*/
+	.pickup-icon {
+		background: none;
+		margin-left: 10px;
+		padding-left: 0;
+		line-height: 40px;
+	}
+
+	.resp-pickup-bar {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#resp-receipt-pickup-time {
+		margin: 0 0 20px 0;
+	}
+
+	#resp-receipt-pickup-store>a {
+		line-height: 19px;
+	}
+
+	#resp-receipt-pickup-number {
+		line-height: 19px;
+	}
+
+	#resp-receipt-pickup-number b{
+		display: inline-block;
+	}
+
+	/*	SHIPPING	*/
+	#resp-receipt-ship-details {
+		margin: 0 -10px;
+	}
+
+	.resp-review-gft-shipinfoheader,
+	.resp-review-pol-shipinfoheader,
+	.resp-review-pos-shipinfoheader {
+		margin: 0 -10px 20px -10px;
+	}
+
+	#resp-review-shipOverview {
+		margin: 0 10px;
+	}
+
+	.resp-review-pos-shipinfoheader {
+		padding: 10px 10px 22px;
+	}
+
+	/*Payment gray block*/
+	#resp-receipt-pickup-payment,
+	#resp-review-paymentInfo {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#resp-receipt-pickup-payment > table,
+	#resp-review-paymentInfo > table {
+		padding: 15px 11px 15px 11px;
+	}
+
+	#resp-receipt-pickup-payment td,
+	#resp-review-paymentInfo td,
+	#resp-receipt-pickup-payment tr,
+	#resp-review-paymentInfo tr {
+		line-height: 19px;
+	}
+
+	/*	START PRODUCT TABLE	*/
+
+	.resp-review-gft-shipinfoheader,
+	.resp-review-pol-shipinfoheader,
+	.resp-review-pos-shipinfoheader,
+	.resp-review-rep-shipinfoheader {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	/*Hide heading*/
+	.rd-responsive-template .resp-review-orderinfoheader {
+		display: none;
+	}
+
+	/*Trying to hide empty tds*/
+	/*Be careful if you're debugging this part of code*/
+	/*If the markup change incorrect tds may be hidden*/
+	.pricenext-cell:empty {
+		display: none;
+	}
+
+	.rd-responsive-template .resp-review-pos-img,
+	.rd-responsive-template .resp-review-gft-img,
+	.rd-responsive-template .resp-review-pol-img,
+	.rd-responsive-template .resp-review-rep-img {
+		display: none;
+	}
+
+	.resp-review-pos-img+td,
+	.resp-review-gft-img+td,
+	.resp-review-pol-img+td,
+	.resp-review-rep-img+td {
+		margin-left: 0;
+	}
+
+	.rd-responsive-template .qty-cell,
+	.rd-responsive-template .price-cell,
+	.rd-responsive-template .total-cell {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.rd-responsive-template .qty-cell:before,
+	.rd-responsive-template .price-cell:before,
+	.rd-responsive-template .total-cell:before {
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		float: left;
+	}
+
+	.rd-responsive-template .qty-cell:before {
+		content: "Quantity"
+	}
+
+	.rd-responsive-template .price-cell:before {
+		content: "Price"
+	}
+
+	.rd-responsive-template .total-cell:before {
+		content: "Total"
+	}
+
+	.resp-review-pos-itemdescription,
+	.resp-review-gft-itemdescription,
+	.resp-review-pol-itemdescription,
+	.resp-review-rep-itemdescription {
+		margin-top: 25px;
+	}
+
+	.resp-review-pos-itemdescription>td:first-child,
+	.resp-review-gft-itemdescription>td:first-child,
+	.resp-review-pol-itemdescription>td:first-child,
+	.resp-review-rep-itemdescription>td:first-child,
+	.resp-review-pos-itemdescription>td:first-child>span,
+	.resp-review-gft-itemdescription>td:first-child>span,
+	.resp-review-pol-itemdescription>td:first-child>span,
+	.resp-review-rep-itemdescription>td:first-child>span {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.rd-responsive-template td.resp-total-heading,
+	.rd-responsive-template .resp-review-pos-shipping>td:first-child,
+	.rd-responsive-template .resp-review-pos-tax>td:first-child,
+	.rd-responsive-template .resp-review-rep-shipping>td:first-child,
+	.rd-responsive-template .resp-review-rep-tax>td:first-child,
+	.rd-responsive-template .resp-review-pol-shipping>td:first-child,
+	.rd-responsive-template .resp-review-pol-tax>td:first-child,
+	.rd-responsive-template .resp-review-gft-shipping>td:first-child,
+	.rd-responsive-template .resp-review-gft-tax>td:first-child {
+		float: left;
+		margin-left: 0;
+	}
+
+	.rd-responsive-template .resp-review-pos-tax,
+	.rd-responsive-template .resp-review-pol-tax,
+	.rd-responsive-template .resp-review-resp-tax,
+	.rd-responsive-template .resp-review-gft-tax {
+		margin-top: 10px;
+	}
+
+	.resp-tax {
+		margin-top: 30px;
+	}
+
+	.resp-total-tr {
+		padding-bottom: 40px;
+		position: relative;
+	}
+
+	.resp-total-order-number {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: auto !important;
+	}
+
+	.resp-total-order-number>span {
+		display: block;
+		padding: 0 0 0 5px !important;
+		line-height: 27px;
+		height: auto !important;
+	}
+
+	/*	END PRODUCT TABLE	*/
+
+	/*	FOOTER	*/
+	#resp-confirmation-bottomContent,
+	#resp-review-bottomContent,
+	#resp-checkout-secondaryTotalBottom,
+	#resp-osm-reorder,
+	#resp-confirmation-orderSummary #resp-osm-needHelp,
+	#resp-review-orderSummary #resp-osm-needHelp {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+
+	#resp-confirmation-orderSummary #resp-osm-needHelp,
+	#resp-review-orderSummary #resp-osm-needHelp {
+		margin-bottom: 20px !important;
+	}
+
+	/*Overriding tablet margins*/
+	#resp-confirmation-orderSummary #resp-osm-orderSummary,
+	#resp-review-orderSummary #resp-osm-orderSummary,
+	.rd-main-content {
+		margin-bottom: 20px;
+	}
+
+	/*	END FOOTER	*/
+
+}

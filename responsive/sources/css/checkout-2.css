@@ -1,0 +1,672 @@
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+
+	.contentMaintd {
+		position: relative;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	.rd-checkout-content a {
+		color: #2774A6;
+		width: auto !important;
+	}
+
+	td>input {
+		display: inline-block !important;
+	}
+
+	input[type="checkbox"] {
+		margin-right: 10px;
+	}
+
+	.body-back-image {
+		background: none;
+	}
+
+	.contentMaintd table, .contentMaintd tbody, .contentMaintd tr, .contentMaintd td {
+		height: auto;
+	}
+
+	#resp-payment-sub-header {
+		position: relative;
+		padding-top: 0 !important;
+		margin-bottom: 20px;
+	}
+
+	#resp-payment-options, #resp-payment-osm {
+		float: none !important;
+		margin: 0 !important;
+	}
+
+	.contentMaintd div {
+		width: auto !important;
+	}
+
+	table, .contentMaintd table, #citybilling, #resp-payment-cc-state select {
+		width: 100% !important;
+	}
+
+	#resp-ccinfo-spacing, #resp-checkoutHeader-statusBar, #resp-osm-shipInfo>tbody>tr:nth-child(2),
+	#resp-osm-needHelp>tbody>tr:nth-child(3), #resp-osm-needHelp>tbody>tr:nth-child(5),
+	#resp-osm-needHelp>tbody>tr:nth-child(6), #resp-osm-orderSummary>tbody>tr:nth-child(2),
+	#resp-osm-orderSummary>tbody>tr:nth-child(9), #resp-osm-pickupInfo>tbody>tr:first-child, #resp-osm-pickupInfo>tbody>tr:first-child {
+		display: none;
+	}
+
+	#resp-payment-osm>table {
+		border: 1px solid #E4E4E4;
+	}
+
+	.input-cover .input-item {
+		width: 50% !important;
+		display: inline-block;
+		padding: 20px 0;
+		box-sizing: border-box;
+	}
+
+	.input-item tr, .input-item td {
+		height: auto;
+		width: auto;
+		display: block;
+	}
+
+	.input-item.block-elem {
+		display: block;
+	}
+
+	#zipbilling {
+		width: 150px !important;
+	}
+
+	/*Content items margin*/
+
+	#resp-payment-options>table>tbody>.orange-header+tr+tr, #resp-payment-options>table>tbody>tr:last-child>table,
+	#resp-payment-options>table>tbody>tr:nth-child(6) table, #resp-payment-osm>table,
+	#resp-payment-options>table>tbody>tr:last-child table {
+		margin-bottom: 30px;
+	}
+
+	/*END -----------------*/
+
+	.rd-content-hidden+tr {
+		display: none !important;
+	}
+
+	/*Credit card -----------------------*/
+
+	.credit-card-images {
+		display: inline-block !important;
+		float: none;
+	}
+
+	/*END ------------------------------*/
+
+	#resp-osm-needHelp {
+		margin: 0 !important;
+	}
+
+	/*#resp-payment-options>table>tbody>tr:last-child .orange-header+tr,*/
+	/*#resp-payment-options>table>tbody>tr:nth-child(6) .orange-header+tr {*/
+	/*display: none;*/
+	/*}*/
+
+	#resp-payment-info, #resp-payment-continue-top {
+		margin: 0 !important;
+		display: inline-block;
+	}
+
+	#resp-payment-info {
+		float: none !important;
+		line-height: 44px;
+	}
+
+	.orange-header>td, #resp-osm-orderSummary td {
+		display: inline-block !important;
+	}
+
+	.orange-header>td:first-of-type {
+		float: left;
+	}
+
+	.orange-header>td:last-of-type {
+		float: right;
+		margin-right: 5px;
+		height: 36px;
+	}
+
+	#resp-osm-orderSummary>tbody>tr, #resp-osm-shipInfo>tbody>tr, #resp-osm-needHelp>tbody>tr,
+	#resp-checkout-secondaryTotalBottom>tbody>tr {
+		box-sizing: border-box;
+	}
+
+	.rtCoulmnUL>div {
+		padding-top: 0 !important;
+	}
+
+	.checkoutNotification {
+		float: none !important;
+	}
+
+	#resp-osm-shipInfo td, .rtCoulmnUL, .rtCoulmnUL ul {
+		padding: 0;
+	}
+
+	#creditCardDiv {
+		position: relative;
+	}
+
+	#creditCardDiv>tbody>tr:nth-child(2)>#ccInfoText, #creditCardDiv>tbody>tr:nth-child(2)>td:nth-child(2) {
+		width: 49%;
+		display: inline-block;
+	}
+
+	#creditCardDiv>tbody>tr:nth-child(2)>td:nth-child(2) {
+		position: absolute;
+		top: 0px;
+		right: 0;
+	}
+
+	#resp-ccinfo-name a {
+		position: absolute;
+		bottom: 21px;
+	}
+
+	#ccInfoText>br:nth-child(2) {
+		line-height: 25px;
+	}
+
+	#ccInfoText>br:nth-child(5), #resp-osm-needHelp>tbody>tr:first-child, .rtCoulmnUL>a,
+	#resp-osm-orderSummary td[width="10"], .osmUnderline,
+	#resp-checkout-secondaryTotalBottom>tbody>tr:first-child,
+	#resp-checkout-secondaryTotalBottom tr:not(.rd-estiminated-block),
+	#footer_sf {
+		display: none !important;
+	}
+
+	#resp-osm-needHelp {
+		border: 1px solid #E4E4E4;
+	}
+
+	#resp-osm-orderSummary>tbody>tr:first-child,
+	#resp-osm-shipInfo>tbody>tr:first-child,
+	#resp-osm-needHelp>tbody>tr:nth-child(2),
+	#resp-osm-pickupInfo>tbody>tr:nth-child(2) {
+		border-bottom: 1px solid #E4E4E4;
+	}
+
+	#resp-osm-orderSummary>tbody>tr:nth-child(5):before {
+		content: "";
+		display: block;
+		margin-bottom: 5px;
+		border-top: 1px solid #E4E4E4;
+	}
+
+	#resp-osm-orderSummary td, .rtModule-headerText {
+		width: 100%;
+		border-bottom: 0 !important;
+	}
+
+	.rtModule-headerText, .rtModule-headerText+div, #resp-checkout-secondaryTotalBottom td {
+		height: 32px;
+		/*border-bottom: 1px solid #E4E4E4;*/
+		padding: 5px 10px;
+		line-height: 32px;
+		display: inline-block;
+	}
+
+	#resp-checkout-secondaryTotalBottom td {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: -2px;
+	}
+
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2) {
+		display: block !important;
+	}
+
+	#resp-osm-needHelp {
+		float: left;
+	}
+
+	#resp-checkout-secondaryTotalBottom {
+		margin: 0 0 30px;
+	}
+
+	#continueButton {
+		margin-left: 24px !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom + div {
+		padding-top: 0 !important;
+	}
+
+	#resp-payment-osm-subtotal, .CAC-btn-back {
+		margin: 0 !important;
+		height: auto !important;
+	}
+
+	#resp-osm-needHelp, #resp-payment-osm-subtotal {
+		width: 48% !important;
+		clear: none !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2) {
+		height: auto;
+	}
+
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2)>td:first-child,
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2)>td:last-child,
+	#resp-osm-orderSummary>tbody>tr:nth-child(7) {
+		display: none;
+	}
+
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2)>td:nth-child(2),
+	#resp-checkout-secondaryTotalBottom>tbody>tr:nth-child(2)>td:nth-child(3) {
+		display: inline-block;
+		width: auto;
+	}
+
+	#resp-payment-continue-bottom>a {
+		display: inline-block;
+	}
+
+	.pymt-selection-container {
+		padding: 20px 15px 0;
+	}
+
+	#paypalDiv>tbody>tr>td {
+		margin-top: -20px;
+		margin-bottom: -30px;
+	}
+
+	.input-item:nth-of-type(odd) {
+		padding-right: 20px;
+	}
+
+	#resp-payment-continue-top>a:last-child {
+		margin-left: 24px !important;
+	}
+
+	/*Payment content ----------------------*/
+
+	#resp-payment-continue-top {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	/*END ---------------------------------*/
+
+	/*Credit card ------------------------*/
+	#resp-ccinfo-name {
+		margin-top: 5px;
+	}
+
+	/*END -------------------------------*/
+
+
+	/*Checkout Notification --------------*/
+
+	.checkoutNotification>.sprite-CAC {
+		width: 25px !important;
+		display: inline-block;
+		margin: 0;
+	}
+
+	.checkoutNotification>div {
+		font-size: 14px;
+		padding: 0 !important;
+		margin-left: 35px;
+		line-height: 17px;
+	}
+
+	.checkoutNotification {
+		padding: 11px 11px 13px;
+		margin-bottom: 17px;
+	}
+
+	/*END ------------------------------*/
+
+	/*Card blocks content ---------*/
+
+	.orange-header>td {
+		border: 0 !important;
+	}
+
+	.orange-header {
+		border: 1px solid #E8E8E8;
+	}
+
+	#ccInfoText {
+		margin-bottom: 15px;
+	}
+
+	#giftCardDiv br {
+		display: none;
+	}
+
+	/*END --------------------*/
+
+	#giftCardDiv>tbody>tr:first-child>td>div td {
+		display: inline-block;
+	}
+
+	#resp-payment-giftcard {
+		margin-right: 27px;
+	}
+
+	#resp-payment-check-bal {
+		float: right;
+		line-height: 35px;
+	}
+
+	#resp-payment-giftcard-label {
+		margin-right: 170px;
+	}
+
+	#resp-payment-giftcard>input {
+		width: 258px !important;
+	}
+
+	#resp-payment-security-code>input {
+		width: 102px !important;
+		min-width: 102px;
+	}
+
+	#divAddGiftCard>td {
+		padding: 0 !important;
+		margin: 30px 0 13px;
+	}
+
+	.sprite-CAC.CAC-btn-apply {
+		display: inline-block;
+		float: right;
+		width: auto !important;
+		margin-bottom: -30px;
+	}
+
+	#divAddGiftCard+tr>td {
+		padding: 14px 0 !important;
+	}
+
+	.rtModule-headerText:nth-child(3) {
+		float: right !important;
+	}
+
+	#resp-osm-orderSummary .rtCoulmnUL, #resp-osm-needHelp .rtCoulmnUL, #resp-osm-pickupInfo .rtCoulmnUL, #resp-osm-shipInfo .rtCoulmnUL {
+		padding: 5px 10px !important;
+	}
+
+	#paypalDiv>tbody>tr>td {
+		padding: 17px 0 !important;
+	}
+
+	#ccremove {
+		display: none !important;
+	}
+
+	#resp-osm-orderSummary td {
+		display: block !important;
+	}
+
+	.rd-checkout-content>td:last-child {
+		display: none;
+	}
+
+	.osmCoupon {
+		font-size: 15px !important;
+	}
+
+	/*Payment osm -----------------*/
+
+	#resp-payment-continue-bottom {
+		margin-top: 0 !important;
+	}
+
+	.checkoutError {
+		margin: 0 0 20px;
+		overflow: hidden;
+	}
+
+	.errorSymbol {
+		margin: 5px 10px;
+	}
+
+	/*END ------------------------*/
+
+	/*FOOTER -------------*/
+
+	html body .rd-footer-bottom-links a, html body .rd-footer-bottom-copyrights {
+		font-size: 13px !important;
+	}
+
+	/*END ---------------*/
+
+	/*** GIFT CARD POPUP ***/
+	#dynGifCardWindow .w-shadow-top-popup {
+		position: relative;
+		top: 5px;
+	}
+
+	.rd-estiminated-block>td:first-child,  .rd-estiminated-block>td:last-child {
+		display: none !important;
+	}
+
+	.smallItalicText {
+		display: block !important;
+		border: 1px solid #E4E4E4;
+		border-top: 0;
+		font-size: 15px;
+		padding: 10px 13px !important;
+		height: auto !important;
+		line-height: 20px !important;
+	}
+
+	/*** SECURITY CODE POPUP ***/
+	#LayerContainerDiv #securityCodeLayer img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 850px) {
+
+	.contentMaintd {
+		padding: 0 20px 40px;
+		margin-bottom: 0;
+	}
+
+	/*HEADER ---------------*/
+
+	.rd-checkout-header td {
+		padding-left: 5px !important;
+	}
+
+	/*END -----------------*/
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+
+	/*Content items margin -----------*/
+
+	#resp-payment-options>table>tbody>.orange-header+tr+tr, #resp-payment-options>table>tbody>tr:last-child>table,
+	#resp-payment-options>table>tbody>tr:nth-child(6)>table, #resp-payment-osm>table {
+		margin-bottom: 20px;
+	}
+
+	/*END ---------------------------*/
+
+	/*Payment header content --------*/
+
+	#resp-payment-continue-top {
+		float: none !important;
+		display: block;
+	}
+
+	#resp-payment-continue-top {
+		position: static;
+		float: none !important;
+		display: block;
+		margin: 20px 0 !important;
+	}
+
+	#resp-payment-continue-top>a {
+		margin-left: 0 !important;
+		display: inline-block;
+	}
+
+	#resp-payment-info {
+		float: none;
+		text-align: center;
+		display: block;
+	}
+
+	#resp-payment-continue-top>a#cancelButton {
+		float: none;
+	}
+
+	#resp-payment-continue-top>a#continueButton {
+		float: right;
+	}
+
+	#resp-payment-sub-header {
+		margin-bottom: 0;
+	}
+
+	#resp-payment-continue-top>a#continueButton {
+		margin-left: 0 !important;
+	}
+
+	#paypalDiv>tbody>tr>td {
+		margin-bottom: -40px;
+		margin-top: -10px;
+	}
+
+	#resp-payment-check-bal>a {
+		font-size: 13px;
+	}
+
+	/*END --------------------------*/
+
+	/*Card blocks content ---------*/
+
+	.pymt-selection-container {
+		padding: 12px 10px;
+	}
+
+	#creditCardExtras {
+		display: none !important;
+	}
+
+	.input-cover .input-item {
+		padding-top: 0;
+		padding-right: 0;
+	}
+
+	#creditCardDiv>tbody>tr:nth-child(2)>td:nth-child(2) {
+		text-align: right;
+	}
+
+	.input-cover .input-item {
+		width: 100% !important;
+		display: block;
+	}
+
+	.input-item:nth-child(even) {
+		padding-right: 0;
+	}
+
+	#zipbilling, #ccexpirationmonth {
+		width: 100% !important;
+	}
+
+	#resp-ccinfo-expholder span, #ccexpirationyear {
+		display: inline-block;
+		width: 49%;
+		box-sizing: border-box;
+	}
+
+	#ccexpirationyear {
+		float: right;
+	}
+
+	#divAddGiftCard>td {
+		border-top: 1px solid #E4E4E4;
+		padding-top: 10px !important;
+		margin: 0 0 5px;
+	}
+
+	#divAddGiftCard+tr>td {
+		border: 0 !important;
+	}
+
+	.sprite-CAC.CAC-btn-apply.rd-button.rd-gray-button {
+		width: 100% !important;
+	}
+
+	#resp-payment-giftcard-label {
+		margin-bottom: 60px;
+		margin-right: 0;
+	}
+
+	#resp-payment-giftcard {
+		margin-top: -80px;
+		margin-right: 0;
+	}
+
+	#resp-payment-giftcard>input {
+		width: 100% !important;
+	}
+
+	#resp-payment-security-code {
+		margin-top: 45px;
+		display: inline-block !important;
+	}
+
+	#resp-payment-check-bal {
+		margin-top: 45px;
+	}
+
+	#giftCardDiv>tbody>tr:first-child>td>div td {
+		display: block;
+	}
+
+	/*END --------------------------*/
+
+	/*Payment osm -----------------*/
+
+	#resp-osm-needHelp, #resp-payment-osm-subtotal, #resp-payment-continue-bottom {
+		width: 100% !important;
+		float: none !important;
+	}
+
+	#resp-checkout-secondaryTotalBottom {
+		margin: 20px 0 30px;
+	}
+
+	#resp-payment-continue-bottom #continueButton {
+		float: right;
+	}
+
+	/*END ------------------------*/
+
+
+	/*Cancel button ---------------*/
+	.input-cover {
+		position: relative;
+	}
+
+	#resp-ccinfo-name a {
+		right: 0;
+		display: none;
+	}
+
+	/*END -------------------------*/
+
+	#continueButton {
+		margin-left: 0 !important;
+	}
+}

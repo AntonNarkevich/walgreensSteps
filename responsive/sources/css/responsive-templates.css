@@ -1,0 +1,142 @@
+link#rd-responsive-templates-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	/* random pop-ups */
+	#fsrOverlay {
+		display: none !important;
+	}
+	html, body {
+		margin: 0;
+	}
+
+	/* tables overrides */
+
+	body:not(.resp-remain-table-styles) table,
+	body:not(.resp-remain-table-styles) tbody,
+	body:not(.resp-remain-table-styles) thead,
+	body:not(.resp-remain-table-styles) tfoot,
+	body:not(.resp-remain-table-styles) th,
+	body:not(.resp-remain-table-styles) tr,
+	body:not(.resp-remain-table-styles) td {
+		display: block;
+		width: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	table.rd-remain-table-style,
+	tbody.rd-remain-table-style,
+	thead.rd-remain-table-style,
+	tfoot.rd-remain-table-style,
+	th.rd-remain-table-style,
+	tr.rd-remain-table-style,
+	td.rd-remain-table-style {
+		width: initial !important;
+	}
+
+	table.rd-remain-table-style {
+		display: table !important;
+	}
+
+	tbody.rd-remain-table-style {
+		display: table-row-group !important;
+	}
+
+	thead.rd-remain-table-style {
+		display: table-header-group !important;
+	}
+
+	tfoot.rd-remain-table-style {
+		display: table-footer-group !important;
+	}
+
+	th.rd-remain-table-style {
+		display: table-cell !important;
+	}
+
+	tr.rd-remain-table-style {
+		display: table-row !important;
+	}
+
+	td.rd-remain-table-style {
+		display: table-cell !important;
+	}
+
+	/* end tables overrides */
+
+	html div, html table, html tr, html td, html p, html span,
+	html .swift-old div {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	html a, html a.bluelinks, html a.bluelinks-big {
+		font-size: 15px;
+		color: #2774A6;
+	}
+
+	html input[type=text], html input[type=password] {
+		min-width: 120px;
+		height: 35px;
+		padding: 4px;
+		border: 1px solid #CCCCCC;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-shadow: inset 2px 2px 4px 1px rgba(25, 25, 25, 0.2);
+		font-size: 1em;
+		line-height: 1.25em;
+	}
+
+	input[type=checkbox] {
+		-ms-transform: scale(1.7); /* IE */
+		-moz-transform: scale(1.7); /* FF */
+		-webkit-transform: scale(1.7); /* Safari and Chrome */
+		-o-transform: scale(1.7); /* Opera */
+		transform: scale(1.7);
+		-ms-transform-origin: 0 5px;
+		-moz-transform-origin: 0 5px;
+		-webkit-transform-origin: 0 5px;
+		-o-transform-origin: 0 5px;
+		transform-origin: 0 5px;
+	}
+
+	html select {
+		height: 35px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html .body-back-image, html .new-footer-background {
+		background: none;
+	}
+
+	html body, html body.swift-old {
+		background: #ffffff;
+	}
+
+	.contentMaintd {
+		padding: 0;
+		margin: 0 20px 40px;
+		display: block !important;
+	}
+
+	iframe[name=headeriframe] {
+		display: none;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.contentMaintd {
+		margin: 0 10px 30px;
+	}
+}

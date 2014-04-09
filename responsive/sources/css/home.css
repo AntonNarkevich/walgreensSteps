@@ -1,0 +1,218 @@
+link#rd-home-link {
+	visibility: hidden;
+}
+
+/*************************************************************** BASE CSS FOR TABLETS LANDSCAPE  **************************************************************/
+@media screen {
+	.rd-welcome-main-content {
+		margin: 0 20px;
+	}
+
+	.rd-welcome-main-content > td:not(:nth-child(2)),
+	#resp-welcome-main-content > td:nth-child(2) > table > tbody > tr:nth-child(2),
+	.rd-welcome-main-content > td:nth-child(2) > table > tbody > tr:last-child > td:not(:nth-child(2)) {
+		display: none;
+	}
+
+	.rd-page-content > tbody > tr:first-child {
+		display: none;
+	}
+
+	#resp-welcome-leftCol, #resp-welcome-leftCol + td {
+		display: none;
+	}
+
+	#resp-welcome-contentTop {
+		margin: 20px -20px;
+		margin-bottom: 10px;
+		padding: 0 20px 20px;
+		padding-bottom: 25px;
+	}
+
+	/* carousel */
+
+	.rd-home-carousel-tablet {
+		margin-bottom: 15px;
+	}
+
+	.rd-home-carousel-tablet img {
+		width: 100%;
+		height: auto;
+	}
+
+	#resp-welcome-rightCol > table {
+		overflow: hidden;
+	}
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(2) {
+		display: none;
+	}
+
+	/* promo */
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(3) {
+		width: 49%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(3) img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	/* login box */
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(1) {
+		width: 49%;
+		float: right;
+	}
+
+	html .login-grey-background {
+		padding: 0 11px 11px;
+	}
+
+	html .login-grey-background * {
+		line-height: 22px;
+	}
+
+	/*.rd-responsive-template .grey-welcome {*/
+	/*line-height: 20px;*/
+	/*}*/
+
+
+	html .grey-newto, html .grey-create-aclink, html .grey-already-reg, html .grey-forgot-link {
+		font-size: 15px;
+	}
+
+	html .welcome-grey-textbox {
+		width: 100%;
+	}
+
+	.rd-login-submit-container {
+		float: none !important;
+	}
+
+	html .login-grey-background input[type=image] {
+		display: none;
+	}
+
+	html .rd-login-submit {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		color: #fff;
+		background: rgb(87, 97, 106);
+		border: none;
+		font-size: 16px;
+		appearance: initial;
+		-moz-appearance: initial;
+		-webkit-appearance: initial;
+		border-radius: 0;
+	}
+
+	.login-grey-background > div:last-child {
+		display: none;
+	}
+
+	/* - login box - */
+
+	#resp-welcome-contentTop + tr, #resp-welcome-promo {
+		display: none;
+	}
+
+	/* offers */
+
+	.rd-offers-container {
+		display: none;
+	}
+
+	#resp-welcome-offerHeader, #resp-welcome-offerHeader ~tr {
+		display: none;
+	}
+
+	.rd-offer-header {
+		text-align: center;
+		font-size: 25px;
+		color: rgb(113, 114, 118);
+		margin-bottom: 30px;
+		font-family: ArialRegular, Arial, Helvetica, sans-serif;
+	}
+
+	.rd-offer-items .rd-offer-item {
+		display: inline-block;
+		margin: 0 15px 15px;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	.rd-offer-items .rd-offer-item:nth-child(6) ~ .rd-offer-item {
+		display: none;
+	}
+
+	.rd-offer-items .rd-offer-item img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/*************************************************************** BASE CSS FOR PHONES LANDSCAPE  **************************************************************/
+@media screen and (max-width:669px) {
+	.rd-welcome-main-content {
+		margin: 0 10px;
+	}
+
+	#resp-welcome-contentTop {
+		margin: 15px -10px 0 -10px;
+		margin-bottom: 10px;
+		padding: 0 10px 20px;
+		padding-bottom: 32px;
+		border-bottom: 2px dashed #bbbbbb;
+	}
+
+	form[name="headerloginfrm"] {
+		margin-bottom: 25px;
+	}
+
+	.rd-home-hero-image-phone {
+		margin-bottom: 15px;
+	}
+
+	.rd-home-hero-image-phone img {
+		width: 100%;
+		height: auto;
+	}
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(1) {
+		width: 100%;
+	}
+
+	#resp-welcome-rightCol > table >tbody >tr:nth-child(3) {
+		display: none;
+	}
+
+	.rd-offers-container {
+		display: block;
+	}
+
+	.rd-offer-items .rd-offer-item {
+		display: block;
+		margin: 0 0 30px;
+	}
+
+	.rd-offer-items .rd-offer-item:nth-child(3) ~ .rd-offer-item {
+		display: none;
+	}
+
+	.rd-offer-items .rd-offer-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.rd-offer-items .rd-offer-item img {
+		margin: 0 auto;
+	}
+
+	.rd-login-submit-container {
+		margin-top: -16px;
+	}
+}
